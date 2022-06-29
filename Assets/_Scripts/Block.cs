@@ -16,7 +16,7 @@ public class Block : MonoBehaviour
     
     public Vector2 pos => transform.position;
 
-    public void Init(MainController.BlockType type)
+    public void Init(PlayController.BlockType type)
     {
         Value = type.value;
         _renderer.color = type.color;
