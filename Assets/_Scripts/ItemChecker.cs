@@ -1,16 +1,20 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class ItemChecker : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.layer == 9)
+        Item item = other.GetComponent<Item>();
+        if(item != null)
         {
-            UIController.instance.UpdateCookStatus();
-            other.GetComponent<TrailRenderer>().enabled = false;
+            DOVirtual.DelayedCall(1f, ()=> {
+                UIController.instance.UpdateCookStatus();
+                item.ReleaseItemOnCurry(); 
+            });
         }
     }
 }

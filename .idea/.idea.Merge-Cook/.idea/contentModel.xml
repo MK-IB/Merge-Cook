@@ -12,11 +12,13 @@
           <e p="Controller Related" t="Include">
             <e p="EffectsController.cs" t="Include" />
             <e p="GameController.cs" t="Include" />
+            <e p="MainController.cs" t="Include" />
             <e p="PlayController.cs" t="Include" />
             <e p="UIController.cs" t="Include" />
           </e>
           <e p="InputControl.cs" t="Include" />
           <e p="InputEventsManager.cs" t="Include" />
+          <e p="Item.cs" t="Include" />
           <e p="ItemChecker.cs" t="Include" />
           <e p="ItemHolder.cs" t="Include" />
           <e p="Node.cs" t="Include" />
