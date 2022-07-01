@@ -13,6 +13,7 @@ public class MainController : MonoBehaviour
         Preparation,
         Decoration,
         Serving,
+        EatingDone,
         Win,
         Lose
     }

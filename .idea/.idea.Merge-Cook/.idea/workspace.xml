@@ -20,227 +20,164 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e230a661-8d36-47b2-9bdb-59e1eb494d6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/CLAM.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/CLAM.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Carambola.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Carambola.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/artichoke.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/artichoke.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/broccoli.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/broccoli.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/cheese #35384.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/cheese #35384.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/corn #101021.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/corn #101021.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/eggplant.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/eggplant.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/strawberry copy.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/strawberry copy.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Circle Plane.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Circle Plane.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Env/building.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Env/building.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Env/fence_road.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Env/fence_road.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Env/fence_stone_metal.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Env/fence_stone_metal.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/AVOCADO (Fixed Seams).obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/AVOCADO (Fixed Seams).obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/Carambola_0.001.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/Carambola_0.001.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/Kiwano.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/Kiwano.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/Raspberry.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/Raspberry.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/afro.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/afro.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/apple 1.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/apple 1.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/apple.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/apple.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/artichoke.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/artichoke.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/banana (Fixed Seams).obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/banana (Fixed Seams).obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/blueberry.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/blueberry.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/house_3_bottom_3.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/house_3_bottom_3.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/strawberry.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Fruits/strawberry.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Vegetables/Broccoli.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Vegetables/Broccoli.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Vegetables/Capsicum.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Vegetables/Capsicum.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Vegetables/Corn.2.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Vegetables/Corn.2.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Vegetables/Sphere.002 #65584.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Vegetables/Sphere.002 #65584.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Vegetables/artichoke.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Vegetables/artichoke.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Vegetables/asparagus.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Vegetables/asparagus.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Vegetables/cucumber.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Models/Vegetables/cucumber.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/fx/SplatCheap.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/fx/SplatCheap.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Button.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Grid Related.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Grid Related/Block.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Grid Related/Block.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Grid Related/Board.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Grid Related/Board.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Grid Related/Border.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Grid Related/Border.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Grid Related/Node.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Grid Related/Node.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Grid Related/Rect Curved.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Grid Related/Rect Curved.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Grid Related/Rect No Shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Grid Related/Rect No Shadow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Grid Related/Rect Round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Grid Related/Rect Round.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/New folder.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Ray_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Ray_02.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Rays_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Rays_01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/RecipeEmojiResult_back_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/RecipeEmojiResult_back_01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/RecipeEmoji_back_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/RecipeEmoji_back_02.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Rect Button Curved.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Rect Button Curved.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/RibbonRecipe_back_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/RibbonRecipe_back_01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0000_leafy-green_1f96c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0000_leafy-green_1f96c.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0001_ear-of-corn_1f33d-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0001_ear-of-corn_1f33d-2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0002_onion_1f9c5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0002_onion_1f9c5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0003_lemon_1f34b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0003_lemon_1f34b.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0004_salt_1f9c2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0004_salt_1f9c2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0005_broccoli_1f966.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0005_broccoli_1f966.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0006_garlic_1f9c4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0006_garlic_1f9c4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0007_herb_1f33f-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0007_herb_1f33f-2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0008_mushroom_1f344.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0008_mushroom_1f344.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0009_hot-pepper_1f336-fe0f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0009_hot-pepper_1f336-fe0f.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0010_carrot_1f955-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0010_carrot_1f955-3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0011_potato_1f954-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0011_potato_1f954-2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0012_tomato_1f345-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0012_tomato_1f345-2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/flag_x5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/flag_x5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/icon_money_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/icon_money_01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/needfunds_money_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/needfunds_money_01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/needfunds_money_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/needfunds_money_02.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/AVOCADO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/AVOCADO.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Blackberry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Blackberry.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/CabbageTexture copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/CabbageTexture copy.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/CabbageTexture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/CabbageTexture.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Carambola.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Carambola.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Kichen/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Kichen/Materials/wall copy.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Kichen/Materials/wall copy.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Kichen/marble.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Kichen/marble.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Kichen/wood.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Kichen/wood.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/apple_uv_green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/apple_uv_green.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/artichoke.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/artichoke.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/asparagus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/asparagus.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/banana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/banana.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/beet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/beet.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/broccoli.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/broccoli.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/cloth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/cloth.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/corn #101021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/corn #101021.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/cucumber.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/cucumber.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/eggplant.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/eggplant.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/kiwano.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/kiwano.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/strawberry copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/strawberry copy.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ToonFX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Materials/SplatSpikyDrops.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Materials/SplatSpikyDrops.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Materials/SplatSpikyShiny.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Materials/SplatSpikyShiny.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Prefabs/Splat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Textures/splat01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Textures/splat01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Textures/splat_spiky_drops.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Textures/splat_spiky_drops.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Textures/splat_spiky_shiny.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Textures/splat_spiky_shiny.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Controller Related/MainController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Item.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Bowing.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Bowing.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Eating Finished.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Eating Finished.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Eating.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Eating.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Happy.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Happy.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Done Button Hide.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Done Button Hide.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Done Button Show.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Done Button Show.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Preparation_Done_Button.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/UI/Preparation_Done_Button.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Basics/circle_AB.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Basics/circle_AB.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Blood.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Blood/Red.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodExplosion.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Blood/Red/BloodExplosion.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Textures/circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Textures/circle.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy).meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Materials/Animated.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Materials/Animated/CFX_Anim_Poof_AddSoft.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Materials/Animated/CFX_Anim_Poof_AddSoft.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Materials/Electric.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Materials/Electric/CFX_YellowStar.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Materials/Electric/CFX_YellowStar.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Materials/Misc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Materials/Misc/CFX_Smoke_4frms.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Materials/Misc/CFX_Smoke_4frms.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Materials/Misc/CFX_Star Add.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Materials/Misc/CFX_Star Add.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Materials/Texts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Materials/Texts/CFX_Text_Poof.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Materials/Texts/CFX_Text_Poof.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Textures/CFX_T_Anim4_RoundedLines.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Textures/CFX_T_Anim4_RoundedLines.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Textures/CFX_T_Smoke_4Frames.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Textures/CFX_T_Smoke_4Frames.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Textures/CFX_T_Star Add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Textures/CFX_T_Star Add.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Textures/CFX_T_Star.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Textures/CFX_T_Star.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Textures/CFX_T_Text_Poof.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JMO Assets/Cartoon FX (legacy)/Textures/CFX_T_Text_Poof.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Env.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Env/cactus.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Env/cactus.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Env/fence 1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Env/fence 1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Env/fence 2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Env/fence 2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Env/grass.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Env/grass.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/cloth.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/cloth.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/kitchen/plate border.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/kitchen/plate border.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/kitchen/plate main.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/kitchen/plate main.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Ring_Outer.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/Ring_Outer.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/kitchen-pack/Cutting Board.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/kitchen-pack/Cutting Board.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/kitchen-pack/Plate 1.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/kitchen-pack/Plate 1.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/kitchen-pack/Plate 2.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/kitchen-pack/Plate 2.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/fx/Eating Fx.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/fx/Eating Fx.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/fx/Happy Emoji Particle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/fx/Happy Emoji Particle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/fx/WOW Magic FX.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/fx/WOW Magic FX.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/barbackground_UItexture_002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/barbackground_UItexture_002.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/icon_emoji_smile_angry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/icon_emoji_smile_angry.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/icon_emoji_smile_happystars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/icon_emoji_smile_happystars.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/icon_emoji_smile_joyful.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/icon_emoji_smile_joyful.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/icon_emoji_smile_lick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/icon_emoji_smile_lick.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/icon_emoji_smile_unamused.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/icon_emoji_smile_unamused.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/icon_emoji_smile_vomiting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/icon_emoji_smile_vomiting.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/wow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/wow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Materials/FlowerPink.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Materials/FlowerPink.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Materials/Glow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Materials/Glow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Materials/Heart.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Materials/Heart.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Prefabs/Flowers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Prefabs/Flowers/FlowerBlastPink.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Prefabs/Flowers/FlowerBlastPink.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Prefabs/Hearts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Textures/flowerpink2x2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Textures/flowerpink2x2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Textures/glow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Textures/glow.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Textures/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ToonFX/Textures/heart.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Controller Related/CameraController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/Customer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/PreparingPot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Recordings/movie_005.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Merge-Cook/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Merge-Cook/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Merge-Cook/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Merge-Cook/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Merge-Cook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Merge-Cook/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/cactus.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/cactus.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/grass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/grass.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/kitchen/cupboards.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/kitchen/cupboards.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/kitchen/stove dark.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/kitchen/stove dark.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/kitchen/table surface wood.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/kitchen/table surface wood.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Board.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Board.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Carrot.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Carrot.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tomato.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tomato.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Block.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Board.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Board.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Border.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Border.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Carrot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Carrot.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Node.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Node.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Rect Curved.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Rect Curved.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Rect No Shadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Rect No Shadow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Rect Round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Rect Round.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tomato 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tomato 2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/CLAM.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/CLAM.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/cactus.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/cactus.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/cheese #35384.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/cheese #35384.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/curry.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/curry.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/grass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/grass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Env/fence_stone_metal.obj.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Env/fence_stone_metal.obj.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Block img.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Block img.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Board img.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Board img.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Carrot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Carrot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cube.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Node img.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Node img.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tomato.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tomato.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0012_tomato_1f345-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Veg Sprites/Untitled-7_0012_tomato_1f345-2.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Level 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Controller Related/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Controller Related/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Controller Related/MainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Controller Related/MainController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Controller Related/PlayController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Controller Related/PlayController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Controller Related/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Controller Related/UIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/InputControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/InputControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/InputEventsManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/InputEventsManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Item.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/ItemChecker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/ItemChecker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recordings/movie_003.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recordings/movie_004.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -252,11 +189,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Controller Related/GameController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Controller Related/PlayController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Controller Related/UIController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Customer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/PreparingPot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Controller Related/MainController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Controller Related/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ItemChecker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Item.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Controller Related/GameController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Controller Related/UIController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Controller Related/MainController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -268,13 +209,16 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/Block.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Controller Related/EffectsController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/ItemHolder.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Controller Related/PlayController.cs" />
         <option value="$PROJECT_DIR$/Assets/_MergeCook/_Scripts/Controller Related/GameController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Controller Related/MainController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Controller Related/GameController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Controller Related/UIController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Controller Related/PlayController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/ItemChecker.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Controller Related/MainController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Controller Related/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Controller Related/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/PreparingPot.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Controller Related/UIController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Customer.cs" />
       </list>
     </option>
   </component>
@@ -329,5 +273,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1656591455800" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1656684599837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1656684599837" />
   </component>
 </project>

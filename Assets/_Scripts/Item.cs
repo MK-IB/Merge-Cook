@@ -15,12 +15,13 @@ public class Item : MonoBehaviour
         
     }
 
-    public void ReleaseItemOnCurry()
+    public void ReleaseItemOnCurry(Transform pan)
     {
         GetComponent<Collider>().enabled = false;
         trailRenderer.enabled = false;
         piecesParent.SetActive(true);
-        piecesParent.transform.parent = null;
+        piecesParent.transform.parent = pan;
+        pan.GetComponent<PreparingPot>().cookedSlices.Add(piecesParent);
         /*dropFx.SetActive(true);
         dropFx.transform.parent = null;*/
 

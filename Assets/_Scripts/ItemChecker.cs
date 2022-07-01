@@ -13,7 +13,7 @@ public class ItemChecker : MonoBehaviour
         {
             DOVirtual.DelayedCall(1f, ()=> {
                 UIController.instance.UpdateCookStatus();
-                item.ReleaseItemOnCurry(); 
+                item.ReleaseItemOnCurry(transform.parent.parent); 
             });
         }
     }

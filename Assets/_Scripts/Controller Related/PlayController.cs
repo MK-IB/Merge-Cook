@@ -11,6 +11,8 @@ using Random = UnityEngine.Random;
 
 public class PlayController : MonoBehaviour
 {
+    public static PlayController instance;
+    
     [SerializeField] private int _width = 4;
     [SerializeField] private int _height = 4;
     [SerializeField] private float _travelTime;
@@ -22,6 +24,7 @@ public class PlayController : MonoBehaviour
     [SerializeField] private Block _blockPrefab;
     [SerializeField] private List<BlockType> _blockTypes;
 
+    private SpriteRenderer board;
     private List<Node> _nodes;
     private List<Block> _blocks;
     private GameState _state;
@@ -33,6 +36,11 @@ public class PlayController : MonoBehaviour
     public Transform playCamera;
 
     BlockType GetBlockTypeByValue(int value) => _blockTypes.First(t => t.value == value);
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     void Start()
     {
@@ -104,7 +112,7 @@ public class PlayController : MonoBehaviour
         _nodes = new List<Node>();
         _blocks = new List<Block>();
         var center = new Vector2((float) _width / 2 - 0.5f, (float) _height / 2 - 0.5f);
-        var board = Instantiate(_boardPrefab, center, Quaternion.identity);
+        board = Instantiate(_boardPrefab, center, Quaternion.identity);
         //board.transform.eulerAngles = cameraTransform.eulerAngles;
         board.size = new Vector2(_width, _height);
         Board = board.transform;
@@ -247,5 +255,19 @@ public class PlayController : MonoBehaviour
         Moving,
         Win,
         Lose
+    }
+
+    public void HideGrid()
+    {
+        for (int i = 0; i < _nodes.Count; i++)
+        {
+            _nodes[i].transform.DOScale(Vector3.zero, 0.5f);
+        }
+        for (int i = 0; i < _blocks.Count; i++)
+        {
+            _blocks[i].transform.DOScale(Vector3.zero, 0.5f);
+        }
+
+        board.transform.DOScale(Vector3.zero, 0.5f);
     }
 }

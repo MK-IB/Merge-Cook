@@ -1,0 +1,73 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using DG.Tweening;
+using UnityEngine;
+
+public class PreparingPot : MonoBehaviour
+{
+    public static PreparingPot instance;
+
+    public GameObject holdingHand;
+    public List<GameObject> colliders;
+    public Transform movePos;
+    public List<GameObject> cookedSlices = new List<GameObject>();
+    public GameObject customer;
+    public GameObject servingPot;
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
+    public IEnumerator MoveForDecoration()
+    {
+        transform.parent.parent = null;
+        Vector3 handMovePosFrom = new Vector3(holdingHand.transform.position.x, holdingHand.transform.position.y, holdingHand.transform.position.z + 5);
+        holdingHand.transform.DOMove(handMovePosFrom, 0.5f).From();
+        GetComponent<DOTweenAnimation>().enabled = false;
+        DOTween.Kill(gameObject);
+
+        if (colliders.Count > 0)
+        {
+            for (int i = 0; i < colliders.Count; i++)
+            {
+                colliders[i].SetActive(false);
+            }
+        }
+
+        //move and rotate to decoration pos
+        GetComponent<Collider>().enabled = false;
+        transform.DOMove(movePos.position, 2);
+        
+        yield return new WaitForSeconds(2.4f);
+        transform.DOLocalRotate(new Vector3(-30, 45, 80), 1).OnComplete(() =>
+        {
+            Vector3 movepos = new Vector3(transform.localPosition.x + 4, transform.localPosition.y, transform.localPosition.z);
+            transform.DOLocalMove(movepos, 1);
+        });
+        for (int i = 0; i < cookedSlices.Count; i++)
+        {
+            cookedSlices[i].transform.parent = servingPot.transform;
+        }
+        
+        yield return new WaitForSeconds(2f);
+        //move the plate towards customer
+        Transform plateBoard = servingPot.transform.parent;
+        plateBoard.DOLocalMove(new Vector3(plateBoard.transform.localPosition.x, 
+            plateBoard.transform.localPosition.y, plateBoard.transform.localPosition.z - 1), 1).OnComplete(() =>
+        {
+            StartCoroutine(customer.GetComponent<Customer>().Eat());
+        });
+    }
+
+    public IEnumerator FinishFood()
+    {
+        float waitTime = 3f / cookedSlices.Count;
+        for (int i = 0; i < cookedSlices.Count; i++)
+        {
+            cookedSlices[i].SetActive(false);
+            yield return new WaitForSeconds(waitTime);
+        }
+    }
+}

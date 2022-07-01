@@ -23,8 +23,17 @@ public class GameController : MonoBehaviour
     
     void GameManager_OnGameStateChanged(MainController.StateOfGame newState, MainController.StateOfGame oldState)
     {
-        if(newState == MainController.StateOfGame.Started)
-            print("Level started...");
-        MainController.instance.SetActionType(MainController.StateOfGame.Preparation);
+        switch(newState)
+        {
+            case MainController.StateOfGame.Started:
+                print("Level started...");
+                MainController.instance.SetActionType(MainController.StateOfGame.Preparation);
+                break;
+            case MainController.StateOfGame.EatingDone:
+                CameraController.instance.cinemachineBrain.m_DefaultBlend.m_Time = 1;
+                break;
+                ;
+        }
+
     }
 }

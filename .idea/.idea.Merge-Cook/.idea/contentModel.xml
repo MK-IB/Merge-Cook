@@ -10,18 +10,23 @@
         <e p="_Scripts" t="Include">
           <e p="Block.cs" t="Include" />
           <e p="Controller Related" t="Include">
+            <e p="CameraController.cs" t="Include" />
             <e p="EffectsController.cs" t="Include" />
             <e p="GameController.cs" t="Include" />
             <e p="MainController.cs" t="Include" />
             <e p="PlayController.cs" t="Include" />
             <e p="UIController.cs" t="Include" />
           </e>
-          <e p="InputControl.cs" t="Include" />
-          <e p="InputEventsManager.cs" t="Include" />
+          <e p="Customer.cs" t="Include" />
+          <e p="Input Related" t="Include">
+            <e p="InputControl.cs" t="Include" />
+            <e p="InputEventsManager.cs" t="Include" />
+          </e>
           <e p="Item.cs" t="Include" />
           <e p="ItemChecker.cs" t="Include" />
           <e p="ItemHolder.cs" t="Include" />
           <e p="Node.cs" t="Include" />
+          <e p="PreparingPot.cs" t="Include" />
         </e>
         <e p="Demigiant" t="Include">
           <e p="DemiLib" t="Include">
