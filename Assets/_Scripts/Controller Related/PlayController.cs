@@ -139,7 +139,7 @@ public class PlayController : MonoBehaviour
         foreach (var node in freeNodes.Take(amount))
         {
             if (spawnCounter >= freeNodes.Count() / 2) return;
-            SpawnBlock(node, Random.value > 0.8f ? 1 : 0);
+            SpawnBlock(node, Random.Range(0, _blockTypes.Count));
             spawnCounter++;
         }
 
@@ -230,11 +230,7 @@ public class PlayController : MonoBehaviour
     void RemoveBlock(Block block)
     {
         _blocks.Remove(block);
-        block.transform.DOScale(Vector3.one * 0.2f, 0.3f).OnComplete(() =>
-        {
-            Destroy(block.gameObject);
-        });
-        
+        Destroy(block.gameObject);
     }
 
     Node GetNodeAtPositin(Vector2 pos)

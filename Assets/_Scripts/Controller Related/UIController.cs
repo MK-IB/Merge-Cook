@@ -101,12 +101,12 @@ public class UIController : MonoBehaviour
     IEnumerator ShowWinUIs()
     {
         moneyEarnedPanel.SetActive(true);
-        moneyEarnedPanel.transform.DOScaleX(0, 1).From();
-        yield return new WaitForSeconds(2);
+        moneyEarnedPanel.transform.DOScaleX(0, 0.3f).From();
+        yield return new WaitForSeconds(1.8f);
         
         Vector3 moneyBundleWorldPos = Camera.main.ScreenToWorldPoint(moneyBundleOnCanvas.transform.position);
-        moneyControlledParticle.transform.position = new Vector3(moneyBundleWorldPos.x,moneyBundleWorldPos.y, moneyControlledParticle.transform.position.z);
-        moneyControlledParticle.GetComponent<ParticleControlScript>().PlayControlledParticles(moneyControlledParticle.transform.position, moneyIcon);
+        //moneyControlledParticle.transform.position = new Vector3(moneyBundleWorldPos.x,moneyBundleWorldPos.y, moneyControlledParticle.transform.position.z);
+        //moneyControlledParticle.GetComponent<ParticleControlScript>().PlayControlledParticles(moneyControlledParticle.transform.position, moneyIcon);
         StartCoroutine(UpdateMoneyOnWin());
         yield return new WaitForSeconds(2);
         winCanvas.SetActive(true);

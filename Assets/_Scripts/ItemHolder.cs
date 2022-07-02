@@ -9,6 +9,8 @@ public class ItemHolder : MonoBehaviour
     public static ItemHolder instance;
 
     public List<GameObject> vegList;
+    public List<Sprite> ItemsPerLevelUnlock;
+    private int _itemPerLevelCounter;
 
     private void Awake()
     {
@@ -22,6 +24,12 @@ public class ItemHolder : MonoBehaviour
         {
             veg.transform.DOScale(Vector3.one * 0.65f, 2);
         });
+    }
+
+    public Sprite GetCurrentItemInLevel()
+    {
+        return ItemsPerLevelUnlock[_itemPerLevelCounter];
+        _itemPerLevelCounter++;
     }
     
 }

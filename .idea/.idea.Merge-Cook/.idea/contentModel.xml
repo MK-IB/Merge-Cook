@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\ADMIN\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\ADMIN\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_Merge-Cook.1081638324.00" t="ExcludeRecursive" />
-    <e p="D:\Projects\Merge-Cook" t="IncludeRecursive">
+    <e p="C:\Users\KURO GAMING\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\KURO GAMING\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_Merge-Cook.1463614840.00" t="ExcludeRecursive" />
+    <e p="D:\UNITY\Projects\OTHER_PROJECTS\Merge-Cook" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -66,18 +66,6 @@
             <e p="readme.txt" t="Include" />
           </e>
           <e p="readme_DOTweenPro.txt" t="Include" />
-        </e>
-        <e p="Fx" t="Include">
-          <e p="CoinCollect Particle" t="Include">
-            <e p="_Controlled Particles" t="Include">
-              <e p="ControlledParticles.cs" t="Include" />
-              <e p="ParticleControl.cs" t="Include" />
-              <e p="ParticleControlScript.cs" t="Include" />
-            </e>
-            <e p="_UI Particles" t="Include">
-              <e p="UIParticleSystem.cs" t="Include" />
-            </e>
-          </e>
         </e>
         <e p="JMO Assets" t="Include">
           <e p="Cartoon FX Easy Editor" t="Include">

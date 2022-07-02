@@ -97,20 +97,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Customer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Block.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Input Related/InputControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Controller Related/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ItemChecker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Fx/CoinCollect Particle/_Controlled Particles/ParticleControlScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ServedPlate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Item.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Controller Related/GameController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Controller Related/PlayController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Controller Related/UIController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/PreparingPot.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Fx/CoinCollect Particle/_UI Particles/UIParticleSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Controller Related/MainController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Controller Related/GameController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Controller Related/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/UI Related/WinPanelView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Controller Related/MainController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Controller Related/PlayController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ItemHolder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ItemChecker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Customer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Item.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/PreparingPot.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -121,7 +121,6 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/EffectsController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Block.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Controller Related/EffectsController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/ItemHolder.cs" />
         <option value="$PROJECT_DIR$/Assets/_MergeCook/_Scripts/Controller Related/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/ItemChecker.cs" />
@@ -132,10 +131,12 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/ServedPlate.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/PreparingPot.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Customer.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/UI Related/WinPanelView.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/Controller Related/UIController.cs" />
         <option value="$PROJECT_DIR$/Assets/Fx/CoinCollect Particle/_UI Particles/UIParticleSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/CoinCollect Particle/_Controlled Particles/ParticleControlScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Controller Related/UIController.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Controller Related/PlayController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/ItemHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/UI Related/WinPanelView.cs" />
       </list>
     </option>
   </component>
@@ -153,7 +154,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
