@@ -56,5 +56,6 @@ public class Customer : MonoBehaviour
         happyParticleFx.SetActive(true);
         yield return new WaitForSeconds(2);
         winParticle.SetActive(true);
+        MainController.instance.SetActionType(MainController.StateOfGame.Win);
     }
 }

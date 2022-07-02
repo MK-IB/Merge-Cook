@@ -31,7 +31,6 @@ public class PlayController : MonoBehaviour
     private int _round;
 
     private Transform Board;
-    private Transform cameraTransform;
 
     public Transform playCamera;
 
@@ -44,7 +43,6 @@ public class PlayController : MonoBehaviour
 
     void Start()
     {
-        cameraTransform = Camera.main.transform;
         ChangeState(GameState.GenerateLevel);
         InputEventsManager.instance.SwipeRightEvent += ShiftRight;
         InputEventsManager.instance.SwipeLeftEvent += ShiftLeft;
@@ -221,7 +219,8 @@ public class PlayController : MonoBehaviour
             Vector3 pos = new Vector3(baseBlock.Node.pos.x, baseBlock.Node.pos.y, -1);
             GameObject spawnFx = EffectsController.instance.spawnEffect;
             Instantiate(spawnFx, pos, spawnFx.transform.rotation);
-            DOVirtual.DelayedCall(0.3f, () => { ItemHolder.instance.SpawnItems(mergingBlock.Value, pos); });
+            ItemHolder.instance.SpawnItems(mergingBlock.Value, pos);
+            //DOVirtual.DelayedCall(0.1f, () => { ItemHolder.instance.SpawnItems(mergingBlock.Value, pos); });
         });
         //effect
 
@@ -231,7 +230,11 @@ public class PlayController : MonoBehaviour
     void RemoveBlock(Block block)
     {
         _blocks.Remove(block);
-        Destroy(block.gameObject);
+        block.transform.DOScale(Vector3.one * 0.2f, 0.3f).OnComplete(() =>
+        {
+            Destroy(block.gameObject);
+        });
+        
     }
 
     Node GetNodeAtPositin(Vector2 pos)

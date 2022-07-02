@@ -24,7 +24,7 @@ public class PreparingPot : MonoBehaviour
     {
         transform.parent.parent = null;
         Vector3 handMovePosFrom = new Vector3(holdingHand.transform.position.x, holdingHand.transform.position.y, holdingHand.transform.position.z + 5);
-        holdingHand.transform.DOMove(handMovePosFrom, 0.5f).From();
+        holdingHand.transform.DOLocalMove(handMovePosFrom, 0.5f).From();
         GetComponent<DOTweenAnimation>().enabled = false;
         DOTween.Kill(gameObject);
 
@@ -50,6 +50,7 @@ public class PreparingPot : MonoBehaviour
         {
             cookedSlices[i].transform.parent = servingPot.transform;
         }
+        servingPot.GetComponent<ServedPlate>().MakeCurryLevel();
         
         yield return new WaitForSeconds(2f);
         //move the plate towards customer

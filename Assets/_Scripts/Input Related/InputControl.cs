@@ -1,15 +1,23 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class InputControl : MonoBehaviour
 {
+    public static InputControl instance;
+    
     private Vector2 fingerDown;
     private Vector2 fingerUp;
     public bool detectSwipeOnlyAfterRelease = false;
 
     public float SWIPE_THRESHOLD = 20f;
-    
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
     void Update()
     {
 

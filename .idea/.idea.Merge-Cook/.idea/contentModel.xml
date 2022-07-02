@@ -27,6 +27,11 @@
           <e p="ItemHolder.cs" t="Include" />
           <e p="Node.cs" t="Include" />
           <e p="PreparingPot.cs" t="Include" />
+          <e p="ServedPlate.cs" t="Include" />
+          <e p="UI Related" t="Include">
+            <e p="WinPanelView.cs" t="Include" />
+          </e>
+          <e p="Vibration.cs" t="Include" />
         </e>
         <e p="Demigiant" t="Include">
           <e p="DemiLib" t="Include">
@@ -61,6 +66,18 @@
             <e p="readme.txt" t="Include" />
           </e>
           <e p="readme_DOTweenPro.txt" t="Include" />
+        </e>
+        <e p="Fx" t="Include">
+          <e p="CoinCollect Particle" t="Include">
+            <e p="_Controlled Particles" t="Include">
+              <e p="ControlledParticles.cs" t="Include" />
+              <e p="ParticleControl.cs" t="Include" />
+              <e p="ParticleControlScript.cs" t="Include" />
+            </e>
+            <e p="_UI Particles" t="Include">
+              <e p="UIParticleSystem.cs" t="Include" />
+            </e>
+          </e>
         </e>
         <e p="JMO Assets" t="Include">
           <e p="Cartoon FX Easy Editor" t="Include">

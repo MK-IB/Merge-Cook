@@ -13,14 +13,27 @@ public class UIController : MonoBehaviour
     [Header("HUD RELATED")]
     public Slider cookSlider;
     public GameObject moneyDisplayContent;
+    public TextMeshProUGUI moneyCountText;
+    public RectTransform moneyIcon;
     public TextMeshProUGUI gameStateIndicatorText;
 
     [Header("GAMEPLAY RELATED")] 
     public GameObject preparationDoneButton;
     public GameObject decorationDoneButton;
+    public GameObject moneyControlledParticle;
+    public GameObject moneyEarnedPanel;
+    public GameObject moneyBundleOnCanvas;
+    public GameObject moneyUIPrefab;
+    public RectTransform moneyspawnPos;
+    public GameObject winCanvas;
+    public GameObject failCanvas;
     
     [Header("VAR DECLARATIONS")]
     [SerializeField] public float sliderValue;
+
+    private int _moneyCount;
+    
+    
     private void Awake()
     {
         instance = this;
@@ -58,18 +71,21 @@ public class UIController : MonoBehaviour
                 moneyDisplayContent.SetActive(true);
                 moneyDisplayContent.transform.DOScale(Vector3.zero, 1).From();
                 break;
+            case MainController.StateOfGame.Win:
+                StartCoroutine(ShowWinUIs());
+                break;
         }
     }
     public void UpdateCookStatus()
     {
-        sliderValue += 0.05f;
+        sliderValue += 0.1f;
         cookSlider.value = sliderValue;
         if (sliderValue >= 1)
         {
             cookSlider.transform.DOScaleX(0, 0.5f);
             preparationDoneButton.SetActive(true);
             PlayController.instance.HideGrid();
-            PlayController.instance.enabled = false;
+            InputControl.instance.enabled = false;
         }
     }
 
@@ -80,5 +96,41 @@ public class UIController : MonoBehaviour
     public void On_Decoration_DoneButtonClicked()
     {
         MainController.instance.SetActionType(MainController.StateOfGame.Serving);
+    }
+
+    IEnumerator ShowWinUIs()
+    {
+        moneyEarnedPanel.SetActive(true);
+        moneyEarnedPanel.transform.DOScaleX(0, 1).From();
+        yield return new WaitForSeconds(2);
+        
+        Vector3 moneyBundleWorldPos = Camera.main.ScreenToWorldPoint(moneyBundleOnCanvas.transform.position);
+        moneyControlledParticle.transform.position = new Vector3(moneyBundleWorldPos.x,moneyBundleWorldPos.y, moneyControlledParticle.transform.position.z);
+        moneyControlledParticle.GetComponent<ParticleControlScript>().PlayControlledParticles(moneyControlledParticle.transform.position, moneyIcon);
+        StartCoroutine(UpdateMoneyOnWin());
+        yield return new WaitForSeconds(2);
+        winCanvas.SetActive(true);
+    }
+
+    IEnumerator UpdateMoneyOnWin()
+    {
+        int currentAmount = PlayerPrefs.GetInt("money");
+        int newEarnedAmount = PlayerPrefs.GetInt("money") + 100;
+
+        /*for (int i = 0; i < 20; i++)
+        {
+            RectTransform moneyUI = Instantiate(moneyUIPrefab, moneyUIPrefab.transform.position, Quaternion.identity).GetComponent<RectTransform>();
+            moneyUI.transform.parent = moneyDisplayContent.transform;
+            moneyUI.anchoredPosition = moneyspawnPos.anchoredPosition;
+            yield return new WaitForSeconds(2f/20f);
+            moneyUI.DOAnchorPos(moneyIcon.anchoredPosition, 0.3f);
+        }*/
+        float waitTime = 2f / 100f;
+        for (int i = currentAmount; i <= newEarnedAmount; i++)
+        {
+            moneyCountText.text = i.ToString();
+            yield return new WaitForSeconds(waitTime);
+        }
+        PlayerPrefs.SetInt("money", newEarnedAmount);
     }
 }
