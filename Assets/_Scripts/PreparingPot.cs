@@ -23,9 +23,15 @@ public class PreparingPot : MonoBehaviour
     public IEnumerator MoveForDecoration()
     {
         transform.parent.parent = null;
-        Vector3 handMovePosFrom = new Vector3(holdingHand.transform.position.x, holdingHand.transform.position.y, holdingHand.transform.position.z + 5);
-        holdingHand.transform.DOLocalMove(handMovePosFrom, 0.5f).From();
-        GetComponent<DOTweenAnimation>().enabled = false;
+        if(holdingHand != null)
+        {
+            Vector3 handMovePosFrom = new Vector3(holdingHand.transform.position.x, holdingHand.transform.position.y,
+                holdingHand.transform.position.z + 5);
+            holdingHand.transform.DOLocalMove(handMovePosFrom, 0.5f).From();
+        }
+        
+        DOTweenAnimation tweenAnimation = GetComponent<DOTweenAnimation>();
+        if(tweenAnimation) tweenAnimation.enabled = false;
         DOTween.Kill(gameObject);
 
         if (colliders.Count > 0)
@@ -37,7 +43,8 @@ public class PreparingPot : MonoBehaviour
         }
 
         //move and rotate to decoration pos
-        GetComponent<Collider>().enabled = false;
+        Collider collider = GetComponent<Collider>();
+        if(collider) collider.enabled = false;
         transform.DOMove(movePos.position, 2);
         
         yield return new WaitForSeconds(2.4f);

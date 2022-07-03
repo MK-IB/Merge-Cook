@@ -57,7 +57,7 @@ public class UIController : MonoBehaviour
                 cookSlider.transform.DOScaleX(0, 0.5f).From();
                 break;
             case MainController.StateOfGame.Preparation:
-                gameStateIndicatorText.SetText("PREPARING");
+                gameStateIndicatorText.SetText("PREPARING" + ItemHolder.instance.GetCurrentDishName());
                 break;
             case MainController.StateOfGame.Decoration:
                 gameStateIndicatorText.SetText("DECORATION");

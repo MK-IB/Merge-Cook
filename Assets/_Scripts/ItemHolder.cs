@@ -10,26 +10,38 @@ public class ItemHolder : MonoBehaviour
 
     public List<GameObject> vegList;
     public List<Sprite> ItemsPerLevelUnlock;
-    private int _itemPerLevelCounter;
+    public List<string> dishPerLevel;
 
     private void Awake()
     {
         instance = this;
+        dishPerLevel = new List<string>()
+        {
+            "VEG. CURRY", "VEG. CURRY", "SALAD"
+        };
     }
 
     public void SpawnItems(int index, Vector3 pos)
     {
         GameObject veg = Instantiate(vegList[index], pos, vegList[index].transform.rotation);
-        veg.transform.DOScale(Vector3.zero, 0.2f).From().OnComplete(() =>
+        Vector3 origScale = veg.transform.localScale;
+        veg.transform.DOScale(Vector3.zero, 0.2f).SetEase(Ease.InOutBounce).From().OnComplete(() =>
         {
-            veg.transform.DOScale(Vector3.one * 0.65f, 2);
+            veg.transform.DOScale(origScale * 0.65f, 2);
         });
     }
 
+    public string GetCurrentDishName()
+    {
+        int dishPerLevelCounter = PlayerPrefs.GetInt("DishPerLevelCounter", 0);
+        PlayerPrefs.SetInt("ItemPerLevelCounter", ++dishPerLevelCounter);
+        return dishPerLevel[dishPerLevelCounter];
+    }
     public Sprite GetCurrentItemInLevel()
     {
-        return ItemsPerLevelUnlock[_itemPerLevelCounter];
-        _itemPerLevelCounter++;
+        int itemPerLevelCounter = PlayerPrefs.GetInt("ItemPerLevelCounter", 0);
+        PlayerPrefs.SetInt("ItemPerLevelCounter", ++itemPerLevelCounter);
+        return ItemsPerLevelUnlock[itemPerLevelCounter];
     }
     
 }

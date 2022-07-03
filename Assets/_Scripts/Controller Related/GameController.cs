@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -32,8 +33,16 @@ public class GameController : MonoBehaviour
             case MainController.StateOfGame.EatingDone:
                 CameraController.instance.cinemachineBrain.m_DefaultBlend.m_Time = 1;
                 break;
-                ;
         }
+    }
 
+    public void On_ContinueButtonPressed()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    
+    public void On_RetryButtonPressed()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

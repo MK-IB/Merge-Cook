@@ -155,7 +155,7 @@ public class PlayController : MonoBehaviour
     void SpawnBlock(Node node, int value)
     {
         var block = Instantiate(_blockPrefab, node.pos, Quaternion.identity);
-        block.transform.DOScale(Vector3.zero, 0.3f).From();
+        block.transform.DOScale(Vector3.zero, 0.8f).SetEase(Ease.InOutElastic).From();
         //block.transform.parent = Board;
         //block.transform.eulerAngles = cameraTransform.eulerAngles;
         block.Init(GetBlockTypeByValue(value));
@@ -193,7 +193,7 @@ public class PlayController : MonoBehaviour
         foreach (var block in orderedBlocks)
         {
             var movePoint = block.MergingBlock != null ? block.MergingBlock.Node.pos : block.Node.pos;
-            sequence.Insert(0, block.transform.DOMove(movePoint, _travelTime));
+            sequence.Insert(0, block.transform.DOMove(movePoint, _travelTime).SetEase(Ease.InOutBack));
         }
 
         sequence.OnComplete(() =>

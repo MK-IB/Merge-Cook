@@ -55,7 +55,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _width: 3
   _height: 3
-  _travelTime: 0.2
+  _travelTime: 0.45
   _winCondition: 2048
   toInstantiate: {fileID: 2236368253286450128, guid: 46f27a1778e154f4abaf56b600d2e7bd, type: 3}
   _nodePrefab: {fileID: 3204616235392730902, guid: 4a41d76fb1458da48a17400acd3c5a2d, type: 3}
@@ -68,12 +68,12 @@ MonoBehaviour:
   - value: 1
     color: {r: 1, g: 1, b: 1, a: 1}
     icon: {fileID: 21300000, guid: 17c8197c2c22b9246b8385c62be3db03, type: 3}
-  - value: 2
-    color: {r: 1, g: 1, b: 1, a: 1}
+  - value: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
     icon: {fileID: 21300000, guid: 8da4050861145474bbf8651ee4b8f614, type: 3}
-  - value: 3
-    color: {r: 1, g: 1, b: 1, a: 1}
-    icon: {fileID: 21300000, guid: 8da4050861145474bbf8651ee4b8f614, type: 3}
+  - value: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+    icon: {fileID: 0}
   playCamera: {fileID: 0}
 --- !u!114 &8764816610822901970
 MonoBehaviour:
@@ -94,6 +94,9 @@ MonoBehaviour:
   ItemsPerLevelUnlock:
   - {fileID: 21300000, guid: 95f850bde9d177643b594bc953ec402a, type: 3}
   - {fileID: 21300000, guid: 5911450ffb99fb7448d36bfe12afb424, type: 3}
+  - {fileID: 21300000, guid: 4834b223e5a32f14f841c3668f8e97a7, type: 3}
+  - {fileID: 0}
+  dishPerLevel: []
 --- !u!114 &8764816610822901969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08f690b3cc6a62d448ce93ec1b0787c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnEffect: {fileID: 3739363238424232321, guid: 4749848a667991d4bb959dbc00bce6fd, type: 3}
+  spawnEffect: {fileID: 2728366677133136368, guid: c689ac695b9d684408b631c47ad743d4, type: 3}
 --- !u!114 &8764816610822901975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -872,7 +875,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -94.9332, y: 0}
+  m_SizeDelta: {x: -86, y: -54}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8764816611230268248
 CanvasRenderer:
@@ -929,7 +932,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40.25
+  m_fontSize: 39.5
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2555,7 +2558,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -275}
-  m_SizeDelta: {x: 384, y: 101.84131}
+  m_SizeDelta: {x: 548.63, y: 101.8413}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8764816612448615852
 CanvasRenderer:
@@ -3110,7 +3113,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8764816612910776443}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8764816612645869796}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: On_ContinueButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8764816612935322415
 GameObject:
   m_ObjectHideFlags: 0
