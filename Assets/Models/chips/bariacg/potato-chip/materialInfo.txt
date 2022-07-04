@@ -1,0 +1,17 @@
+// Generated using SketchfabRipper v1.18.0 by revetix#9971
+
+Mesh "PotatoChip_PotatoChip_0" uses material "PotatoChip" and has UniqueID "5"
+
+Material "PotatoChip" has ID cd9c4c70-8960-4ad1-ba23-039bac5e7c91.
+	Albedo (UV0): PotatoChip_BaseColor.png
+	Emission: 0|0|0
+	Normal (Flipped Y) (UV0): PotatoChip_Normal.png
+	Specular F0: 0.5
+	Diffuse colour (UV0): PotatoChip_BaseColor.png
+	Metalness: 0
+	Roughness (UV0): PotatoChip_Roughtness.png
+	Specular colour: 0.9|0.9|0.9
+	Diffuse intensity: 1|1|1
+	Specular hardness: 2.82843
+	Clear coat normal (Flipped Y): 1
+	Clear coat roughness: 0.04

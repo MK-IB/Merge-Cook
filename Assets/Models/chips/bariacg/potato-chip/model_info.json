@@ -1,0 +1,297 @@
+{
+  "uid": "02012d55fba84ece88781028027f74d9",
+  "slug": "potato-chip",
+  "user": {
+    "uid": "3355dd1b3dd4480e8d335e86f3c1b9eb",
+    "username": "bariacg",
+    "displayName": "bariacg",
+    "account": "basic",
+    "profileUrl": "https://sketchfab.com/bariacg",
+    "avatars": {
+      "uid": "01e86f8108ef496ba7b295b3edd37ed5",
+      "images": [
+        {
+          "width": 32,
+          "height": 32,
+          "size": 775,
+          "url": "https://media.sketchfab.com/avatars/01e86f8108ef496ba7b295b3edd37ed5/8c5e1288810240f69b9d8b9c3ba5f3ce.jpeg"
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "size": 1052,
+          "url": "https://media.sketchfab.com/avatars/01e86f8108ef496ba7b295b3edd37ed5/efc0446eba0a49a7b7d359a9b6ccd7eb.jpeg"
+        },
+        {
+          "width": 90,
+          "height": 90,
+          "size": 2187,
+          "url": "https://media.sketchfab.com/avatars/01e86f8108ef496ba7b295b3edd37ed5/5023b01cc6434ad1abb02c8df2f7b2f8.jpeg"
+        },
+        {
+          "width": 100,
+          "height": 100,
+          "size": 2580,
+          "url": "https://media.sketchfab.com/avatars/01e86f8108ef496ba7b295b3edd37ed5/e021e788d6bf41a1b80eec5af6fcaa72.jpeg"
+        }
+      ]
+    },
+    "planDetail": null
+  },
+  "name": "Potato Chip",
+  "description": "Potato Chip 3d model in cartoon style.      <br /> <br />\n3ds max 2020 , FBX and OBJ files    <br /> <br />\n\nClean topology                      <br />\nNon-Overlap UVs                     <br /> <br />\n\nTexture include                     <br />\n- Base Color                        <br />\n- Normal                            <br />\n- Roughness                         <br /><br />\n\n2048x2048 PNG texture               <br /> <br />\n\n108 poly                          <br />\n121 vert                          <br />\nIn subdivision Level 0",
+  "htmlDescription": "<p>Potato Chip 3d model in cartoon style.      <br> <br>\n3ds max 2020 , FBX and OBJ files    <br> <br></p>\n<p>Clean topology                      <br>\nNon-Overlap UVs                     <br> <br></p>\n<p>Texture include                     <br>\n- Base Color                        <br>\n- Normal                            <br>\n- Roughness                         <br><br></p>\n<p>2048x2048 PNG texture               <br> <br></p>\n<p>108 poly                          <br>\n121 vert                          <br>\nIn subdivision Level 0</p>",
+  "thumbnails": {
+    "uid": "2a370280517145df9950e070b0ac413d",
+    "images": [
+      {
+        "uid": "808d9f1ecdfb482d81cdf40b7adeca1d",
+        "width": 1920,
+        "height": 1080,
+        "size": 28493,
+        "url": "https://media.sketchfab.com/models/02012d55fba84ece88781028027f74d9/thumbnails/2a370280517145df9950e070b0ac413d/afedcdef77604e8ca6b52b830f006a02.jpeg"
+      },
+      {
+        "uid": "ce7539ba7604470d944e5f5597c8b9a2",
+        "width": 1024,
+        "height": 576,
+        "size": 9300,
+        "url": "https://media.sketchfab.com/models/02012d55fba84ece88781028027f74d9/thumbnails/2a370280517145df9950e070b0ac413d/e6788d682ff149d18ac9721b5a7828db.jpeg"
+      },
+      {
+        "uid": "fb181b528f1d4819b2664a28072c5de0",
+        "width": 720,
+        "height": 405,
+        "size": 5336,
+        "url": "https://media.sketchfab.com/models/02012d55fba84ece88781028027f74d9/thumbnails/2a370280517145df9950e070b0ac413d/2ef5c0ff5c6e4af495e9da6cbfa75dbe.jpeg"
+      },
+      {
+        "uid": "62ef3c1e730c48a0b220c0774757ab41",
+        "width": 256,
+        "height": 144,
+        "size": 1203,
+        "url": "https://media.sketchfab.com/models/02012d55fba84ece88781028027f74d9/thumbnails/2a370280517145df9950e070b0ac413d/c7387296f87d4c8c84329c0b8ca876a0.jpeg"
+      },
+      {
+        "uid": "01692174d10e4b36869c3072a6a3c4fa",
+        "width": 64,
+        "height": 36,
+        "size": 453,
+        "url": "https://media.sketchfab.com/models/02012d55fba84ece88781028027f74d9/thumbnails/2a370280517145df9950e070b0ac413d/64d04f34bade4257bbc6dad4c654394d.jpeg"
+      }
+    ]
+  },
+  "vertexCount": 121,
+  "faceCount": 216,
+  "viewCount": 740,
+  "likeCount": 11,
+  "animationCount": 0,
+  "staffpickedAt": null,
+  "publishedAt": "2019-11-16T10:10:10.47511",
+  "createdAt": "2019-11-16T09:59:56.114146",
+  "tags": [
+    "food",
+    "prop",
+    "potato",
+    "fat",
+    "junk",
+    "party",
+    "meal",
+    "snack",
+    "chip",
+    "bend",
+    "fried",
+    "thin",
+    "crisp",
+    "crunchy",
+    "nachos"
+  ],
+  "orgTags": [],
+  "categories": [
+    {
+      "uid": "b3631aefd82b4eeba37aa5fc0b73b05a",
+      "name": "Food & Drink",
+      "slug": "food-drink"
+    }
+  ],
+  "license": {
+    "uid": "783b685da9bf457d81e829fa283f3567",
+    "label": "Standard",
+    "fullname": "Standard",
+    "slug": "st",
+    "summary": "Standard",
+    "requirements": "Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works",
+    "url": "https://sketchfab.com/licenses",
+    "free": false,
+    "needsAttribution": false,
+    "ccClauses": null
+  },
+  "isStoreLicenseLocked": false,
+  "viewerUrl": "https://sketchfab.com/3d-models/potato-chip-02012d55fba84ece88781028027f74d9",
+  "embedUrl": "https://sketchfab.com/models/02012d55fba84ece88781028027f74d9/embed",
+  "editorUrl": "https://sketchfab.com/models/02012d55fba84ece88781028027f74d9/edit",
+  "reviewUrl": "https://sketchfab.com/models/02012d55fba84ece88781028027f74d9/review",
+  "publicCommentCount": 0,
+  "orgCommentCount": 0,
+  "isDownloadable": false,
+  "downloadType": "store",
+  "isInspectable": true,
+  "downloadCount": 11,
+  "status": {
+    "warning": {},
+    "processing": "SUCCEEDED"
+  },
+  "isPublished": true,
+  "originalFileName": "PotatoChip",
+  "processingStatus": 2,
+  "archiveSize": 6415392,
+  "ext": "fbx",
+  "isDeleted": false,
+  "isRestricted": false,
+  "processedAt": "2019-11-16T10:02:17.955452",
+  "files": [
+    {
+      "uid": "fb57a3d2210b46f7a0a2ea78dfeec357",
+      "flag": 0,
+      "osgjsUrl": "https://media.sketchfab.com/models/02012d55fba84ece88781028027f74d9/1985b991f92f4ce1bc16627ddebd594d/files/fb57a3d2210b46f7a0a2ea78dfeec357/file.binz",
+      "modelSize": 1617,
+      "osgjsSize": 1931,
+      "wireframeSize": 449,
+      "p": [
+        {
+          "v": 1,
+          "b": "nEuQ+Gixs6uAavK9m+4rk0sKgZlBm/L9Y5u0HGRJ4bVpO8cHegBWEGI1aSqVDQs7ze8Tm8o+u6iS\nKATBkopEohHZUkqZAjMAMAA0APsxx9aGpZ3Yb0urUUFvuc3I4LaXj5QCqPb461gjAPjODiyFY1XS\nCFoHpSVGqoUWaciI6H906I81RtAVYgjbFdqwuuP/2cnJhBy4yk3+0RUcAsuNy77hZamlm9a0rcca\nE9zWC6SUqQIEpdFRjP4zs3l4aUStfmlErJH++Ce54GXt/ySzStEECv2DON1hQBtLY0DbSj+FeRz5\nllxhqXnSvtGeP9BO/BgSEF5U0wLLTE0Vl2VkkFuNHgbhtqe9qD6FRfDjGWX98QQaKMAoqDIPYIJV\nWQd6gw0HfEIBI5gLm0VnEQvzbgSBTiEa8gDFOxoZCD/SL+SbNsoiHlIoiN8x",
+          "d": true
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "quad": 108,
+    "triangle": 0,
+    "polygon": 0,
+    "line": 0,
+    "point": 0,
+    "totalTriangle": 216,
+    "vertexCount": 121,
+    "hasNormal": true,
+    "hasTangent": false,
+    "hasVertexColor": false,
+    "pbrType": null,
+    "textureCount": 3,
+    "materialCount": 1,
+    "isRigged": false,
+    "morph": 0,
+    "scale": false,
+    "animation": 0,
+    "uvMapped": true,
+    "sourceFiles": {
+      "3d": [
+        {
+          "version": "2019",
+          "filepath": "source/PotatoChip.fbx",
+          "filesize": 6415392,
+          "extension": "fbx",
+          "fileformat": "Autodesk FBX"
+        }
+      ],
+      "misc": [],
+      "count": 1,
+      "image": []
+    },
+    "textureFiles": [
+      {
+        "width": 2048,
+        "format": "RGB",
+        "height": 2048,
+        "is8bit": true,
+        "filepath": "textures/PotatoChip_BaseColor.png",
+        "filesize": 2670714,
+        "extension": "png",
+        "fileformat": "Portable Network Graphics"
+      },
+      {
+        "width": 2048,
+        "format": "RGB",
+        "height": 2048,
+        "is8bit": true,
+        "filepath": "textures/PotatoChip_Normal.png",
+        "filesize": 2561475,
+        "extension": "png",
+        "fileformat": "Portable Network Graphics"
+      },
+      {
+        "width": 2048,
+        "format": "GreyScale",
+        "height": 2048,
+        "is8bit": true,
+        "filepath": "textures/PotatoChip_Roughtness.png",
+        "filesize": 804252,
+        "extension": "png",
+        "fileformat": "Portable Network Graphics"
+      }
+    ]
+  },
+  "price": 600,
+  "inStore": true,
+  "averageRating": 0.0,
+  "reviewCount": 0,
+  "preferOriginalNormalMap": false,
+  "isDisabled": false,
+  "hasCommentsDisabled": false,
+  "exporter": null,
+  "displayStatus": "ok",
+  "version": {
+    "uid": "1985b991f92f4ce1bc16627ddebd594d",
+    "status": {
+      "warning": {},
+      "processing": "SUCCEEDED"
+    },
+    "isCurrentVersion": true,
+    "isCandidateVersion": false,
+    "createdAt": "2019-11-16T09:59:56.169665",
+    "processedAt": "2019-11-16T10:02:17.84248",
+    "reason": "upload"
+  },
+  "visibility": "public",
+  "org": null,
+  "isArEnabled": false,
+  "isArAvailable": false,
+  "archivesStatus": [
+    {
+      "type": "source",
+      "exists": true,
+      "status": "Succeeded"
+    },
+    {
+      "type": "gltf",
+      "exists": true,
+      "status": "Succeeded"
+    },
+    {
+      "type": "extra",
+      "exists": true,
+      "status": "Succeeded"
+    },
+    {
+      "type": "usdz",
+      "exists": true,
+      "status": "Succeeded"
+    },
+    {
+      "type": "gltf-ar",
+      "exists": false,
+      "status": null
+    },
+    {
+      "type": "uasset",
+      "exists": false,
+      "status": null
+    },
+    {
+      "type": "glb",
+      "exists": true,
+      "status": "Succeeded"
+    }
+  ]
+}

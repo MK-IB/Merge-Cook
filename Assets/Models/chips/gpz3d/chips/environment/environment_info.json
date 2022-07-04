@@ -1,0 +1,260 @@
+{
+  "uid": "2fa15e0b1cee45a5b02605a288934e1b",
+  "name": "Glazed Patio by Restaurant",
+  "isDefault": true,
+  "diffuseSPH": [
+    0.475424,
+    0.460106,
+    0.407626,
+    -0.0626622,
+    -0.0978502,
+    -0.148369,
+    -0.0296617,
+    -0.0225217,
+    -0.0109791,
+    -0.0893954,
+    -0.116715,
+    -0.139033,
+    0.0450059,
+    0.0514445,
+    0.0619668,
+    0.00471051,
+    0.00393212,
+    0.00522873,
+    -0.0508042,
+    -0.0540791,
+    -0.0530656,
+    -0.0278954,
+    -0.02586,
+    -0.0191718,
+    -0.0137735,
+    -0.0186312,
+    -0.0286947,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -0.00282073,
+    -0.00142961,
+    0.00158865,
+    0.00355297,
+    0.00355985,
+    0.0032291,
+    0.000505851,
+    0.000988242,
+    0.00184165,
+    -0.000522572,
+    -0.000887349,
+    -0.00114113,
+    -0.00178317,
+    -0.00226914,
+    -0.00239847,
+    -0.00327389,
+    -0.00380833,
+    -0.00351706,
+    0.00144392,
+    0.000810551,
+    -0.000114119,
+    -0.000850796,
+    -0.000642037,
+    4.96499E-05,
+    0.00670648,
+    0.00673571,
+    0.00625614
+  ],
+  "textures": [
+    {
+      "type": "thumbnail",
+      "format": "panorama",
+      "images": [
+        {
+          "uid": "35f331252a1d46d0a1eb23b27b1796a3",
+          "file": "https://media.sketchfab.com/environments/2fa15e0b1cee45a5b02605a288934e1b/a27201ae1d1f4602bcfaa3d4df2b789e.jpg",
+          "name": "thumbnail_256.jpg",
+          "width": 256,
+          "height": 128
+        }
+      ],
+      "encoding": "srgb"
+    },
+    {
+      "type": "background",
+      "format": "cubemap",
+      "images": [
+        {
+          "uid": "888a90fa75614ed39326176c1d303922",
+          "blur": 0.15,
+          "file": "https://media.sketchfab.com/environments/2fa15e0b1cee45a5b02605a288934e1b/0a163fe6d7964d48bc27b53763c91454.bin.gz",
+          "name": "background_cubemap_64_0.15_luv.bin.gz",
+          "width": 64,
+          "height": 64,
+          "samples": 512,
+          "sizeCompressed": 41711,
+          "sizeUncompressed": 98304
+        },
+        {
+          "uid": "a363c677d4184f1ebfc1f6220f269aa3",
+          "blur": 0.1,
+          "file": "https://media.sketchfab.com/environments/2fa15e0b1cee45a5b02605a288934e1b/8b618fdac4aa4fc5ade3e182744c4b48.bin.gz",
+          "name": "background_cubemap_128_0.1_luv.bin.gz",
+          "width": 128,
+          "height": 128,
+          "samples": 512,
+          "sizeCompressed": 145716,
+          "sizeUncompressed": 393216
+        },
+        {
+          "uid": "ae3f09907a084e45a0c6d766c8173e47",
+          "blur": 0.055,
+          "file": "https://media.sketchfab.com/environments/2fa15e0b1cee45a5b02605a288934e1b/47a070758a4d42fda5f46292a9f9f5f4.bin.gz",
+          "name": "background_cubemap_256_0.055_luv.bin.gz",
+          "width": 256,
+          "height": 256,
+          "samples": 512,
+          "sizeCompressed": 533312,
+          "sizeUncompressed": 1572864
+        },
+        {
+          "uid": "da095dc278714c258bbe6c038798867e",
+          "blur": 0.02,
+          "file": "https://media.sketchfab.com/environments/2fa15e0b1cee45a5b02605a288934e1b/bace87d6950a445ebc5ac971aa2e7e9b.bin.gz",
+          "name": "background_cubemap_512_0.02_luv.bin.gz",
+          "width": 512,
+          "height": 512,
+          "samples": 512,
+          "sizeCompressed": 2081250,
+          "sizeUncompressed": 6291456
+        },
+        {
+          "uid": "134e2d3ba748412a92367e9cbdc2d395",
+          "blur": 0.0,
+          "file": "https://media.sketchfab.com/environments/2fa15e0b1cee45a5b02605a288934e1b/25fdc06ec80b4f5b82336fb2be7dfc48.bin.gz",
+          "name": "background_cubemap_512_0.0_luv.bin.gz",
+          "width": 512,
+          "height": 512,
+          "samples": 512,
+          "sizeCompressed": 2727947,
+          "sizeUncompressed": 6291456
+        }
+      ],
+      "encoding": "luv"
+    },
+    {
+      "type": "specular_ue4",
+      "format": "panorama",
+      "images": [
+        {
+          "uid": "a220e4e8ecef47409c36546dcd2c4ad8",
+          "file": "https://media.sketchfab.com/environments/2fa15e0b1cee45a5b02605a288934e1b/ab3e3e13e26d42b28038d579ca338db1.bin.gz",
+          "name": "specular_panorama_ue4_1024_luv.bin.gz",
+          "width": 1024,
+          "height": 1024,
+          "samples": 1024,
+          "sizeCompressed": 1114941,
+          "sizeUncompressed": 4194304
+        },
+        {
+          "uid": "5167e574a20f439d916bef20e8ba9158",
+          "file": "https://media.sketchfab.com/environments/2fa15e0b1cee45a5b02605a288934e1b/c16ed438a16843bb9373739db61030e9.bin.gz",
+          "name": "specular_panorama_ue4_256_luv.bin.gz",
+          "width": 256,
+          "height": 256,
+          "samples": 1024,
+          "sizeCompressed": 80999,
+          "sizeUncompressed": 262144
+        }
+      ],
+      "encoding": "luv",
+      "limitSize": 32
+    },
+    {
+      "type": "specular_ue4",
+      "format": "cubemap",
+      "images": [
+        {
+          "uid": "e2b901ec938540d2b556dfa808b90141",
+          "file": "https://media.sketchfab.com/environments/2fa15e0b1cee45a5b02605a288934e1b/3b75f316e45c44e0a2e1f653128089e5.bin.gz",
+          "name": "specular_cubemap_ue4_256_luv.bin.gz",
+          "width": 256,
+          "height": 256,
+          "samples": 1024,
+          "sizeCompressed": 992602,
+          "sizeUncompressed": 2097144
+        },
+        {
+          "uid": "94ffefeb51144745a89fe726c615b848",
+          "file": "https://media.sketchfab.com/environments/2fa15e0b1cee45a5b02605a288934e1b/c5a847e09a644dbfaab762259036a93a.bin.gz",
+          "name": "specular_cubemap_ue4_64_luv.bin.gz",
+          "width": 64,
+          "height": 64,
+          "samples": 1024,
+          "sizeCompressed": 75226,
+          "sizeUncompressed": 131064
+        }
+      ],
+      "encoding": "luv",
+      "limitSize": 8
+    },
+    {
+      "type": "brdf_ue4",
+      "format": "lut",
+      "images": [
+        {
+          "uid": "8a7d1c4c837b4d13bd3ddd8f9762c8e7",
+          "file": "https://media.sketchfab.com/environments/2fa15e0b1cee45a5b02605a288934e1b/4071fac688934f5e9710449ac9bb1b84.bin.gz",
+          "name": "brdf_ue4.bin.gz",
+          "width": 128,
+          "height": 128,
+          "samples": 1024,
+          "sizeCompressed": 59987,
+          "sizeUncompressed": 65536
+        }
+      ],
+      "encoding": "rg16"
+    }
+  ],
+  "processing": "Succeeded",
+  "brightness": 4.063,
+  "lights": [
+    {
+      "sum": 0.126533,
+      "area": {
+        "h": 0.0703125,
+        "w": 0.0791016,
+        "x": 0.803223,
+        "y": 0.296875
+      },
+      "color": [
+        1.58816,
+        1.67847,
+        1.70475
+      ],
+      "error": 0,
+      "variance": 1.3277E-06,
+      "direction": [
+        -0.758714,
+        -0.595699,
+        -0.263621
+      ],
+      "lum_ratio": 0.0776168,
+      "luminosity": 25.6337
+    }
+  ]
+}

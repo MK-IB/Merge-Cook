@@ -1,0 +1,314 @@
+{
+  "Generator": "OpenSceneGraph 3.5.6",
+  "Version": 9,
+  "osg.Node": {
+    "Children": [ {
+      "osg.MatrixTransform": {
+        "UniqueID": 0,
+        "Name": "d3021160b439444cb4c46440d7acea6e.fbx",
+        "Children": [ {
+          "osg.MatrixTransform": {
+            "UniqueID": 2,
+            "Name": "RootNode",
+            "Children": [ {
+              "osg.MatrixTransform": {
+                "UniqueID": 3,
+                "Name": "Chips",
+                "Children": [ {
+                  "osg.Node": {
+                    "UniqueID": 4,
+                    "Name": "Chips",
+                    "Children": [ {
+                      "osg.Geometry": {
+                        "UniqueID": 5,
+                        "Name": "Chips_Material_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUInt": {
+                            "UniqueID": 14,
+                            "Indices": {
+                              "UniqueID": 15,
+                              "Array": { 
+                                "Uint32Array": { 
+                                  "File": "model_file.binz",
+                                  "Size": 28914,
+                                  "Offset": 0,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "TRIANGLE_STRIP"
+                          }
+                        } ],
+                        "StateSet": {
+                          "osg.StateSet": {
+                            "UniqueID": 6,
+                            "AttributeList": [ {
+                              "osg.Material": {
+                                "UniqueID": 8,
+                                "Name": "Material",
+                                "Ambient": [ 0, 0, 0, 1],
+                                "Diffuse": [ 0.8, 0.8, 0.8, 1],
+                                "Emission": [ 0, 0, 0, 1],
+                                "Shininess": 25,
+                                "Specular": [ 0.2, 0.2, 0.2, 1]
+                              }
+                            } ],
+                            "UserDataContainer": {
+                              "UniqueID": 7,
+                              "Values": [ {
+                                "Name": "LambertAmbientColor",
+                                "Value": "[0.0508761, 0.0508761, 0.0508761]"
+                              },
+                              {
+                                "Name": "LambertAmbientFactor",
+                                "Value": "0"
+                              },
+                              {
+                                "Name": "LambertBumpFactor",
+                                "Value": "0"
+                              },
+                              {
+                                "Name": "LambertDiffuseColor",
+                                "Value": "[0.8, 0.8, 0.8]"
+                              },
+                              {
+                                "Name": "LambertDiffuseFactor",
+                                "Value": "1"
+                              },
+                              {
+                                "Name": "LambertEmissiveColor",
+                                "Value": "[0, 0, 0]"
+                              },
+                              {
+                                "Name": "LambertEmissiveFactor",
+                                "Value": "1"
+                              },
+                              {
+                                "Name": "LambertTransparencyFactor",
+                                "Value": "0"
+                              },
+                              {
+                                "Name": "PhongReflectionFactor",
+                                "Value": "0"
+                              },
+                              {
+                                "Name": "PhongShininess",
+                                "Value": "25"
+                              },
+                              {
+                                "Name": "PhongSpecularColor",
+                                "Value": "[0.8, 0.8, 0.8]"
+                              },
+                              {
+                                "Name": "PhongSpecularFactor",
+                                "Value": "0.25"
+                              },
+                              {
+                                "Name": "source",
+                                "Value": "fbx"
+                              },
+                              {
+                                "Name": "UniqueID",
+                                "Value": "1"
+                              } ]
+                            }
+                          }
+                        },
+                        "UserDataContainer": {
+                          "UniqueID": 9,
+                          "Values": [ {
+                            "Name": "attributes",
+                            "Value": "55"
+                          },
+                          {
+                            "Name": "vertex_bits",
+                            "Value": "16"
+                          },
+                          {
+                            "Name": "vertex_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "uv_0_bits",
+                            "Value": "14"
+                          },
+                          {
+                            "Name": "uv_0_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "epsilon",
+                            "Value": "0.25"
+                          },
+                          {
+                            "Name": "nphi",
+                            "Value": "720"
+                          },
+                          {
+                            "Name": "triangle_mode",
+                            "Value": "7"
+                          },
+                          {
+                            "Name": "vtx_bbl_x",
+                            "Value": "-7.84419"
+                          },
+                          {
+                            "Name": "vtx_bbl_y",
+                            "Value": "-11.4828"
+                          },
+                          {
+                            "Name": "vtx_bbl_z",
+                            "Value": "-3.63491"
+                          },
+                          {
+                            "Name": "vtx_h_x",
+                            "Value": "0.000476442"
+                          },
+                          {
+                            "Name": "vtx_h_y",
+                            "Value": "0.000701725"
+                          },
+                          {
+                            "Name": "vtx_h_z",
+                            "Value": "0.00023339"
+                          },
+                          {
+                            "Name": "uv_0_bbl_x",
+                            "Value": "0.000975251"
+                          },
+                          {
+                            "Name": "uv_0_bbl_y",
+                            "Value": "0.184036"
+                          },
+                          {
+                            "Name": "uv_0_h_x",
+                            "Value": "0.000121798"
+                          },
+                          {
+                            "Name": "uv_0_h_y",
+                            "Value": "9.94846e-05"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Normal": {
+                            "UniqueID": 11,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 25793,
+                                "Offset": 37220,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Tangent": {
+                            "UniqueID": 13,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 25793,
+                                "Offset": 123344,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "TexCoord0": {
+                            "UniqueID": 12,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 25793,
+                                "Offset": 216136,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Vertex": {
+                            "UniqueID": 10,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 25793,
+                                "Offset": 267932,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 3,
+                            "Type": "ARRAY_BUFFER"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "osg.Geometry": {
+                        "UniqueID": 16,
+                        "Name": "Chips_Material_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUShort": {
+                            "UniqueID": 18,
+                            "Indices": {
+                              "UniqueID": 19,
+                              "Array": { 
+                                "Uint16Array": { 
+                                  "File": "model_file_wireframe.binz",
+                                  "Size": 100714,
+                                  "Offset": 0,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "LINES"
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 17,
+                          "Values": [ {
+                            "Name": "wireframe",
+                            "Value": "1"
+                          },
+                          {
+                            "Name": "attributes",
+                            "Value": "1"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Vertex": {
+                            "UniqueID": 10
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                } ],
+                "Matrix": [ 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 11.8665, 0, 1 ]
+              }
+            } ],
+            "Matrix": [ 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1 ]
+          }
+        } ],
+        "Matrix": [ 0.01, 0, 0, 0, 0, 0, 0.01, 0, 0, -0.01, 0, 0, 0, 0, 0, 1 ],
+        "UserDataContainer": {
+          "UniqueID": 1,
+          "Values": [ {
+            "Name": "source",
+            "Value": "fbx"
+          },
+          {
+            "Name": "authoring_tool",
+            "Value": "Blender (stable FBX IO)"
+          } ]
+        }
+      }
+    } ]
+  }
+}

@@ -36,6 +36,14 @@ public class GameController : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+    }
+
     public void On_ContinueButtonPressed()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

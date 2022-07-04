@@ -1,0 +1,300 @@
+{
+  "uid": "7c13b90dce154fef99977148e58ab437",
+  "slug": "chips",
+  "user": {
+    "uid": "07e398cf6970447eb1d677865a3b80b2",
+    "username": "gpz3d",
+    "displayName": "gpz3d",
+    "account": "basic",
+    "profileUrl": "https://sketchfab.com/gpz3d",
+    "avatars": {
+      "uid": "1df9b0623b554b4790225c2d91895b07",
+      "images": [
+        {
+          "width": 32,
+          "height": 32,
+          "size": 1500,
+          "url": "https://media.sketchfab.com/avatars/1df9b0623b554b4790225c2d91895b07/49fc72e6ea8d42099b618363134e38a9.png"
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "size": 2697,
+          "url": "https://media.sketchfab.com/avatars/1df9b0623b554b4790225c2d91895b07/54be4590da9b466697a69a0464e701b0.png"
+        },
+        {
+          "width": 90,
+          "height": 90,
+          "size": 6880,
+          "url": "https://media.sketchfab.com/avatars/1df9b0623b554b4790225c2d91895b07/e9e3788b234e4cf494add422f9b12350.png"
+        },
+        {
+          "width": 100,
+          "height": 100,
+          "size": 8063,
+          "url": "https://media.sketchfab.com/avatars/1df9b0623b554b4790225c2d91895b07/fc333cad2d3744a0bea3ebea9e23ecec.png"
+        }
+      ]
+    },
+    "planDetail": null
+  },
+  "name": "Chips",
+  "description": "[Zip file]\n\nMesh Information:\n\n- World scale (cm): 23 height x 15.7 x 7.66\n- Subdivision-ready model\n- UV unwrapped\n\nTexture Information:\n- Texture size: 2048x2048\n- BaseColor (1024x1024 texture size, example texture)\n- Roughness\n- Normal OpenGL and DirectX\n- PNG format\n\nFormats include: \n- .obj\n- .fbx\n- .blend\n\n\nRender: Blender 3.2.0 Cycles\n\nHDRI from: hdrihaven.com\n\n\n~ If you have questions or problems, please feel free to contact me.",
+  "htmlDescription": "<p>[Zip file]</p>\n<p>Mesh Information:</p>\n<ul>\n<li>World scale (cm): 23 height x 15.7 x 7.66</li>\n<li>Subdivision-ready model</li>\n<li>UV unwrapped</li>\n</ul>\n<p>Texture Information:\n- Texture size: 2048x2048\n- BaseColor (1024x1024 texture size, example texture)\n- Roughness\n- Normal OpenGL and DirectX\n- PNG format</p>\n<p>Formats include: \n- .obj\n- .fbx\n- .blend</p>\n<p>Render: Blender 3.2.0 Cycles</p>\n<p>HDRI from: <a rel=\"nofollow noopener noreferrer\" target=\"_blank\"href=\"http://hdrihaven.com\">hdrihaven.com</a></p>\n<p>~ If you have questions or problems, please feel free to contact me.</p>",
+  "thumbnails": {
+    "uid": "fc1a19b8bd2541b9b75a619717284187",
+    "images": [
+      {
+        "uid": "2d538e26c203455ca4a39941739eca27",
+        "width": 1920,
+        "height": 1080,
+        "size": 75165,
+        "url": "https://media.sketchfab.com/models/7c13b90dce154fef99977148e58ab437/thumbnails/fc1a19b8bd2541b9b75a619717284187/8fac4a043f6947b2bb7110855ba475e9.jpeg"
+      },
+      {
+        "uid": "fa3c5649d6ac4fe6b715f34b989a2044",
+        "width": 1024,
+        "height": 576,
+        "size": 26417,
+        "url": "https://media.sketchfab.com/models/7c13b90dce154fef99977148e58ab437/thumbnails/fc1a19b8bd2541b9b75a619717284187/aa27b51b60394e949d71796b77c01ad6.jpeg"
+      },
+      {
+        "uid": "405bba81a2da41c9b661c90d9376164b",
+        "width": 720,
+        "height": 405,
+        "size": 15621,
+        "url": "https://media.sketchfab.com/models/7c13b90dce154fef99977148e58ab437/thumbnails/fc1a19b8bd2541b9b75a619717284187/8037b3c820ca4cfda00b3ebfa50fca21.jpeg"
+      },
+      {
+        "uid": "a272dd7da8af43ac8b8f8efd2491183b",
+        "width": 256,
+        "height": 144,
+        "size": 3653,
+        "url": "https://media.sketchfab.com/models/7c13b90dce154fef99977148e58ab437/thumbnails/fc1a19b8bd2541b9b75a619717284187/f5a8a6f978e44943832aa1c6663775f6.jpeg"
+      },
+      {
+        "uid": "87c2b464c7d24659a290044b1c5d9cea",
+        "width": 64,
+        "height": 36,
+        "size": 1023,
+        "url": "https://media.sketchfab.com/models/7c13b90dce154fef99977148e58ab437/thumbnails/fc1a19b8bd2541b9b75a619717284187/9efd848088cd4d0f968e1af7e3ade745.jpeg"
+      }
+    ]
+  },
+  "vertexCount": 24418,
+  "faceCount": 48832,
+  "viewCount": 12,
+  "likeCount": 1,
+  "animationCount": 0,
+  "staffpickedAt": null,
+  "publishedAt": "2022-06-21T15:01:31.59658",
+  "createdAt": "2022-06-21T14:37:25.41152",
+  "tags": [
+    "cookie",
+    "chips",
+    "potato",
+    "pack",
+    "bag",
+    "mockup",
+    "brand",
+    "package",
+    "packing",
+    "snacks",
+    "crisp",
+    "crisps",
+    "container",
+    "plastic",
+    "food-packaging",
+    "potato-chips",
+    "chips-package",
+    "chips-packet"
+  ],
+  "orgTags": [],
+  "categories": [
+    {
+      "uid": "b3631aefd82b4eeba37aa5fc0b73b05a",
+      "name": "Food & Drink",
+      "slug": "food-drink"
+    }
+  ],
+  "license": {
+    "uid": "783b685da9bf457d81e829fa283f3567",
+    "label": "Standard",
+    "fullname": "Standard",
+    "slug": "st",
+    "summary": "Standard",
+    "requirements": "Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works",
+    "url": "https://sketchfab.com/licenses",
+    "free": false,
+    "needsAttribution": false,
+    "ccClauses": null
+  },
+  "isStoreLicenseLocked": false,
+  "viewerUrl": "https://sketchfab.com/3d-models/chips-7c13b90dce154fef99977148e58ab437",
+  "embedUrl": "https://sketchfab.com/models/7c13b90dce154fef99977148e58ab437/embed",
+  "editorUrl": "https://sketchfab.com/models/7c13b90dce154fef99977148e58ab437/edit",
+  "reviewUrl": "https://sketchfab.com/models/7c13b90dce154fef99977148e58ab437/review",
+  "publicCommentCount": 0,
+  "orgCommentCount": 0,
+  "isDownloadable": false,
+  "downloadType": "store",
+  "isInspectable": true,
+  "downloadCount": 0,
+  "status": {
+    "warning": {},
+    "processing": "SUCCEEDED"
+  },
+  "isPublished": true,
+  "originalFileName": "Chips_sub1",
+  "processingStatus": 2,
+  "archiveSize": 1527036,
+  "ext": "fbx",
+  "isDeleted": false,
+  "isRestricted": false,
+  "processedAt": "2022-06-21T14:37:35.167081",
+  "files": [
+    {
+      "uid": "e62ed702ecf24c8d8a147a11d45dcc9b",
+      "flag": 0,
+      "osgjsUrl": "https://media.sketchfab.com/models/7c13b90dce154fef99977148e58ab437/949e7923aa1142cb998ca0c69c0c4067/files/e62ed702ecf24c8d8a147a11d45dcc9b/file.binz",
+      "modelSize": 199171,
+      "osgjsSize": 1540,
+      "wireframeSize": 159817,
+      "p": [
+        {
+          "v": 1,
+          "b": "nEuQ+GhHtPuCaqIAp/YLcR8Me/5VNZ+ayUQwTySI8Fq/XbeLQlRKBwdSwW5tZGsB2g9IeNVa1RF2\nwBORDaW0n7qOaqJvKO62NSSlTCmlPQA4AEIAcj7w28hFLvrIe3YNHXSesn7uiXJXAocPZc9ZUxvX\nxac2CT7+JHtC6n5j0AoUweQrBToKPrXhgMSPGTYmPn6R8kUL/l3K9aJoaOFFudurP8nd5ecZN+AB\nDIA53C2Gha2BU2U7aEeA3BIIOe7Rkpz0OdfPQxdls4+tBmJCRJT5UF6UAY2zwmiSfxjNgQZI6Xd7\nW6xZZZ7QhZd5QhRmhJU3X7UKzr9qGIrmUE1kz1lH2wLJjzYGoYBOvB1ag3K3pVtOt7yWziR3uiI3\nr7svlJm7NSDHU1bQe7Yot89N7nUvisoAkoUpgZ6F8VBBePhYYpsRJijwJiApO1BIIhpxYQyKEBuG\ngU8JxAXvLI5dYkriPAWFaBciGOhXEoMQHVlJSuv2Fy59DR3GdmijmLk8afyXlBORg2atK6rtRqIJ\nE7UCCw8=",
+          "d": true
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "quad": 24416,
+    "triangle": 0,
+    "polygon": 0,
+    "line": 0,
+    "point": 0,
+    "totalTriangle": 48832,
+    "vertexCount": 24418,
+    "hasNormal": true,
+    "hasTangent": false,
+    "hasVertexColor": false,
+    "pbrType": null,
+    "textureCount": 3,
+    "materialCount": 1,
+    "isRigged": false,
+    "morph": 0,
+    "scale": false,
+    "animation": 0,
+    "uvMapped": true,
+    "sourceFiles": {
+      "3d": [
+        {
+          "version": "",
+          "filepath": "source/Chips_sub1.fbx",
+          "filesize": 1527036,
+          "extension": "fbx",
+          "fileformat": "Autodesk FBX"
+        }
+      ],
+      "misc": [],
+      "count": 1,
+      "image": []
+    },
+    "textureFiles": [
+      {
+        "width": 1024,
+        "format": "RGBA",
+        "height": 1024,
+        "is8bit": true,
+        "filepath": "textures/Chips_BaseColor.png",
+        "filesize": 177939,
+        "extension": "png",
+        "fileformat": "Portable Network Graphics"
+      },
+      {
+        "width": 2048,
+        "format": "RGB",
+        "height": 2048,
+        "is8bit": false,
+        "filepath": "textures/Chips_Normal_DirectX.png",
+        "filesize": 136761,
+        "extension": "png",
+        "fileformat": "Portable Network Graphics"
+      },
+      {
+        "width": 2048,
+        "format": "GreyScale",
+        "height": 2048,
+        "is8bit": true,
+        "filepath": "textures/Chips_Roughness.png",
+        "filesize": 885477,
+        "extension": "png",
+        "fileformat": "Portable Network Graphics"
+      }
+    ]
+  },
+  "price": 800,
+  "inStore": true,
+  "averageRating": 0.0,
+  "reviewCount": 0,
+  "preferOriginalNormalMap": false,
+  "isDisabled": false,
+  "hasCommentsDisabled": false,
+  "exporter": null,
+  "displayStatus": "ok",
+  "version": {
+    "uid": "949e7923aa1142cb998ca0c69c0c4067",
+    "status": {
+      "warning": {},
+      "processing": "SUCCEEDED"
+    },
+    "isCurrentVersion": true,
+    "isCandidateVersion": false,
+    "createdAt": "2022-06-21T14:37:25.577914",
+    "processedAt": "2022-06-21T14:37:35.123226",
+    "reason": "upload"
+  },
+  "visibility": "public",
+  "org": null,
+  "isArEnabled": false,
+  "isArAvailable": false,
+  "archivesStatus": [
+    {
+      "type": "source",
+      "exists": true,
+      "status": "Succeeded"
+    },
+    {
+      "type": "gltf",
+      "exists": true,
+      "status": "Succeeded"
+    },
+    {
+      "type": "extra",
+      "exists": true,
+      "status": "Succeeded"
+    },
+    {
+      "type": "usdz",
+      "exists": true,
+      "status": "Succeeded"
+    },
+    {
+      "type": "gltf-ar",
+      "exists": false,
+      "status": null
+    },
+    {
+      "type": "uasset",
+      "exists": false,
+      "status": null
+    },
+    {
+      "type": "glb",
+      "exists": true,
+      "status": "Succeeded"
+    }
+  ]
+}

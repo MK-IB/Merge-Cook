@@ -80,7 +80,7 @@ public class PlayController : MonoBehaviour
                 GenerateGrid();
                 break;
             case GameState.SpawningBlock:
-                SpawnBlocks(_round++ == 0 ? 2 : 1);
+                SpawnBlocks(_round++ == 0 ? 3 : 1);
                 break;
             case GameState.WaitingInput:
                 break;
@@ -217,8 +217,6 @@ public class PlayController : MonoBehaviour
             RemoveBlock(baseBlock);
             RemoveBlock(mergingBlock);
             Vector3 pos = new Vector3(baseBlock.Node.pos.x, baseBlock.Node.pos.y, -1);
-            GameObject spawnFx = EffectsController.instance.spawnEffect;
-            Instantiate(spawnFx, pos, spawnFx.transform.rotation);
             ItemHolder.instance.SpawnItems(mergingBlock.Value, pos);
             //DOVirtual.DelayedCall(0.1f, () => { ItemHolder.instance.SpawnItems(mergingBlock.Value, pos); });
         });

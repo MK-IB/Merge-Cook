@@ -1,0 +1,407 @@
+{
+  "Generator": "OpenSceneGraph 3.5.6",
+  "Version": 9,
+  "osg.Node": {
+    "Children": [ {
+      "osg.MatrixTransform": {
+        "UniqueID": 0,
+        "Name": "494b108877a24424993e957d60454a76.fbx",
+        "Children": [ {
+          "osg.MatrixTransform": {
+            "UniqueID": 2,
+            "Name": "RootNode",
+            "Children": [ {
+              "osg.MatrixTransform": {
+                "UniqueID": 3,
+                "Name": "PotatoChip",
+                "Children": [ {
+                  "osg.Node": {
+                    "UniqueID": 4,
+                    "Name": "PotatoChip",
+                    "Children": [ {
+                      "osg.Geometry": {
+                        "UniqueID": 5,
+                        "Name": "PotatoChip_PotatoChip_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUInt": {
+                            "UniqueID": 17,
+                            "Indices": {
+                              "UniqueID": 18,
+                              "Array": { 
+                                "Uint32Array": { 
+                                  "File": "model_file.binz",
+                                  "Size": 143,
+                                  "Offset": 0,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "TRIANGLE_STRIP"
+                          }
+                        } ],
+                        "StateSet": {
+                          "osg.StateSet": {
+                            "UniqueID": 6,
+                            "AttributeList": [ {
+                              "osg.Material": {
+                                "UniqueID": 11,
+                                "Name": "PotatoChip",
+                                "Ambient": [ 0.588, 0.588, 0.588, 1],
+                                "Diffuse": [ 0.588, 0.588, 0.588, 1],
+                                "Emission": [ 0, 0, 0, 1],
+                                "Shininess": 2.82843,
+                                "Specular": [ 0.18, 0.18, 0.18, 1]
+                              }
+                            } ],
+                            "TextureAttributeList": [ [ {
+                              "osg.Texture": {
+                                "UniqueID": 8,
+                                "File": "textures/7d32e21ebfb34a8caaf3c2d690d4c9a9/58039afa45ca4a0e93f72e9149356552.png",
+                                "MagFilter": "LINEAR",
+                                "MinFilter": "LINEAR_MIPMAP_LINEAR",
+                                "WrapS": "REPEAT",
+                                "WrapT": "REPEAT"
+                              }
+                            } ],
+                            [  ],
+                            [  ],
+                            [  ],
+                            [  ],
+                            [  ],
+                            [ {
+                              "osg.Texture": {
+                                "UniqueID": 9,
+                                "File": "textures/bb84ddbc66a2448c945ee82b07802939/67d2de96527f48b282d8fc1b4bc78989.png",
+                                "MagFilter": "LINEAR",
+                                "MinFilter": "LINEAR_MIPMAP_LINEAR",
+                                "WrapS": "REPEAT",
+                                "WrapT": "REPEAT"
+                              }
+                            } ],
+                            [  ],
+                            [ {
+                              "osg.Texture": {
+                                "UniqueID": 10,
+                                "File": "textures/85483260579e4a898446135863215d32/909ca1821d824492926d9866871385d9.png",
+                                "MagFilter": "LINEAR",
+                                "MinFilter": "LINEAR_MIPMAP_LINEAR",
+                                "WrapS": "REPEAT",
+                                "WrapT": "REPEAT"
+                              }
+                            } ] ],
+                            "UserDataContainer": {
+                              "UniqueID": 7,
+                              "Values": [ {
+                                "Name": "LambertAmbientColor",
+                                "Value": "[0.588, 0.588, 0.588]"
+                              },
+                              {
+                                "Name": "LambertAmbientFactor",
+                                "Value": "1"
+                              },
+                              {
+                                "Name": "LambertBumpFactor",
+                                "Value": "1"
+                              },
+                              {
+                                "Name": "LambertDiffuseColor",
+                                "Value": "[0.588, 0.588, 0.588]"
+                              },
+                              {
+                                "Name": "LambertDiffuseFactor",
+                                "Value": "1"
+                              },
+                              {
+                                "Name": "LambertEmissiveColor",
+                                "Value": "[0, 0, 0]"
+                              },
+                              {
+                                "Name": "LambertEmissiveFactor",
+                                "Value": "0"
+                              },
+                              {
+                                "Name": "LambertTransparencyFactor",
+                                "Value": "0"
+                              },
+                              {
+                                "Name": "PhongReflectionFactor",
+                                "Value": "1"
+                              },
+                              {
+                                "Name": "PhongShininess",
+                                "Value": "2.82843"
+                              },
+                              {
+                                "Name": "PhongSpecularColor",
+                                "Value": "[0.9, 0.9, 0.9]"
+                              },
+                              {
+                                "Name": "PhongSpecularFactor",
+                                "Value": "0.2"
+                              },
+                              {
+                                "Name": "sDiffuse",
+                                "Value": "0"
+                              },
+                              {
+                                "Name": "sNormalMap",
+                                "Value": "6"
+                              },
+                              {
+                                "Name": "sShininess",
+                                "Value": "8"
+                              },
+                              {
+                                "Name": "source",
+                                "Value": "fbx"
+                              },
+                              {
+                                "Name": "UniqueID",
+                                "Value": "1"
+                              } ]
+                            }
+                          }
+                        },
+                        "UserDataContainer": {
+                          "UniqueID": 12,
+                          "Values": [ {
+                            "Name": "attributes",
+                            "Value": "55"
+                          },
+                          {
+                            "Name": "vertex_bits",
+                            "Value": "12"
+                          },
+                          {
+                            "Name": "vertex_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "uv_0_bits",
+                            "Value": "14"
+                          },
+                          {
+                            "Name": "uv_0_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "uv_1_mode",
+                            "Value": "0"
+                          },
+                          {
+                            "Name": "uv_2_mode",
+                            "Value": "0"
+                          },
+                          {
+                            "Name": "uv_3_mode",
+                            "Value": "0"
+                          },
+                          {
+                            "Name": "uv_4_mode",
+                            "Value": "0"
+                          },
+                          {
+                            "Name": "uv_5_mode",
+                            "Value": "0"
+                          },
+                          {
+                            "Name": "uv_6_bits",
+                            "Value": "14"
+                          },
+                          {
+                            "Name": "uv_6_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "uv_7_mode",
+                            "Value": "0"
+                          },
+                          {
+                            "Name": "uv_8_bits",
+                            "Value": "14"
+                          },
+                          {
+                            "Name": "uv_8_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "epsilon",
+                            "Value": "0.25"
+                          },
+                          {
+                            "Name": "nphi",
+                            "Value": "720"
+                          },
+                          {
+                            "Name": "triangle_mode",
+                            "Value": "7"
+                          },
+                          {
+                            "Name": "vtx_bbl_x",
+                            "Value": "-29.1718"
+                          },
+                          {
+                            "Name": "vtx_bbl_y",
+                            "Value": "-36.4088"
+                          },
+                          {
+                            "Name": "vtx_bbl_z",
+                            "Value": "-14.5365"
+                          },
+                          {
+                            "Name": "vtx_h_x",
+                            "Value": "0.028502"
+                          },
+                          {
+                            "Name": "vtx_h_y",
+                            "Value": "0.0355729"
+                          },
+                          {
+                            "Name": "vtx_h_z",
+                            "Value": "0.0118865"
+                          },
+                          {
+                            "Name": "uv_0_bbl_x",
+                            "Value": "0.0710382"
+                          },
+                          {
+                            "Name": "uv_0_bbl_y",
+                            "Value": "0.0782923"
+                          },
+                          {
+                            "Name": "uv_0_h_x",
+                            "Value": "0.000105651"
+                          },
+                          {
+                            "Name": "uv_0_h_y",
+                            "Value": "0.000102057"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Normal": {
+                            "UniqueID": 14,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 121,
+                                "Offset": 172,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Tangent": {
+                            "UniqueID": 16,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 121,
+                                "Offset": 508,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "TexCoord0": {
+                            "UniqueID": 15,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 121,
+                                "Offset": 992,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "TexCoord6": {
+                            "UniqueID": 15
+                          },
+                          "TexCoord8": {
+                            "UniqueID": 15
+                          },
+                          "Vertex": {
+                            "UniqueID": 13,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 121,
+                                "Offset": 1432,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 3,
+                            "Type": "ARRAY_BUFFER"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "osg.Geometry": {
+                        "UniqueID": 19,
+                        "Name": "PotatoChip_PotatoChip_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUByte": {
+                            "UniqueID": 21,
+                            "Indices": {
+                              "UniqueID": 22,
+                              "Array": { 
+                                "Uint8Array": { 
+                                  "File": "model_file_wireframe.binz",
+                                  "Size": 456,
+                                  "Offset": 0
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "LINES"
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 20,
+                          "Values": [ {
+                            "Name": "wireframe",
+                            "Value": "1"
+                          },
+                          {
+                            "Name": "attributes",
+                            "Value": "1"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Vertex": {
+                            "UniqueID": 13
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                } ],
+                "Matrix": [ 1, 0, 0, 0, 0, 2.22045e-16, -1, 0, 0, 1, 2.22045e-16, 0, 0, 0, 0, 1 ]
+              }
+            } ],
+            "Matrix": [ 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1 ]
+          }
+        } ],
+        "Matrix": [ 1, 0, 0, 0, 0, 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 1 ],
+        "UserDataContainer": {
+          "UniqueID": 1,
+          "Values": [ {
+            "Name": "source",
+            "Value": "fbx"
+          },
+          {
+            "Name": "authoring_tool",
+            "Value": "3ds Max"
+          } ]
+        }
+      }
+    } ]
+  }
+}

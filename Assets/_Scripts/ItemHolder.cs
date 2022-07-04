@@ -24,6 +24,12 @@ public class ItemHolder : MonoBehaviour
     public void SpawnItems(int index, Vector3 pos)
     {
         GameObject veg = Instantiate(vegList[index], pos, vegList[index].transform.rotation);
+        
+        if(veg.GetComponent<Item>())
+        {
+            GameObject spawnFx = EffectsController.instance.spawnFx;
+            Instantiate(spawnFx, pos, spawnFx.transform.rotation);
+        }else Instantiate(EffectsController.instance.bombSpawnFx, pos, Quaternion.identity);
         Vector3 origScale = veg.transform.localScale;
         veg.transform.DOScale(Vector3.zero, 0.2f).SetEase(Ease.InOutBounce).From().OnComplete(() =>
         {

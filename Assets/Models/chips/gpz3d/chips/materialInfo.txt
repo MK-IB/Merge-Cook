@@ -1,0 +1,16 @@
+// Generated using SketchfabRipper v1.18.0 by revetix#9971
+
+Mesh "Chips_Material_0" uses material "Material" and has UniqueID "5"
+
+Material "Material" has ID 596cfb61-2b0f-4df1-abc1-dca6903ca35d.
+	Albedo (UV0): Chips_BaseColor.png
+	Normal (Flipped Y) (UV0): Chips_Normal_DirectX.png
+	Specular F0: 0.771158959133138
+	Diffuse colour: 0.8|0.8|0.8
+	Metalness: 0
+	Roughness (UV0) (Factor=0.777243053485273): Chips_Roughness.png
+	Specular colour: 0.8|0.8|0.8
+	Diffuse intensity: 1|1|1
+	Specular hardness: 25
+	Clear coat normal (Flipped Y): 1
+	Clear coat roughness: 0.04

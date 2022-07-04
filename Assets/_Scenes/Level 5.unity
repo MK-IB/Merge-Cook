@@ -41231,6 +41231,55 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1862458401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1862458403}
+  - component: {fileID: 1862458402}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1862458402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862458401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 45cef6a251ecadf4eb4df2d2930653e5, type: 2}
+--- !u!4 &1862458403
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862458401}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.879998, y: -1.1333784, z: 3.9401217}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1892842526
 GameObject:
   m_ObjectHideFlags: 0
@@ -41340,7 +41389,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -53140,9 +53189,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1702208193}
     m_Modifications:
+    - target: {fileID: 3264502158455455745, guid: 11219aac1a9b62d4c82884477e2f3e62, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6931225045957095361, guid: 11219aac1a9b62d4c82884477e2f3e62, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6931225045957095361, guid: 11219aac1a9b62d4c82884477e2f3e62, type: 3}
       propertyPath: m_LocalPosition.x
@@ -53184,10 +53237,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7744916854780491128, guid: 11219aac1a9b62d4c82884477e2f3e62, type: 3}
-      propertyPath: movePos
-      value: 
-      objectReference: {fileID: 1065222160}
     - target: {fileID: 7744916854780491131, guid: 11219aac1a9b62d4c82884477e2f3e62, type: 3}
       propertyPath: m_Name
       value: GIRL CUSTOMER 4
@@ -53882,6 +53931,10 @@ PrefabInstance:
       value: MAIN CONTROLLER
       objectReference: {fileID: 0}
     - target: {fileID: 8764816611056020874, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
+      propertyPath: dishName
+      value: VEG. FRY
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764816611056020874, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: moneyControlledParticle
       value: 
       objectReference: {fileID: 0}
@@ -53889,6 +53942,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8764816612137142197, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 34ce7c0d1baf18b4dac27b00bdda9095, type: 3}
     - target: {fileID: 8764816612162734411, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

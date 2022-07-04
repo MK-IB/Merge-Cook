@@ -1,0 +1,260 @@
+{
+  "uid": "d348dfd2a8104ab0b8528f885d645eb3",
+  "name": "Footprint Court",
+  "isDefault": true,
+  "diffuseSPH": [
+    0.960971,
+    0.856821,
+    1.11124,
+    -0.313999,
+    -0.358144,
+    -0.625599,
+    0.0870941,
+    0.1109,
+    0.171528,
+    -0.100569,
+    -0.0498991,
+    -0.0302566,
+    0.02047,
+    0.0151743,
+    0.0182682,
+    -0.00652955,
+    -0.0188746,
+    -0.0525354,
+    0.00192822,
+    -0.0279456,
+    -0.110808,
+    -0.0180287,
+    -0.0227345,
+    -0.0422744,
+    0.0139192,
+    -0.0187345,
+    -0.0812032,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -0.000429443,
+    -9.96908E-05,
+    0.00140776,
+    0.00221837,
+    0.00143871,
+    -0.00168457,
+    -0.00227738,
+    -0.00264148,
+    -0.00436283,
+    -0.00175234,
+    -0.00154527,
+    -0.000600715,
+    -0.00155641,
+    -0.00414493,
+    -0.00521257,
+    0.0031638,
+    0.0012975,
+    0.000805156,
+    -0.00290399,
+    -0.00256653,
+    -0.00643915,
+    -0.00165625,
+    -0.00158475,
+    -0.00219462,
+    0.00526105,
+    0.0069483,
+    0.0161477
+  ],
+  "textures": [
+    {
+      "type": "thumbnail",
+      "format": "panorama",
+      "images": [
+        {
+          "uid": "210f12eb29f94e63ab65b8f577ee3086",
+          "file": "https://media.sketchfab.com/environments/d348dfd2a8104ab0b8528f885d645eb3/4f8019bfc1db497e9dd42f3b376ea522.jpg",
+          "name": "thumbnail_256.jpg",
+          "width": 256,
+          "height": 128
+        }
+      ],
+      "encoding": "srgb"
+    },
+    {
+      "type": "background",
+      "format": "cubemap",
+      "images": [
+        {
+          "uid": "ac971604bdc742d48117233bb5232235",
+          "blur": 0.15,
+          "file": "https://media.sketchfab.com/environments/d348dfd2a8104ab0b8528f885d645eb3/ef5e322c2fb8498ca33b97d59ef6dcae.bin.gz",
+          "name": "background_cubemap_64_0.15_luv.bin.gz",
+          "width": 64,
+          "height": 64,
+          "samples": 512,
+          "sizeCompressed": 41335,
+          "sizeUncompressed": 98304
+        },
+        {
+          "uid": "a0291c17dead4a1a98b67dab1889b8b0",
+          "blur": 0.1,
+          "file": "https://media.sketchfab.com/environments/d348dfd2a8104ab0b8528f885d645eb3/cea376a3ea394b24a49a6735dc521882.bin.gz",
+          "name": "background_cubemap_128_0.1_luv.bin.gz",
+          "width": 128,
+          "height": 128,
+          "samples": 512,
+          "sizeCompressed": 138263,
+          "sizeUncompressed": 393216
+        },
+        {
+          "uid": "6f6e7d09be7142c4b18bb3ea8375393e",
+          "blur": 0.055,
+          "file": "https://media.sketchfab.com/environments/d348dfd2a8104ab0b8528f885d645eb3/88e91f5fc16f420f9983b1cc333a0aa2.bin.gz",
+          "name": "background_cubemap_256_0.055_luv.bin.gz",
+          "width": 256,
+          "height": 256,
+          "samples": 512,
+          "sizeCompressed": 461182,
+          "sizeUncompressed": 1572864
+        },
+        {
+          "uid": "1297e90a9df74ae7acff2009043fe4d9",
+          "blur": 0.02,
+          "file": "https://media.sketchfab.com/environments/d348dfd2a8104ab0b8528f885d645eb3/d85884e141354846976eb0aa50882700.bin.gz",
+          "name": "background_cubemap_512_0.02_luv.bin.gz",
+          "width": 512,
+          "height": 512,
+          "samples": 512,
+          "sizeCompressed": 1725388,
+          "sizeUncompressed": 6291456
+        },
+        {
+          "uid": "1f9e8071ea05417bb4696e68b5d0343b",
+          "blur": 0.0,
+          "file": "https://media.sketchfab.com/environments/d348dfd2a8104ab0b8528f885d645eb3/7f63164ea39840859aeeecb16fb706ae.bin.gz",
+          "name": "background_cubemap_512_0.0_luv.bin.gz",
+          "width": 512,
+          "height": 512,
+          "samples": 512,
+          "sizeCompressed": 2391517,
+          "sizeUncompressed": 6291456
+        }
+      ],
+      "encoding": "luv"
+    },
+    {
+      "type": "specular_ue4",
+      "format": "panorama",
+      "images": [
+        {
+          "uid": "bd63304eb04c48628a0a763fff104def",
+          "file": "https://media.sketchfab.com/environments/d348dfd2a8104ab0b8528f885d645eb3/4a48fb24364e4e1a83686968c8b6d8bc.bin.gz",
+          "name": "specular_panorama_ue4_1024_luv.bin.gz",
+          "width": 1024,
+          "height": 1024,
+          "samples": 1024,
+          "sizeCompressed": 937684,
+          "sizeUncompressed": 4194304
+        },
+        {
+          "uid": "5add899543ce437dab151f29da37143b",
+          "file": "https://media.sketchfab.com/environments/d348dfd2a8104ab0b8528f885d645eb3/0145eae1e9184792ba00d219407b78d5.bin.gz",
+          "name": "specular_panorama_ue4_256_luv.bin.gz",
+          "width": 256,
+          "height": 256,
+          "samples": 1024,
+          "sizeCompressed": 71967,
+          "sizeUncompressed": 262144
+        }
+      ],
+      "encoding": "luv",
+      "limitSize": 32
+    },
+    {
+      "type": "specular_ue4",
+      "format": "cubemap",
+      "images": [
+        {
+          "uid": "12c2aaf7c8dc439ead8d8a55c03f7153",
+          "file": "https://media.sketchfab.com/environments/d348dfd2a8104ab0b8528f885d645eb3/6b685d57fccd4d3ea8fa12642879a1df.bin.gz",
+          "name": "specular_cubemap_ue4_256_luv.bin.gz",
+          "width": 256,
+          "height": 256,
+          "samples": 1024,
+          "sizeCompressed": 889318,
+          "sizeUncompressed": 2097144
+        },
+        {
+          "uid": "a74b47409934400d8a94a7954feff5e1",
+          "file": "https://media.sketchfab.com/environments/d348dfd2a8104ab0b8528f885d645eb3/23daa78165484417a381723c7ee135db.bin.gz",
+          "name": "specular_cubemap_ue4_64_luv.bin.gz",
+          "width": 64,
+          "height": 64,
+          "samples": 1024,
+          "sizeCompressed": 67873,
+          "sizeUncompressed": 131064
+        }
+      ],
+      "encoding": "luv",
+      "limitSize": 8
+    },
+    {
+      "type": "brdf_ue4",
+      "format": "lut",
+      "images": [
+        {
+          "uid": "f2957fb15e2641238f72914035746e5e",
+          "file": "https://media.sketchfab.com/environments/d348dfd2a8104ab0b8528f885d645eb3/583f35d60fc54cb8990240e7ce30c6ad.bin.gz",
+          "name": "brdf_ue4.bin.gz",
+          "width": 128,
+          "height": 128,
+          "samples": 1024,
+          "sizeCompressed": 59987,
+          "sizeUncompressed": 65536
+        }
+      ],
+      "encoding": "rg16"
+    }
+  ],
+  "processing": "Succeeded",
+  "brightness": 2.1402,
+  "lights": [
+    {
+      "sum": 0.0962041,
+      "area": {
+        "h": 0.113281,
+        "w": 0.0273438,
+        "x": 0.890625,
+        "y": 0.429688
+      },
+      "color": [
+        2.04944,
+        1.54894,
+        1.33003
+      ],
+      "error": 0,
+      "variance": 5.698E-06,
+      "direction": [
+        -0.618979,
+        -0.219101,
+        -0.754228
+      ],
+      "lum_ratio": 0.0302372,
+      "luminosity": 31.0583
+    }
+  ]
+}

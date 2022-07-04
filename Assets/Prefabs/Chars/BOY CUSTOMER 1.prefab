@@ -2533,6 +2533,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6958416398515378791}
     m_Modifications:
+    - target: {fileID: 918031616447774300, guid: 3ea2c9e537af52f4b8f8e1096d8e5deb, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 918031616447774301, guid: 3ea2c9e537af52f4b8f8e1096d8e5deb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 918031617278548101, guid: 3ea2c9e537af52f4b8f8e1096d8e5deb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.105
+      objectReference: {fileID: 0}
+    - target: {fileID: 918031617278548101, guid: 3ea2c9e537af52f4b8f8e1096d8e5deb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.105
+      objectReference: {fileID: 0}
+    - target: {fileID: 918031617278548101, guid: 3ea2c9e537af52f4b8f8e1096d8e5deb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.105
+      objectReference: {fileID: 0}
+    - target: {fileID: 918031617278548101, guid: 3ea2c9e537af52f4b8f8e1096d8e5deb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 918031617278548101, guid: 3ea2c9e537af52f4b8f8e1096d8e5deb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 918031617278548101, guid: 3ea2c9e537af52f4b8f8e1096d8e5deb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5402004408468311928, guid: 3ea2c9e537af52f4b8f8e1096d8e5deb, type: 3}
       propertyPath: m_Name
       value: Happy Emoji Particle

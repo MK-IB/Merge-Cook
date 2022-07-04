@@ -967,6 +967,7 @@ MonoBehaviour:
   cookedSlices: []
   customer: {fileID: 0}
   servingPot: {fileID: 0}
+  servingAngle: {x: -30, y: 0, z: 105}
 --- !u!1 &5423500592360976506
 GameObject:
   m_ObjectHideFlags: 0

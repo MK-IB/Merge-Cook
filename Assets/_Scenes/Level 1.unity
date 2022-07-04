@@ -53803,6 +53803,10 @@ PrefabInstance:
       value: MAIN CONTROLLER
       objectReference: {fileID: 0}
     - target: {fileID: 8764816611056020874, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
+      propertyPath: dishName
+      value: VEG. CURRY
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764816611056020874, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: moneyControlledParticle
       value: 
       objectReference: {fileID: 0}

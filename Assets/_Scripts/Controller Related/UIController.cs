@@ -11,11 +11,16 @@ public class UIController : MonoBehaviour
     public static UIController instance;
     
     [Header("HUD RELATED")]
+    public GameObject HUD;
     public Slider cookSlider;
     public GameObject moneyDisplayContent;
     public TextMeshProUGUI moneyCountText;
     public RectTransform moneyIcon;
     public TextMeshProUGUI gameStateIndicatorText;
+    public string dishName;
+    public GameObject bombCountPanel;
+    public bool isBombLevel;
+    public bool isStackLevel;
 
     [Header("GAMEPLAY RELATED")] 
     public GameObject preparationDoneButton;
@@ -27,7 +32,7 @@ public class UIController : MonoBehaviour
     public RectTransform moneyspawnPos;
     public GameObject winCanvas;
     public GameObject failCanvas;
-    
+
     [Header("VAR DECLARATIONS")]
     [SerializeField] public float sliderValue;
 
@@ -38,6 +43,12 @@ public class UIController : MonoBehaviour
     {
         instance = this;
     }
+
+    private void Start()
+    {
+        if(isBombLevel) bombCountPanel.SetActive(true);
+    }
+
     private void OnEnable()
     {
         MainController.GameStateChanged += GameManager_OnGameStateChanged;
@@ -57,12 +68,14 @@ public class UIController : MonoBehaviour
                 cookSlider.transform.DOScaleX(0, 0.5f).From();
                 break;
             case MainController.StateOfGame.Preparation:
-                gameStateIndicatorText.SetText("PREPARING" + ItemHolder.instance.GetCurrentDishName());
+                gameStateIndicatorText.SetText("PREPARING " + dishName);
                 break;
             case MainController.StateOfGame.Decoration:
                 gameStateIndicatorText.SetText("DECORATION");
                 CameraController.instance.decorationCamera.SetActive(true);
-                PreparingPot.instance.StartCoroutine(PreparingPot.instance.MoveForDecoration());
+                
+                if(isStackLevel) PreparingPot.instance.StartCoroutine(PreparingPot.instance.MoveStackForDecoration());
+                else PreparingPot.instance.StartCoroutine(PreparingPot.instance.MoveForDecoration());
                 break;
             case MainController.StateOfGame.Serving:
                 gameStateIndicatorText.SetText("SERVING");
@@ -73,6 +86,13 @@ public class UIController : MonoBehaviour
                 break;
             case MainController.StateOfGame.Win:
                 StartCoroutine(ShowWinUIs());
+                break;
+            case MainController.StateOfGame.Lose:
+                DOVirtual.DelayedCall(3f, () =>
+                {
+                    HUD.SetActive(false);
+                    failCanvas.SetActive(true);
+                });
                 break;
         }
     }
@@ -132,5 +152,12 @@ public class UIController : MonoBehaviour
             yield return new WaitForSeconds(waitTime);
         }
         PlayerPrefs.SetInt("money", newEarnedAmount);
+    }
+
+    int _bombCounter;
+    public void UpdateBombCounter()
+    {
+        bombCountPanel.transform.GetChild(_bombCounter++).GetChild(0).gameObject.SetActive(true);
+        if(_bombCounter >= 3) MainController.instance.SetActionType(MainController.StateOfGame.Lose);
     }
 }

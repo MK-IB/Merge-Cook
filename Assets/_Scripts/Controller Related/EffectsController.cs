@@ -7,7 +7,9 @@ public class EffectsController : MonoBehaviour
 {
     public static EffectsController instance;
     
-    public GameObject spawnEffect;
+    public GameObject spawnFx;
+    public GameObject bombSpawnFx;
+    public GameObject explosionFx;
 
     private void Awake()
     {
