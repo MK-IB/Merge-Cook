@@ -1,0 +1,903 @@
+{
+  "uid": "4bbb2e3fdaae428b85a5240d0dd5efdb",
+  "user": {
+    "uid": "35db18c5a32a410f8612cd56ac6ef9d9",
+    "username": "mauricesvay",
+    "displayName": "Maurice Svay",
+    "account": "pro",
+    "profileUrl": "https://sketchfab.com/mauricesvay",
+    "avatars": {
+      "uid": "df784e15f6224be3b35a593ea21cf630",
+      "images": [
+        {
+          "width": 90,
+          "height": 90,
+          "size": 7010,
+          "url": "https://media.sketchfab.com/avatars/df784e15f6224be3b35a593ea21cf630/81ba0f486cc24131851f7181b2eece3e.jpeg"
+        },
+        {
+          "width": 100,
+          "height": 100,
+          "size": 8090,
+          "url": "https://media.sketchfab.com/avatars/df784e15f6224be3b35a593ea21cf630/184b2f88f4fd45fd8aa85995c45491ae.jpeg"
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "size": 2488,
+          "url": "https://media.sketchfab.com/avatars/df784e15f6224be3b35a593ea21cf630/a426d0db12264d79bbf83f7ccf872340.jpeg"
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "size": 3533,
+          "url": "https://media.sketchfab.com/avatars/df784e15f6224be3b35a593ea21cf630/5e07dde876e343f0b7260974efead474.jpeg"
+        }
+      ]
+    },
+    "planDetail": {
+      "badge": "pro",
+      "title": "pro"
+    }
+  },
+  "name": "🍟 French Fries emoji (Low poly)",
+  "description": "🍔 Low poly \"French Fries\" emoji, made with Blender.  \nSimple materials, with 1024x1024 diffuse.\n\nCheckout my other models in this collection: [My 3D emojis](https://sketchfab.com/mauricesvay/collections/my-3d-emojis)",
+  "thumbnails": {
+    "uid": "2d2a99a21c59408aa806c1bc3aa856c7",
+    "images": [
+      {
+        "uid": "edf8aa9bd38e4b06b36f6c469f51e2c2",
+        "width": 1920,
+        "height": 1080,
+        "size": 97387,
+        "url": "https://media.sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/thumbnails/2d2a99a21c59408aa806c1bc3aa856c7/89d79a77a7244a8ea043b745b702604e.jpeg"
+      },
+      {
+        "uid": "c7acf276c0d048d6967639c7f2813ac1",
+        "width": 1024,
+        "height": 576,
+        "size": 30196,
+        "url": "https://media.sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/thumbnails/2d2a99a21c59408aa806c1bc3aa856c7/8fbe7d377a0f42278a36dd1a968be4b2.jpeg"
+      },
+      {
+        "uid": "bca479fea9a84159b7ac35523823f1c5",
+        "width": 720,
+        "height": 405,
+        "size": 18594,
+        "url": "https://media.sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/thumbnails/2d2a99a21c59408aa806c1bc3aa856c7/abf09e96cb3d4d46b671e5a12cb64af6.jpeg"
+      },
+      {
+        "uid": "93efb9b661f14826932f60fad785a8b3",
+        "width": 256,
+        "height": 144,
+        "size": 4457,
+        "url": "https://media.sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/thumbnails/2d2a99a21c59408aa806c1bc3aa856c7/da7563a2fcb4459d854a4743e2dc50ee.jpeg"
+      },
+      {
+        "uid": "0f664ac7f6314b04878f086ed25cf2c5",
+        "width": 64,
+        "height": 36,
+        "size": 889,
+        "url": "https://media.sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/thumbnails/2d2a99a21c59408aa806c1bc3aa856c7/85f00c2792f542938a31c779e67b479b.jpeg"
+      }
+    ]
+  },
+  "viewCount": 860,
+  "likeCount": 17,
+  "animationCount": 0,
+  "vertexCount": 450,
+  "faceCount": 824,
+  "staffpickedAt": null,
+  "publishedAt": "2018-08-20T20:29:18.207086",
+  "viewerUrl": "https://sketchfab.com/3d-models/french-fries-emoji-low-poly-4bbb2e3fdaae428b85a5240d0dd5efdb",
+  "embedUrl": "https://sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/embed",
+  "editorUrl": "https://sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/edit",
+  "license": {
+    "uid": "783b685da9bf457d81e829fa283f3567",
+    "label": "Standard",
+    "fullname": "Standard",
+    "slug": "st",
+    "summary": "Standard",
+    "requirements": "Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works",
+    "url": "https://sketchfab.com/licenses",
+    "free": false,
+    "needsAttribution": false,
+    "ccClauses": null
+  },
+  "isPublished": true,
+  "isDownloadable": false,
+  "downloadType": "store",
+  "isInspectable": true,
+  "isDeleted": false,
+  "processingStatus": 2,
+  "processedAt": "2018-08-20T20:25:11.611607",
+  "status": {
+    "warning": {},
+    "processing": "SUCCEEDED"
+  },
+  "isRestricted": false,
+  "files": [
+    {
+      "uid": "dbe502577e48448998c4ed51a7500fbf",
+      "flag": 0,
+      "osgjsUrl": "https://media.sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/0825542ed90e490db52c8c8f3e955d8b/files/dbe502577e48448998c4ed51a7500fbf/file.binz",
+      "modelSize": 6094,
+      "osgjsSize": 12013,
+      "wireframeSize": 2228,
+      "p": [
+        {
+          "v": 1,
+          "b": "nEuQ+GgbtEOCaiJBrffrVw4XG1uCp9Y02uhAF/w+0sAmAOg7AYgVWBim0R0hJEjAvQNcnmNv/Pq+\n5xl5aRwY7nhhxrW42oaZLSSSvaWUKT8AQgBGAGLHIIdSThaPHG/gkDneuSLIHuuUYsf/35NQ/iJS\nNCj/5fQnd04RVKMBSK+WrdQCjZ5wIkWiT+ECGP2i0vrQAa1yiT76XAa+Tghi9OuEUdCh3Mkh/gQ4\n9G+AQzIdAjok02FpVaEddKQR9HKQt+7hs1xCph5e5CAY0eWOYlTHoNypAfoS/e82whADUUJ0DEQB\n0aFHgyJDezQ2WLDSJqNhpW3G5mPC9OZD8mgBoT8ptQ7p0lrHdCEBi/7OXxP9n0KH8q+wQuUSxQL6\nGwsg09UPyR1Irh8gScnPlTZOdnXMVHV3ehGdUvR454gAY8cpnuyey5azhVx8vYU0POhPyjOoFOj/\nwGYBHihwSjCzPEDMkZUa5sQB5VQtOAzsL1tg5kJEGeFWfy5Qf3jIwfEzh5CUwK4noVxBu3Bzq6di\nWTV+KLDrLOYZ2hjQex4=",
+          "d": true
+        }
+      ]
+    }
+  ],
+  "options": {
+    "scene": {
+      "postProcess": {
+        "dof": {
+          "enable": false,
+          "blurFar": 0.5,
+          "blurNear": 0.5,
+          "focusPoint": [
+            0,
+            0,
+            0
+          ]
+        },
+        "ssr": {
+          "enable": false,
+          "factor": 1
+        },
+        "taa": {
+          "enable": true,
+          "transparent": true
+        },
+        "ssao": {
+          "bias": 0.0344361162,
+          "enable": true,
+          "radius": 0.1721805812,
+          "intensity": 0.5
+        },
+        "bloom": {
+          "enable": false,
+          "factor": 0,
+          "radius": 0.7,
+          "threshold": 0.5
+        },
+        "grain": {
+          "enable": true,
+          "factor": 0.15,
+          "animated": false
+        },
+        "enable": true,
+        "sharpen": {
+          "enable": true,
+          "factor": 0.1125
+        },
+        "vignette": {
+          "amount": 0.475,
+          "enable": false,
+          "hardness": 0.725
+        },
+        "toneMapping": {
+          "enable": false,
+          "method": "default",
+          "contrast": 0,
+          "exposure": 1,
+          "brightness": 0,
+          "saturation": 1
+        },
+        "colorBalance": {
+          "low": [
+            0,
+            0,
+            0
+          ],
+          "mid": [
+            0,
+            0,
+            0
+          ],
+          "high": [
+            0,
+            0,
+            0
+          ],
+          "enable": false
+        },
+        "chromaticAberration": {
+          "enable": false,
+          "factor": 0.05
+        }
+      },
+      "sssProfiles": [
+        {
+          "falloff": [
+            1,
+            0.37,
+            0.3
+          ],
+          "strength": [
+            0.48,
+            0.41,
+            0.28
+          ]
+        },
+        {
+          "falloff": [
+            0.5,
+            0.67,
+            0.6
+          ],
+          "strength": [
+            0.38,
+            0.61,
+            0.68
+          ]
+        },
+        {
+          "falloff": [
+            0.7579697625,
+            0.735272971,
+            0.0384692404
+          ],
+          "strength": [
+            0.88,
+            0.61,
+            0.28
+          ]
+        }
+      ]
+    },
+    "lighting": {
+      "enable": true,
+      "lights": [
+        {
+          "type": "DIRECTION",
+          "angle": 45,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "enable": true,
+          "ground": [
+            0.2,
+            0.2,
+            0.2
+          ],
+          "matrix": [
+            0.9503461216,
+            0.143952251,
+            -0.2758985296,
+            0,
+            0.1611358954,
+            0.5308413312,
+            0.8320112405,
+            0,
+            0.2662282337,
+            -0.8351558121,
+            0.4812871254,
+            0,
+            -6.8441629805,
+            -0.6322762966,
+            3.9906703052,
+            1
+          ],
+          "falloff": 0.04,
+          "hardness": 0.5,
+          "intensity": 0.527265100671141,
+          "shadowBias": 0.005,
+          "castShadows": true,
+          "intensityGround": 1,
+          "attachedToCamera": false
+        },
+        {
+          "type": "DIRECTION",
+          "angle": 45,
+          "color": [
+            1,
+            0.9391495027,
+            0.5088495575
+          ],
+          "enable": true,
+          "ground": [
+            0.2,
+            0.2,
+            0.2
+          ],
+          "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0.3292956155,
+            -0.9442268782,
+            0,
+            0,
+            0.9442268782,
+            0.3292956155,
+            0,
+            6.1762235226,
+            -0.6322762966,
+            3.9429257812,
+            1
+          ],
+          "falloff": 0.04,
+          "hardness": 0.5,
+          "intensity": 2.6648489933,
+          "shadowBias": 0.005,
+          "castShadows": false,
+          "intensityGround": 1,
+          "attachedToCamera": false
+        },
+        {
+          "type": "NONE",
+          "angle": 45,
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "enable": true,
+          "ground": [
+            0.3,
+            0.2,
+            0.2
+          ],
+          "matrix": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "falloff": 0.0823515378,
+          "hardness": 0.5,
+          "intensity": 1,
+          "shadowBias": 0.005,
+          "castShadows": true,
+          "intensityGround": 1,
+          "attachedToCamera": false
+        }
+      ]
+    },
+    "shading": {
+      "type": "lit",
+      "renderer": "pbr",
+      "pointSize": 2,
+      "vertexColor": {
+        "enable": false,
+        "useAlpha": false,
+        "colorSpace": "srgb"
+      }
+    },
+    "orientation": {
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "camera": {
+      "up": 1.555089,
+      "fov": 1,
+      "down": -1.555089,
+      "left": -3.141593,
+      "right": 3.141593,
+      "target": [
+        -2.1458E-06,
+        -0.6322762966,
+        -0.0223453045
+      ],
+      "zoomIn": 0,
+      "zoomOut": 929,
+      "position": [
+        -2.1458000919220029E-06,
+        -751.232391274,
+        243.86241604640003
+      ],
+      "nearFarRatio": 0.005,
+      "usePanConstraints": true,
+      "useYawConstraints": false,
+      "useZoomConstraints": false,
+      "usePitchConstraints": false,
+      "useCameraConstraints": false
+    },
+    "wireframe": {
+      "color": "000000FF",
+      "enable": false
+    },
+    "materials": {
+      "updatedAt": 15347968643,
+      "14812521-f1a1-4f46-ad14-d5892dd24da5": {
+        "id": "14812521-f1a1-4f46-ad14-d5892dd24da5",
+        "name": "Box",
+        "version": 3,
+        "channels": {
+          "AOPBR": {
+            "enable": false,
+            "factor": 1,
+            "occludeSpecular": false
+          },
+          "Matcap": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": true,
+            "factor": 1,
+            "texture": {
+              "uid": "35c4d334eded44d8a657f390954a32dd",
+              "wrapS": "REPEAT",
+              "wrapT": "REPEAT",
+              "magFilter": "LINEAR",
+              "minFilter": "LINEAR_MIPMAP_LINEAR",
+              "texCoordUnit": 0,
+              "textureTarget": "TEXTURE_2D",
+              "internalFormat": "RGB"
+            },
+            "curvature": 0
+          },
+          "BumpMap": {
+            "enable": false,
+            "factor": 1
+          },
+          "Opacity": {
+            "ior": 1.05,
+            "type": "alphaBlend",
+            "enable": true,
+            "factor": 1,
+            "invert": false,
+            "thinLayer": false,
+            "useAlbedoTint": false,
+            "refractionColor": [
+              1,
+              1,
+              1
+            ],
+            "roughnessFactor": 0,
+            "useNormalOffset": false,
+            "useMicrosurfaceTexture": true
+          },
+          "AlbedoPBR": {
+            "enable": true,
+            "factor": 1,
+            "texture": {
+              "uid": "0a7835ecaea0466fba1df6ed5f88a626",
+              "wrapS": "REPEAT",
+              "wrapT": "REPEAT",
+              "magFilter": "LINEAR",
+              "minFilter": "LINEAR_MIPMAP_LINEAR",
+              "texCoordUnit": 0,
+              "textureTarget": "TEXTURE_2D",
+              "internalFormat": "RGB"
+            }
+          },
+          "CavityPBR": {
+            "enable": false,
+            "factor": 1
+          },
+          "ClearCoat": {
+            "tint": [
+              0.914,
+              0.914,
+              0.914
+            ],
+            "enable": false,
+            "factor": 1,
+            "thickness": 5,
+            "reflectivity": 0
+          },
+          "EmitColor": {
+            "type": "additive",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": true,
+            "factor": 0
+          },
+          "NormalMap": {
+            "flipY": true,
+            "enable": false,
+            "factor": 1
+          },
+          "DiffusePBR": {
+            "enable": false,
+            "factor": 1,
+            "texture": {
+              "uid": "0a7835ecaea0466fba1df6ed5f88a626",
+              "wrapS": "REPEAT",
+              "wrapT": "REPEAT",
+              "magFilter": "LINEAR",
+              "minFilter": "LINEAR_MIPMAP_LINEAR",
+              "texCoordUnit": 0,
+              "textureTarget": "TEXTURE_2D",
+              "internalFormat": "RGB"
+            }
+          },
+          "SpecularF0": {
+            "enable": true,
+            "factor": 0
+          },
+          "SpecularPBR": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": false,
+            "factor": 0.05
+          },
+          "DiffuseColor": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": true,
+            "factor": 1
+          },
+          "Displacement": {
+            "enable": false,
+            "factor": 0
+          },
+          "MetalnessPBR": {
+            "enable": true,
+            "factor": 0
+          },
+          "RoughnessPBR": {
+            "enable": true,
+            "factor": 0.8
+          },
+          "GlossinessPBR": {
+            "enable": false,
+            "factor": 0.4
+          },
+          "SpecularColor": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": true,
+            "factor": 0.1000000015
+          },
+          "DiffuseIntensity": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": true,
+            "factor": 1
+          },
+          "SpecularHardness": {
+            "enable": true,
+            "factor": 50
+          },
+          "ClearCoatNormalMap": {
+            "flipY": true,
+            "enable": true,
+            "factor": 1
+          },
+          "ClearCoatRoughness": {
+            "enable": true,
+            "factor": 0.04
+          },
+          "SubsurfaceScattering": {
+            "enable": false,
+            "factor": 0.3443611624,
+            "profile": 1
+          },
+          "SubsurfaceTranslucency": {
+            "color": [
+              1,
+              0.36999999999999983,
+              0.29999999999999982
+            ],
+            "enable": false,
+            "factor": 1,
+            "thicknessFactor": 0.3443611624
+          }
+        },
+        "cullFace": "DISABLE",
+        "shadeless": false,
+        "reflection": 0.1,
+        "stateSetID": 3
+      },
+      "78f3d6e5-328a-44cb-a517-867dbfa2d673": {
+        "id": "78f3d6e5-328a-44cb-a517-867dbfa2d673",
+        "name": "Fries",
+        "version": 3,
+        "channels": {
+          "AOPBR": {
+            "enable": false,
+            "factor": 1,
+            "occludeSpecular": false
+          },
+          "Matcap": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": true,
+            "factor": 1,
+            "texture": {
+              "uid": "35c4d334eded44d8a657f390954a32dd",
+              "wrapS": "REPEAT",
+              "wrapT": "REPEAT",
+              "magFilter": "LINEAR",
+              "minFilter": "LINEAR_MIPMAP_LINEAR",
+              "texCoordUnit": 0,
+              "textureTarget": "TEXTURE_2D",
+              "internalFormat": "RGB"
+            },
+            "curvature": 0
+          },
+          "BumpMap": {
+            "enable": false,
+            "factor": 1
+          },
+          "Opacity": {
+            "ior": 1.05,
+            "type": "alphaBlend",
+            "enable": false,
+            "factor": 1,
+            "invert": false,
+            "thinLayer": false,
+            "useAlbedoTint": false,
+            "refractionColor": [
+              1,
+              1,
+              1
+            ],
+            "roughnessFactor": 0,
+            "useNormalOffset": false,
+            "useMicrosurfaceTexture": true
+          },
+          "AlbedoPBR": {
+            "color": [
+              1,
+              0.73046094180000032,
+              0.13286834959999996
+            ],
+            "enable": true,
+            "factor": 1
+          },
+          "CavityPBR": {
+            "enable": false,
+            "factor": 1
+          },
+          "ClearCoat": {
+            "tint": [
+              0.914,
+              0.914,
+              0.914
+            ],
+            "enable": false,
+            "factor": 1,
+            "thickness": 5,
+            "reflectivity": 0
+          },
+          "EmitColor": {
+            "type": "additive",
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": false,
+            "factor": 0
+          },
+          "NormalMap": {
+            "flipY": true,
+            "enable": false,
+            "factor": 1
+          },
+          "DiffusePBR": {
+            "color": [
+              1,
+              0.73046094180000032,
+              0.13286834959999996
+            ],
+            "enable": false,
+            "factor": 1
+          },
+          "SpecularF0": {
+            "enable": true,
+            "factor": 0
+          },
+          "SpecularPBR": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": false,
+            "factor": 0.05
+          },
+          "DiffuseColor": {
+            "color": [
+              1,
+              0.73046094180000032,
+              0.13286834959999996
+            ],
+            "enable": true,
+            "factor": 1
+          },
+          "Displacement": {
+            "enable": false,
+            "factor": 0
+          },
+          "MetalnessPBR": {
+            "enable": true,
+            "factor": 0
+          },
+          "RoughnessPBR": {
+            "enable": true,
+            "factor": 0.4
+          },
+          "GlossinessPBR": {
+            "enable": false,
+            "factor": 0.4
+          },
+          "SpecularColor": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": true,
+            "factor": 0.5
+          },
+          "DiffuseIntensity": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": true,
+            "factor": 1
+          },
+          "SpecularHardness": {
+            "enable": true,
+            "factor": 50
+          },
+          "ClearCoatNormalMap": {
+            "flipY": true,
+            "enable": true,
+            "factor": 1
+          },
+          "ClearCoatRoughness": {
+            "enable": true,
+            "factor": 0.04
+          },
+          "SubsurfaceScattering": {
+            "enable": true,
+            "factor": 0.2066166974,
+            "profile": 3
+          },
+          "SubsurfaceTranslucency": {
+            "color": [
+              0.82829211009999959,
+              0.75021492970000037,
+              0.10876182099999991
+            ],
+            "enable": true,
+            "factor": 1,
+            "thicknessFactor": 0.2754889299
+          }
+        },
+        "cullFace": "DISABLE",
+        "shadeless": false,
+        "reflection": 0.1,
+        "stateSetID": 2
+      }
+    },
+    "environment": {
+      "uid": "df380da788ee444885722735039b0c09",
+      "blur": 0.1,
+      "enable": true,
+      "exposure": 1.678720190481197,
+      "rotation": 1.0389905293,
+      "shadowBias": 0.005,
+      "shadowEnable": false,
+      "lightIntensity": 3,
+      "backgroundExposure": 1
+    },
+    "background": {
+      "uid": "51af6a870cce449eb75b0345feebaebb",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "enable": "color"
+    },
+    "version": 7,
+    "animation": {
+      "order": [],
+      "speed": 1,
+      "cycleMode": "one",
+      "initializeWithRestPose": false
+    },
+    "hotspot": {
+      "visible": true,
+      "hotspots": []
+    },
+    "vr": {
+      "floorHeight": -4.9693198204,
+      "worldFactor": 3.4436116236,
+      "displayFloor": true,
+      "initialCamera": {
+        "position": [
+          -2.1458E-06,
+          -8.8969441933,
+          -4.9693198204
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    "sound": [],
+    "ground": {},
+    "createdAt": "2018-12-16T14:14:11.982415",
+    "updatedAt": "2019-10-16T14:25:44.336411"
+  },
+  "preferOriginalNormalMap": false,
+  "inStore": true,
+  "isDisabled": false,
+  "displayStatus": "ok",
+  "visibility": "public",
+  "org": null,
+  "isArEnabled": false,
+  "version": {
+    "uid": "0825542ed90e490db52c8c8f3e955d8b",
+    "status": {
+      "warning": {},
+      "processing": "SUCCEEDED"
+    },
+    "isCurrentVersion": true,
+    "isCandidateVersion": false,
+    "createdAt": "2018-12-16T14:14:11.982415",
+    "processedAt": null,
+    "reason": "operation"
+  },
+  "soundCount": 0
+}

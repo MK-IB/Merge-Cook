@@ -53814,6 +53814,7 @@ MonoBehaviour:
   customer: {fileID: 919132149293641985}
   servingPot: {fileID: 1159524371862068058}
   servingAngle: {x: 0, y: 0, z: 95}
+  foodStack: {fileID: 0}
 --- !u!23 &3750537115229531213
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -55392,7 +55393,7 @@ PrefabInstance:
     - target: {fileID: 8764816610822901970, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: vegList.Array.data[1]
       value: 
-      objectReference: {fileID: 8349342219147936986, guid: 3ab14e81dd10f9c4284d624c63f2e2b1, type: 3}
+      objectReference: {fileID: 412005050485043603, guid: d38e414ce1ad367488e9c7ee44587115, type: 3}
     - target: {fileID: 8764816610822901970, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: vegList.Array.data[2]
       value: 
@@ -55404,7 +55405,7 @@ PrefabInstance:
     - target: {fileID: 8764816610822901970, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: vegList.Array.data[4]
       value: 
-      objectReference: {fileID: 412005050485043603, guid: d38e414ce1ad367488e9c7ee44587115, type: 3}
+      objectReference: {fileID: 8349342219147936986, guid: 3ab14e81dd10f9c4284d624c63f2e2b1, type: 3}
     - target: {fileID: 8764816610822901970, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: vegList.Array.data[5]
       value: 
@@ -55428,7 +55429,7 @@ PrefabInstance:
     - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: _blockTypes.Array.data[1].icon
       value: 
-      objectReference: {fileID: 21300000, guid: 789519246534f1845b205477d63dffc8, type: 3}
+      objectReference: {fileID: 21300000, guid: 34ce7c0d1baf18b4dac27b00bdda9095, type: 3}
     - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: _blockTypes.Array.data[2].icon
       value: 
@@ -55440,7 +55441,7 @@ PrefabInstance:
     - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: _blockTypes.Array.data[4].icon
       value: 
-      objectReference: {fileID: 21300000, guid: 34ce7c0d1baf18b4dac27b00bdda9095, type: 3}
+      objectReference: {fileID: 21300000, guid: 789519246534f1845b205477d63dffc8, type: 3}
     - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: _blockTypes.Array.data[5].icon
       value: 

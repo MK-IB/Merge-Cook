@@ -1,0 +1,373 @@
+{
+  "results": [
+    {
+      "uid": "d2ed07ceeead46ef9d32d55093b781b3",
+      "name": "FrenchFries_Roughtness.png",
+      "images": [
+        {
+          "uid": "df2ddc753fd440a586bd83f06b4513ba",
+          "size": 899,
+          "width": 64,
+          "height": 64,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/d2ed07ceeead46ef9d32d55093b781b3/df2ddc753fd440a586bd83f06b4513ba.jpeg",
+          "options": {
+            "format": "R",
+            "quality": 95
+          },
+          "createdAt": "2022-04-07T23:44:22.528798",
+          "updatedAt": "2022-04-07T23:44:22.490379",
+          "pk": 252279,
+          "pv": 1
+        },
+        {
+          "uid": "ac7ea249e1f347d29a9ef18222efd3b4",
+          "size": 2471,
+          "width": 128,
+          "height": 128,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/d2ed07ceeead46ef9d32d55093b781b3/ac7ea249e1f347d29a9ef18222efd3b4.jpeg",
+          "options": {
+            "format": "R",
+            "quality": 95
+          },
+          "createdAt": "2022-04-07T23:44:22.443338",
+          "updatedAt": "2022-04-07T23:44:22.39942",
+          "pk": 252279,
+          "pv": 1
+        },
+        {
+          "uid": "c8491ff888ee4cd69145edd2f48f009d",
+          "size": 6875,
+          "width": 256,
+          "height": 256,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/d2ed07ceeead46ef9d32d55093b781b3/c8491ff888ee4cd69145edd2f48f009d.jpeg",
+          "options": {
+            "format": "R",
+            "quality": 95
+          },
+          "createdAt": "2022-04-07T23:44:22.349943",
+          "updatedAt": "2022-04-07T23:44:22.266136",
+          "pk": 252279,
+          "pv": 1
+        },
+        {
+          "uid": "51d9d460e5104d18928101e1609b4fe1",
+          "size": 25383,
+          "width": 512,
+          "height": 512,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/d2ed07ceeead46ef9d32d55093b781b3/51d9d460e5104d18928101e1609b4fe1.jpeg",
+          "options": {
+            "format": "R",
+            "quality": 95
+          },
+          "createdAt": "2022-04-07T23:44:22.218954",
+          "updatedAt": "2022-04-07T23:44:22.166719",
+          "pk": 252279,
+          "pv": 1
+        },
+        {
+          "uid": "4b9fcd8184dc4ad0b8bd17e33971f450",
+          "size": 75140,
+          "width": 1024,
+          "height": 1024,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/d2ed07ceeead46ef9d32d55093b781b3/4b9fcd8184dc4ad0b8bd17e33971f450.jpeg",
+          "options": {
+            "format": "R",
+            "quality": 92
+          },
+          "createdAt": "2022-04-07T23:44:22.096033",
+          "updatedAt": "2022-04-07T23:44:22.029273",
+          "pk": 252279,
+          "pv": 1
+        },
+        {
+          "uid": "ed350f969c664f86af08de3d825dc140",
+          "size": 248917,
+          "width": 2048,
+          "height": 2048,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/d2ed07ceeead46ef9d32d55093b781b3/ed350f969c664f86af08de3d825dc140.jpeg",
+          "options": {
+            "format": "R",
+            "quality": 88
+          },
+          "createdAt": "2022-04-07T23:44:21.935862",
+          "updatedAt": "2022-04-07T23:44:21.812914",
+          "pk": 252279,
+          "pv": 1
+        },
+        {
+          "uid": "abfa2a1e83c04671981846fc4b104b86",
+          "size": 996805,
+          "width": 2048,
+          "height": 2048,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/d2ed07ceeead46ef9d32d55093b781b3/abfa2a1e83c04671981846fc4b104b86.png",
+          "options": {},
+          "createdAt": "2022-04-07T23:40:09.609847",
+          "updatedAt": "2022-04-07T23:40:09.421683",
+          "pk": 252279,
+          "pv": 1
+        },
+        {
+          "uid": "74ddee6ac9334b19912fba26dfa55c12",
+          "size": 531,
+          "width": 32,
+          "height": 32,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/d2ed07ceeead46ef9d32d55093b781b3/74ddee6ac9334b19912fba26dfa55c12.png",
+          "options": {},
+          "createdAt": "2022-04-07T23:40:09.289044",
+          "updatedAt": "2022-04-07T23:40:09.220359",
+          "pk": null,
+          "pv": null
+        }
+      ],
+      "colorSpace": "unknown",
+      "createdAt": "2021-10-10T09:17:14.247132",
+      "updatedAt": "2022-04-07T23:40:09.682744"
+    },
+    {
+      "uid": "22dfd4e348e4469480312cc0029efb77",
+      "name": "FrenchFries_Normal.png",
+      "images": [
+        {
+          "uid": "37a1eff64e2e467d9a0d347220f2b791",
+          "size": 592,
+          "width": 64,
+          "height": 64,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/22dfd4e348e4469480312cc0029efb77/37a1eff64e2e467d9a0d347220f2b791.jpeg",
+          "options": {
+            "format": "N",
+            "quality": 95
+          },
+          "createdAt": "2022-04-07T23:44:25.52967",
+          "updatedAt": "2022-04-07T23:44:25.436925",
+          "pk": 253112,
+          "pv": 1
+        },
+        {
+          "uid": "79f7e98fc1af42c3869e4bf4f67999a0",
+          "size": 2662,
+          "width": 128,
+          "height": 128,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/22dfd4e348e4469480312cc0029efb77/79f7e98fc1af42c3869e4bf4f67999a0.jpeg",
+          "options": {
+            "format": "N",
+            "quality": 95
+          },
+          "createdAt": "2022-04-07T23:44:25.396988",
+          "updatedAt": "2022-04-07T23:44:25.362638",
+          "pk": 253112,
+          "pv": 1
+        },
+        {
+          "uid": "95c822a1f0a8455e8d8a1d35a23bce75",
+          "size": 9509,
+          "width": 256,
+          "height": 256,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/22dfd4e348e4469480312cc0029efb77/95c822a1f0a8455e8d8a1d35a23bce75.jpeg",
+          "options": {
+            "format": "N",
+            "quality": 95
+          },
+          "createdAt": "2022-04-07T23:44:25.321138",
+          "updatedAt": "2022-04-07T23:44:25.2562",
+          "pk": 253112,
+          "pv": 1
+        },
+        {
+          "uid": "c4f8a2acdc014b9eb50ddc49b3adf069",
+          "size": 27970,
+          "width": 512,
+          "height": 512,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/22dfd4e348e4469480312cc0029efb77/c4f8a2acdc014b9eb50ddc49b3adf069.jpeg",
+          "options": {
+            "format": "N",
+            "quality": 95
+          },
+          "createdAt": "2022-04-07T23:44:25.183307",
+          "updatedAt": "2022-04-07T23:44:25.11743",
+          "pk": 253112,
+          "pv": 1
+        },
+        {
+          "uid": "40d716899aa8402fa30bbfe24b2c6361",
+          "size": 58088,
+          "width": 1024,
+          "height": 1024,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/22dfd4e348e4469480312cc0029efb77/40d716899aa8402fa30bbfe24b2c6361.jpeg",
+          "options": {
+            "format": "N",
+            "quality": 92
+          },
+          "createdAt": "2022-04-07T23:44:25.047348",
+          "updatedAt": "2022-04-07T23:44:25.001683",
+          "pk": 253112,
+          "pv": 1
+        },
+        {
+          "uid": "cc984ea65ba047199d4029898167ba47",
+          "size": 180109,
+          "width": 2048,
+          "height": 2048,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/22dfd4e348e4469480312cc0029efb77/cc984ea65ba047199d4029898167ba47.jpeg",
+          "options": {
+            "format": "N",
+            "quality": 92
+          },
+          "createdAt": "2022-04-07T23:44:24.922459",
+          "updatedAt": "2022-04-07T23:44:24.799948",
+          "pk": 253112,
+          "pv": 1
+        },
+        {
+          "uid": "12ded6acaaf74e96869035bfb2c8a55c",
+          "size": 883421,
+          "width": 2048,
+          "height": 2048,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/22dfd4e348e4469480312cc0029efb77/12ded6acaaf74e96869035bfb2c8a55c.png",
+          "options": {},
+          "createdAt": "2022-04-07T23:40:05.061814",
+          "updatedAt": "2022-04-07T23:40:04.958013",
+          "pk": 253112,
+          "pv": 1
+        },
+        {
+          "uid": "cdb9d2c268094405b8c4418d72eded37",
+          "size": 409,
+          "width": 32,
+          "height": 32,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/22dfd4e348e4469480312cc0029efb77/cdb9d2c268094405b8c4418d72eded37.png",
+          "options": {},
+          "createdAt": "2022-04-07T23:40:04.808564",
+          "updatedAt": "2022-04-07T23:40:04.764202",
+          "pk": null,
+          "pv": null
+        }
+      ],
+      "colorSpace": "unknown",
+      "createdAt": "2021-10-10T09:17:10.864348",
+      "updatedAt": "2022-04-07T23:40:05.12779"
+    },
+    {
+      "uid": "caa0b3ccdee94756af908a4e8d2f5451",
+      "name": "FrenchFries_BaseColor.png",
+      "images": [
+        {
+          "uid": "ac014ec7cd7e4a9fbfd4ee96df21f557",
+          "size": 1633,
+          "width": 64,
+          "height": 64,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/caa0b3ccdee94756af908a4e8d2f5451/ac014ec7cd7e4a9fbfd4ee96df21f557.jpeg",
+          "options": {
+            "format": "RGB",
+            "quality": 95
+          },
+          "createdAt": "2022-04-07T23:44:29.089319",
+          "updatedAt": "2022-04-07T23:44:29.03101",
+          "pk": 22767,
+          "pv": 1
+        },
+        {
+          "uid": "0369c65d1ab645c0a1904f758068ea8f",
+          "size": 4290,
+          "width": 128,
+          "height": 128,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/caa0b3ccdee94756af908a4e8d2f5451/0369c65d1ab645c0a1904f758068ea8f.jpeg",
+          "options": {
+            "format": "RGB",
+            "quality": 95
+          },
+          "createdAt": "2022-04-07T23:44:28.984503",
+          "updatedAt": "2022-04-07T23:44:28.939816",
+          "pk": 22767,
+          "pv": 1
+        },
+        {
+          "uid": "7edb2e99cd5445b59281d18c2d267e5d",
+          "size": 12098,
+          "width": 256,
+          "height": 256,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/caa0b3ccdee94756af908a4e8d2f5451/7edb2e99cd5445b59281d18c2d267e5d.jpeg",
+          "options": {
+            "format": "RGB",
+            "quality": 95
+          },
+          "createdAt": "2022-04-07T23:44:28.889038",
+          "updatedAt": "2022-04-07T23:44:28.850016",
+          "pk": 22767,
+          "pv": 1
+        },
+        {
+          "uid": "cdf8252721734c2899c6e1f0f3592d1a",
+          "size": 36591,
+          "width": 512,
+          "height": 512,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/caa0b3ccdee94756af908a4e8d2f5451/cdf8252721734c2899c6e1f0f3592d1a.jpeg",
+          "options": {
+            "format": "RGB",
+            "quality": 95
+          },
+          "createdAt": "2022-04-07T23:44:28.779388",
+          "updatedAt": "2022-04-07T23:44:28.707363",
+          "pk": 22767,
+          "pv": 1
+        },
+        {
+          "uid": "8322013526d2420181898c668637d0d6",
+          "size": 86561,
+          "width": 1024,
+          "height": 1024,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/caa0b3ccdee94756af908a4e8d2f5451/8322013526d2420181898c668637d0d6.jpeg",
+          "options": {
+            "format": "RGB",
+            "quality": 92
+          },
+          "createdAt": "2022-04-07T23:44:28.658356",
+          "updatedAt": "2022-04-07T23:44:28.566863",
+          "pk": 22767,
+          "pv": 1
+        },
+        {
+          "uid": "1721536dd0e644a394d02092d0b9247e",
+          "size": 179941,
+          "width": 2048,
+          "height": 2048,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/caa0b3ccdee94756af908a4e8d2f5451/1721536dd0e644a394d02092d0b9247e.jpeg",
+          "options": {
+            "format": "RGB",
+            "quality": 80
+          },
+          "createdAt": "2022-04-07T23:44:28.484444",
+          "updatedAt": "2022-04-07T23:44:28.39331",
+          "pk": 22767,
+          "pv": 1
+        },
+        {
+          "uid": "fbb36520c2c643ddaa92d419f77a9f14",
+          "size": 2207929,
+          "width": 2048,
+          "height": 2048,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/caa0b3ccdee94756af908a4e8d2f5451/fbb36520c2c643ddaa92d419f77a9f14.png",
+          "options": {},
+          "createdAt": "2022-04-07T23:40:07.340558",
+          "updatedAt": "2022-04-07T23:40:07.201987",
+          "pk": 22767,
+          "pv": 1
+        },
+        {
+          "uid": "51b147bb2a15456f9a8f01ee34fc8aea",
+          "size": 1508,
+          "width": 32,
+          "height": 32,
+          "url": "https://media.sketchfab.com/models/f19e5ebf21594c78b7d2090dd6926122/2abb235a8e324b868760ca018ce767b0/textures/caa0b3ccdee94756af908a4e8d2f5451/51b147bb2a15456f9a8f01ee34fc8aea.png",
+          "options": {},
+          "createdAt": "2022-04-07T23:40:07.0672",
+          "updatedAt": "2022-04-07T23:40:06.99254",
+          "pk": null,
+          "pv": null
+        }
+      ],
+      "colorSpace": "unknown",
+      "createdAt": "2021-10-10T09:17:07.073676",
+      "updatedAt": "2022-04-07T23:40:07.438331"
+    }
+  ]
+}

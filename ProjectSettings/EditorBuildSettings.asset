@@ -20,4 +20,37 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Level 5.unity
     guid: 9c48f11a4cb41fd4980081d1f6809b16
+  - enabled: 1
+    path: Assets/_Scenes/Level 6 Chicken.unity
+    guid: aaf49a4d61823aa4c85c196a4a64b413
+  - enabled: 1
+    path: Assets/_Scenes/Level 6 Poop.unity
+    guid: 8042800e6546f6d45adc9c4381878f3a
+  - enabled: 1
+    path: Assets/_Scenes/Level 7 Sandwich.unity
+    guid: d1c4de19f2e20a0418788d5ff8bce906
+  - enabled: 1
+    path: Assets/_Scenes/Level 8 Potato Chips.unity
+    guid: bdf926a430d7075419680a079b34f529
+  - enabled: 1
+    path: Assets/_Scenes/Level 9 Pizza Cocroaches.unity
+    guid: bc08d0e3c10c5664584f47d6cae296db
+  - enabled: 1
+    path: Assets/_Scenes/Level 9 Pizza.unity
+    guid: 84326badd0bd5a641ac6126fb375ed29
+  - enabled: 1
+    path: Assets/_Scenes/Level 10 Shawarma 1.unity
+    guid: 3e5cc341917cdd848bd6cc60b262fcbe
+  - enabled: 1
+    path: Assets/_Scenes/Level 10 Shawarma 2.unity
+    guid: 5da30636e66cedc43a512a50da6f26f2
+  - enabled: 1
+    path: Assets/_Scenes/Level 10 Shawarma.unity
+    guid: 8b70004912f0a38418c779ab55899f50
+  - enabled: 1
+    path: Assets/_Scenes/Level 11 Spider.unity
+    guid: d57fcf2975607f4469dd6c7be2c2f9f3
+  - enabled: 1
+    path: Assets/_Scenes/Level Bomb.unity
+    guid: 84d7390fd05dfe745b443522892c28b9
   m_configObjects: {}

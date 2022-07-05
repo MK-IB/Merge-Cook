@@ -1,0 +1,3554 @@
+{
+  "Generator": "OpenSceneGraph 3.5.6",
+  "Version": 9,
+  "osg.Node": {
+    "Children": [ {
+      "osg.Node": {
+        "UniqueID": 0,
+        "Name": "Root",
+        "Children": [ {
+          "osg.MatrixTransform": {
+            "UniqueID": 5,
+            "Name": "Fries",
+            "Children": [ {
+              "osg.MatrixTransform": {
+                "UniqueID": 6,
+                "Name": "fry.000",
+                "Children": [ {
+                  "osg.Node": {
+                    "UniqueID": 7,
+                    "Name": "GeodeCube.000",
+                    "Children": [ {
+                      "osg.Geometry": {
+                        "UniqueID": 8,
+                        "Name": "fry.000_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUInt": {
+                            "UniqueID": 16,
+                            "Indices": {
+                              "UniqueID": 17,
+                              "Array": { 
+                                "Uint32Array": { 
+                                  "File": "model_file.binz",
+                                  "Size": 15,
+                                  "Offset": 0,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "TRIANGLE_STRIP"
+                          }
+                        } ],
+                        "StateSet": {
+                          "osg.StateSet": {
+                            "UniqueID": 9,
+                            "Name": "Fries",
+                            "AttributeList": [ {
+                              "osg.Material": {
+                                "UniqueID": 11,
+                                "Name": "Fries",
+                                "Ambient": [ 0, 0, 0, 1],
+                                "Diffuse": [ 1, 0.73046, 0.13287, 1],
+                                "Emission": [ 0, 0, 0, 1],
+                                "Shininess": 12.5,
+                                "Specular": [ 0.5, 0.5, 0.5, 1],
+                                "UserDataContainer": {
+                                  "UniqueID": 12,
+                                  "Values": [ {
+                                    "Name": "source",
+                                    "Value": "blender"
+                                  },
+                                  {
+                                    "Name": "Emit",
+                                    "Value": "0.0"
+                                  },
+                                  {
+                                    "Name": "DiffuseShader",
+                                    "Value": "LAMBERT"
+                                  },
+                                  {
+                                    "Name": "SpecularHardness",
+                                    "Value": "50"
+                                  },
+                                  {
+                                    "Name": "SpecularIntensity",
+                                    "Value": "0.5"
+                                  },
+                                  {
+                                    "Name": "Ambient",
+                                    "Value": "1.0"
+                                  },
+                                  {
+                                    "Name": "DiffuseIntensity",
+                                    "Value": "1.0"
+                                  },
+                                  {
+                                    "Name": "Translucency",
+                                    "Value": "0.0"
+                                  },
+                                  {
+                                    "Name": "SpecularColor",
+                                    "Value": "[1.0, 1.0, 1.0]"
+                                  },
+                                  {
+                                    "Name": "SpecularShader",
+                                    "Value": "COOKTORR"
+                                  },
+                                  {
+                                    "Name": "DiffuseColor",
+                                    "Value": "[1.0, 0.7304609417915344, 0.13286834955215454]"
+                                  } ]
+                                }
+                              }
+                            } ],
+                            "UserDataContainer": {
+                              "UniqueID": 10,
+                              "Values": [ {
+                                "Name": "source",
+                                "Value": "blender"
+                              },
+                              {
+                                "Name": "UniqueID",
+                                "Value": "2"
+                              } ]
+                            }
+                          }
+                        },
+                        "UserDataContainer": {
+                          "UniqueID": 13,
+                          "Values": [ {
+                            "Name": "attributes",
+                            "Value": "19"
+                          },
+                          {
+                            "Name": "vertex_bits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vertex_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "epsilon",
+                            "Value": "0.25"
+                          },
+                          {
+                            "Name": "nphi",
+                            "Value": "720"
+                          },
+                          {
+                            "Name": "triangle_mode",
+                            "Value": "7"
+                          },
+                          {
+                            "Name": "vertex_obits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vtx_bbl_x",
+                            "Value": "-0.359847"
+                          },
+                          {
+                            "Name": "vtx_bbl_y",
+                            "Value": "-0.297047"
+                          },
+                          {
+                            "Name": "vtx_bbl_z",
+                            "Value": "-2.72291"
+                          },
+                          {
+                            "Name": "vtx_h_x",
+                            "Value": "0.00565669"
+                          },
+                          {
+                            "Name": "vtx_h_y",
+                            "Value": "0.00466488"
+                          },
+                          {
+                            "Name": "vtx_h_z",
+                            "Value": "0.0427379"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Normal": {
+                            "UniqueID": 15,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 20,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Vertex": {
+                            "UniqueID": 14,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 100,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 3,
+                            "Type": "ARRAY_BUFFER"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "osg.Geometry": {
+                        "UniqueID": 18,
+                        "Name": "fry.000_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUByte": {
+                            "UniqueID": 20,
+                            "Indices": {
+                              "UniqueID": 21,
+                              "Array": { 
+                                "Uint8Array": { 
+                                  "File": "model_file_wireframe.binz",
+                                  "Size": 48,
+                                  "Offset": 0
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "LINES"
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 19,
+                          "Values": [ {
+                            "Name": "wireframe",
+                            "Value": "1"
+                          },
+                          {
+                            "Name": "attributes",
+                            "Value": "1"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Vertex": {
+                            "UniqueID": 14
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                } ],
+                "Matrix": [ 0.30156, -0.95071, 0.07213, 0, 0.94247, 0.30868, 0.12829, 0, -0.14423, 0.02929, 0.98911, 0, -0.91214, 0.3512, 1.39708, 1 ]
+              }
+            },
+            {
+              "osg.MatrixTransform": {
+                "UniqueID": 22,
+                "Name": "fry.001",
+                "Children": [ {
+                  "osg.Node": {
+                    "UniqueID": 23,
+                    "Name": "GeodeCube.001",
+                    "Children": [ {
+                      "osg.Geometry": {
+                        "UniqueID": 24,
+                        "Name": "fry.001_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUInt": {
+                            "UniqueID": 28,
+                            "Indices": {
+                              "UniqueID": 29,
+                              "Array": { 
+                                "Uint32Array": { 
+                                  "File": "model_file.binz",
+                                  "Size": 15,
+                                  "Offset": 204,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "TRIANGLE_STRIP"
+                          }
+                        } ],
+                        "StateSet": {
+                          "osg.StateSet": {
+                            "UniqueID": 9
+                          }
+                        },
+                        "UserDataContainer": {
+                          "UniqueID": 25,
+                          "Values": [ {
+                            "Name": "attributes",
+                            "Value": "19"
+                          },
+                          {
+                            "Name": "vertex_bits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vertex_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "epsilon",
+                            "Value": "0.25"
+                          },
+                          {
+                            "Name": "nphi",
+                            "Value": "720"
+                          },
+                          {
+                            "Name": "triangle_mode",
+                            "Value": "7"
+                          },
+                          {
+                            "Name": "vertex_obits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vtx_bbl_x",
+                            "Value": "-0.359847"
+                          },
+                          {
+                            "Name": "vtx_bbl_y",
+                            "Value": "-0.297047"
+                          },
+                          {
+                            "Name": "vtx_bbl_z",
+                            "Value": "-2.72291"
+                          },
+                          {
+                            "Name": "vtx_h_x",
+                            "Value": "0.00565669"
+                          },
+                          {
+                            "Name": "vtx_h_y",
+                            "Value": "0.00466488"
+                          },
+                          {
+                            "Name": "vtx_h_z",
+                            "Value": "0.0427379"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Normal": {
+                            "UniqueID": 27,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 224,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Vertex": {
+                            "UniqueID": 26,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 304,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 3,
+                            "Type": "ARRAY_BUFFER"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "osg.Geometry": {
+                        "UniqueID": 30,
+                        "Name": "fry.001_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUByte": {
+                            "UniqueID": 32,
+                            "Indices": {
+                              "UniqueID": 33,
+                              "Array": { 
+                                "Uint8Array": { 
+                                  "File": "model_file_wireframe.binz",
+                                  "Size": 48,
+                                  "Offset": 48
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "LINES"
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 31,
+                          "Values": [ {
+                            "Name": "wireframe",
+                            "Value": "1"
+                          },
+                          {
+                            "Name": "attributes",
+                            "Value": "1"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Vertex": {
+                            "UniqueID": 26
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                } ],
+                "Matrix": [ -0.36577, -0.93005, -0.03492, 0, 0.93055, -0.36613, 0.00443, 0, -0.01691, -0.03088, 0.99938, 0, -0.36289, 0.3512, 1.80394, 1 ]
+              }
+            },
+            {
+              "osg.MatrixTransform": {
+                "UniqueID": 34,
+                "Name": "fry.002",
+                "Children": [ {
+                  "osg.Node": {
+                    "UniqueID": 35,
+                    "Name": "GeodeCube.002",
+                    "Children": [ {
+                      "osg.Geometry": {
+                        "UniqueID": 36,
+                        "Name": "fry.002_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUInt": {
+                            "UniqueID": 40,
+                            "Indices": {
+                              "UniqueID": 41,
+                              "Array": { 
+                                "Uint32Array": { 
+                                  "File": "model_file.binz",
+                                  "Size": 15,
+                                  "Offset": 408,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "TRIANGLE_STRIP"
+                          }
+                        } ],
+                        "StateSet": {
+                          "osg.StateSet": {
+                            "UniqueID": 9
+                          }
+                        },
+                        "UserDataContainer": {
+                          "UniqueID": 37,
+                          "Values": [ {
+                            "Name": "attributes",
+                            "Value": "19"
+                          },
+                          {
+                            "Name": "vertex_bits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vertex_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "epsilon",
+                            "Value": "0.25"
+                          },
+                          {
+                            "Name": "nphi",
+                            "Value": "720"
+                          },
+                          {
+                            "Name": "triangle_mode",
+                            "Value": "7"
+                          },
+                          {
+                            "Name": "vertex_obits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vtx_bbl_x",
+                            "Value": "-0.359847"
+                          },
+                          {
+                            "Name": "vtx_bbl_y",
+                            "Value": "-0.297047"
+                          },
+                          {
+                            "Name": "vtx_bbl_z",
+                            "Value": "-2.72291"
+                          },
+                          {
+                            "Name": "vtx_h_x",
+                            "Value": "0.00565669"
+                          },
+                          {
+                            "Name": "vtx_h_y",
+                            "Value": "0.00466488"
+                          },
+                          {
+                            "Name": "vtx_h_z",
+                            "Value": "0.0427379"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Normal": {
+                            "UniqueID": 39,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 428,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Vertex": {
+                            "UniqueID": 38,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 508,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 3,
+                            "Type": "ARRAY_BUFFER"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "osg.Geometry": {
+                        "UniqueID": 42,
+                        "Name": "fry.002_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUByte": {
+                            "UniqueID": 44,
+                            "Indices": {
+                              "UniqueID": 45,
+                              "Array": { 
+                                "Uint8Array": { 
+                                  "File": "model_file_wireframe.binz",
+                                  "Size": 48,
+                                  "Offset": 96
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "LINES"
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 43,
+                          "Values": [ {
+                            "Name": "wireframe",
+                            "Value": "1"
+                          },
+                          {
+                            "Name": "attributes",
+                            "Value": "1"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Vertex": {
+                            "UniqueID": 38
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                } ],
+                "Matrix": [ 0.31003, -0.95071, 0.0048, 0, 0.94781, 0.30868, -0.0798, 0, 0.07439, 0.02929, 0.9968, 0, 0.91871, 0.3512, 1.66154, 1 ]
+              }
+            },
+            {
+              "osg.MatrixTransform": {
+                "UniqueID": 46,
+                "Name": "fry.003",
+                "Children": [ {
+                  "osg.Node": {
+                    "UniqueID": 47,
+                    "Name": "GeodeCube.003",
+                    "Children": [ {
+                      "osg.Geometry": {
+                        "UniqueID": 48,
+                        "Name": "fry.003_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUInt": {
+                            "UniqueID": 52,
+                            "Indices": {
+                              "UniqueID": 53,
+                              "Array": { 
+                                "Uint32Array": { 
+                                  "File": "model_file.binz",
+                                  "Size": 15,
+                                  "Offset": 612,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "TRIANGLE_STRIP"
+                          }
+                        } ],
+                        "StateSet": {
+                          "osg.StateSet": {
+                            "UniqueID": 9
+                          }
+                        },
+                        "UserDataContainer": {
+                          "UniqueID": 49,
+                          "Values": [ {
+                            "Name": "attributes",
+                            "Value": "19"
+                          },
+                          {
+                            "Name": "vertex_bits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vertex_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "epsilon",
+                            "Value": "0.25"
+                          },
+                          {
+                            "Name": "nphi",
+                            "Value": "720"
+                          },
+                          {
+                            "Name": "triangle_mode",
+                            "Value": "7"
+                          },
+                          {
+                            "Name": "vertex_obits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vtx_bbl_x",
+                            "Value": "-0.359847"
+                          },
+                          {
+                            "Name": "vtx_bbl_y",
+                            "Value": "-0.297047"
+                          },
+                          {
+                            "Name": "vtx_bbl_z",
+                            "Value": "-2.72291"
+                          },
+                          {
+                            "Name": "vtx_h_x",
+                            "Value": "0.00565669"
+                          },
+                          {
+                            "Name": "vtx_h_y",
+                            "Value": "0.00466488"
+                          },
+                          {
+                            "Name": "vtx_h_z",
+                            "Value": "0.0427379"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Normal": {
+                            "UniqueID": 51,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 632,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Vertex": {
+                            "UniqueID": 50,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 712,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 3,
+                            "Type": "ARRAY_BUFFER"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "osg.Geometry": {
+                        "UniqueID": 54,
+                        "Name": "fry.003_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUByte": {
+                            "UniqueID": 56,
+                            "Indices": {
+                              "UniqueID": 57,
+                              "Array": { 
+                                "Uint8Array": { 
+                                  "File": "model_file_wireframe.binz",
+                                  "Size": 48,
+                                  "Offset": 144
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "LINES"
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 55,
+                          "Values": [ {
+                            "Name": "wireframe",
+                            "Value": "1"
+                          },
+                          {
+                            "Name": "attributes",
+                            "Value": "1"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Vertex": {
+                            "UniqueID": 50
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                } ],
+                "Matrix": [ 0.29251, -0.95071, 0.10287, 0, 0.9242, 0.30868, 0.22487, 0, -0.24554, 0.02929, 0.96894, 0, -1.50209, 0.3512, 0.78679, 1 ]
+              }
+            },
+            {
+              "osg.MatrixTransform": {
+                "UniqueID": 58,
+                "Name": "fry.004",
+                "Children": [ {
+                  "osg.Node": {
+                    "UniqueID": 59,
+                    "Name": "GeodeCube.004",
+                    "Children": [ {
+                      "osg.Geometry": {
+                        "UniqueID": 60,
+                        "Name": "fry.004_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUInt": {
+                            "UniqueID": 64,
+                            "Indices": {
+                              "UniqueID": 65,
+                              "Array": { 
+                                "Uint32Array": { 
+                                  "File": "model_file.binz",
+                                  "Size": 15,
+                                  "Offset": 816,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "TRIANGLE_STRIP"
+                          }
+                        } ],
+                        "StateSet": {
+                          "osg.StateSet": {
+                            "UniqueID": 9
+                          }
+                        },
+                        "UserDataContainer": {
+                          "UniqueID": 61,
+                          "Values": [ {
+                            "Name": "attributes",
+                            "Value": "19"
+                          },
+                          {
+                            "Name": "vertex_bits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vertex_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "epsilon",
+                            "Value": "0.25"
+                          },
+                          {
+                            "Name": "nphi",
+                            "Value": "720"
+                          },
+                          {
+                            "Name": "triangle_mode",
+                            "Value": "7"
+                          },
+                          {
+                            "Name": "vertex_obits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vtx_bbl_x",
+                            "Value": "-0.359847"
+                          },
+                          {
+                            "Name": "vtx_bbl_y",
+                            "Value": "-0.297047"
+                          },
+                          {
+                            "Name": "vtx_bbl_z",
+                            "Value": "-2.72291"
+                          },
+                          {
+                            "Name": "vtx_h_x",
+                            "Value": "0.00565669"
+                          },
+                          {
+                            "Name": "vtx_h_y",
+                            "Value": "0.00466488"
+                          },
+                          {
+                            "Name": "vtx_h_z",
+                            "Value": "0.0427379"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Normal": {
+                            "UniqueID": 63,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 836,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Vertex": {
+                            "UniqueID": 62,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 916,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 3,
+                            "Type": "ARRAY_BUFFER"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "osg.Geometry": {
+                        "UniqueID": 66,
+                        "Name": "fry.004_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUByte": {
+                            "UniqueID": 68,
+                            "Indices": {
+                              "UniqueID": 69,
+                              "Array": { 
+                                "Uint8Array": { 
+                                  "File": "model_file_wireframe.binz",
+                                  "Size": 48,
+                                  "Offset": 192
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "LINES"
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 67,
+                          "Values": [ {
+                            "Name": "wireframe",
+                            "Value": "1"
+                          },
+                          {
+                            "Name": "attributes",
+                            "Value": "1"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Vertex": {
+                            "UniqueID": 62
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                } ],
+                "Matrix": [ 0.28619, -0.9575, 0.036, 0, 0.90994, 0.28337, 0.30283, 0, -0.30016, -0.05391, 0.95236, 0, -2.13272, 0.3512, 0.68508, 1 ]
+              }
+            },
+            {
+              "osg.MatrixTransform": {
+                "UniqueID": 70,
+                "Name": "fry.005",
+                "Children": [ {
+                  "osg.Node": {
+                    "UniqueID": 71,
+                    "Name": "GeodeCube.005",
+                    "Children": [ {
+                      "osg.Geometry": {
+                        "UniqueID": 72,
+                        "Name": "fry.005_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUInt": {
+                            "UniqueID": 76,
+                            "Indices": {
+                              "UniqueID": 77,
+                              "Array": { 
+                                "Uint32Array": { 
+                                  "File": "model_file.binz",
+                                  "Size": 15,
+                                  "Offset": 1020,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "TRIANGLE_STRIP"
+                          }
+                        } ],
+                        "StateSet": {
+                          "osg.StateSet": {
+                            "UniqueID": 9
+                          }
+                        },
+                        "UserDataContainer": {
+                          "UniqueID": 73,
+                          "Values": [ {
+                            "Name": "attributes",
+                            "Value": "19"
+                          },
+                          {
+                            "Name": "vertex_bits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vertex_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "epsilon",
+                            "Value": "0.25"
+                          },
+                          {
+                            "Name": "nphi",
+                            "Value": "720"
+                          },
+                          {
+                            "Name": "triangle_mode",
+                            "Value": "7"
+                          },
+                          {
+                            "Name": "vertex_obits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vtx_bbl_x",
+                            "Value": "-0.359847"
+                          },
+                          {
+                            "Name": "vtx_bbl_y",
+                            "Value": "-0.297047"
+                          },
+                          {
+                            "Name": "vtx_bbl_z",
+                            "Value": "-2.72291"
+                          },
+                          {
+                            "Name": "vtx_h_x",
+                            "Value": "0.00565669"
+                          },
+                          {
+                            "Name": "vtx_h_y",
+                            "Value": "0.00466488"
+                          },
+                          {
+                            "Name": "vtx_h_z",
+                            "Value": "0.0427379"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Normal": {
+                            "UniqueID": 75,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 1040,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Vertex": {
+                            "UniqueID": 74,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 1120,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 3,
+                            "Type": "ARRAY_BUFFER"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "osg.Geometry": {
+                        "UniqueID": 78,
+                        "Name": "fry.005_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUByte": {
+                            "UniqueID": 80,
+                            "Indices": {
+                              "UniqueID": 81,
+                              "Array": { 
+                                "Uint8Array": { 
+                                  "File": "model_file_wireframe.binz",
+                                  "Size": 48,
+                                  "Offset": 240
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "LINES"
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 79,
+                          "Values": [ {
+                            "Name": "wireframe",
+                            "Value": "1"
+                          },
+                          {
+                            "Name": "attributes",
+                            "Value": "1"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Vertex": {
+                            "UniqueID": 74
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                } ],
+                "Matrix": [ 0.3062, -0.95047, 0.05332, 0, 0.90994, 0.30868, 0.27698, 0, -0.27972, -0.0363, 0.95939, 0, -1.07489, -0.25699, 0.4766, 1 ]
+              }
+            },
+            {
+              "osg.MatrixTransform": {
+                "UniqueID": 82,
+                "Name": "fry.006",
+                "Children": [ {
+                  "osg.Node": {
+                    "UniqueID": 83,
+                    "Name": "GeodeCube.006",
+                    "Children": [ {
+                      "osg.Geometry": {
+                        "UniqueID": 84,
+                        "Name": "fry.006_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUInt": {
+                            "UniqueID": 88,
+                            "Indices": {
+                              "UniqueID": 89,
+                              "Array": { 
+                                "Uint32Array": { 
+                                  "File": "model_file.binz",
+                                  "Size": 15,
+                                  "Offset": 1224,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "TRIANGLE_STRIP"
+                          }
+                        } ],
+                        "StateSet": {
+                          "osg.StateSet": {
+                            "UniqueID": 9
+                          }
+                        },
+                        "UserDataContainer": {
+                          "UniqueID": 85,
+                          "Values": [ {
+                            "Name": "attributes",
+                            "Value": "19"
+                          },
+                          {
+                            "Name": "vertex_bits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vertex_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "epsilon",
+                            "Value": "0.25"
+                          },
+                          {
+                            "Name": "nphi",
+                            "Value": "720"
+                          },
+                          {
+                            "Name": "triangle_mode",
+                            "Value": "7"
+                          },
+                          {
+                            "Name": "vertex_obits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vtx_bbl_x",
+                            "Value": "-0.359847"
+                          },
+                          {
+                            "Name": "vtx_bbl_y",
+                            "Value": "-0.297047"
+                          },
+                          {
+                            "Name": "vtx_bbl_z",
+                            "Value": "-2.72291"
+                          },
+                          {
+                            "Name": "vtx_h_x",
+                            "Value": "0.00565669"
+                          },
+                          {
+                            "Name": "vtx_h_y",
+                            "Value": "0.00466488"
+                          },
+                          {
+                            "Name": "vtx_h_z",
+                            "Value": "0.0427379"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Normal": {
+                            "UniqueID": 87,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 1244,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Vertex": {
+                            "UniqueID": 86,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 1324,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 3,
+                            "Type": "ARRAY_BUFFER"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "osg.Geometry": {
+                        "UniqueID": 90,
+                        "Name": "fry.006_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUByte": {
+                            "UniqueID": 92,
+                            "Indices": {
+                              "UniqueID": 93,
+                              "Array": { 
+                                "Uint8Array": { 
+                                  "File": "model_file_wireframe.binz",
+                                  "Size": 48,
+                                  "Offset": 288
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "LINES"
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 91,
+                          "Values": [ {
+                            "Name": "wireframe",
+                            "Value": "1"
+                          },
+                          {
+                            "Name": "attributes",
+                            "Value": "1"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Vertex": {
+                            "UniqueID": 86
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                } ],
+                "Matrix": [ 0.8744, 0.47384, -0.10438, 0, -0.46522, 0.87986, 0.09704, 0, 0.13782, -0.0363, 0.98979, 0, 1.36626, -0.25699, 1.31066, 1 ]
+              }
+            },
+            {
+              "osg.MatrixTransform": {
+                "UniqueID": 94,
+                "Name": "fry.007",
+                "Children": [ {
+                  "osg.Node": {
+                    "UniqueID": 95,
+                    "Name": "GeodeCube.007",
+                    "Children": [ {
+                      "osg.Geometry": {
+                        "UniqueID": 96,
+                        "Name": "fry.007_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUInt": {
+                            "UniqueID": 100,
+                            "Indices": {
+                              "UniqueID": 101,
+                              "Array": { 
+                                "Uint32Array": { 
+                                  "File": "model_file.binz",
+                                  "Size": 15,
+                                  "Offset": 1428,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "TRIANGLE_STRIP"
+                          }
+                        } ],
+                        "StateSet": {
+                          "osg.StateSet": {
+                            "UniqueID": 9
+                          }
+                        },
+                        "UserDataContainer": {
+                          "UniqueID": 97,
+                          "Values": [ {
+                            "Name": "attributes",
+                            "Value": "19"
+                          },
+                          {
+                            "Name": "vertex_bits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vertex_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "epsilon",
+                            "Value": "0.25"
+                          },
+                          {
+                            "Name": "nphi",
+                            "Value": "720"
+                          },
+                          {
+                            "Name": "triangle_mode",
+                            "Value": "7"
+                          },
+                          {
+                            "Name": "vertex_obits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vtx_bbl_x",
+                            "Value": "-0.359847"
+                          },
+                          {
+                            "Name": "vtx_bbl_y",
+                            "Value": "-0.297047"
+                          },
+                          {
+                            "Name": "vtx_bbl_z",
+                            "Value": "-2.72291"
+                          },
+                          {
+                            "Name": "vtx_h_x",
+                            "Value": "0.00565669"
+                          },
+                          {
+                            "Name": "vtx_h_y",
+                            "Value": "0.00466488"
+                          },
+                          {
+                            "Name": "vtx_h_z",
+                            "Value": "0.0427379"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Normal": {
+                            "UniqueID": 99,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 1448,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Vertex": {
+                            "UniqueID": 98,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 1528,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 3,
+                            "Type": "ARRAY_BUFFER"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "osg.Geometry": {
+                        "UniqueID": 102,
+                        "Name": "fry.007_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUByte": {
+                            "UniqueID": 104,
+                            "Indices": {
+                              "UniqueID": 105,
+                              "Array": { 
+                                "Uint8Array": { 
+                                  "File": "model_file_wireframe.binz",
+                                  "Size": 48,
+                                  "Offset": 336
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "LINES"
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 103,
+                          "Values": [ {
+                            "Name": "wireframe",
+                            "Value": "1"
+                          },
+                          {
+                            "Name": "attributes",
+                            "Value": "1"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Vertex": {
+                            "UniqueID": 98
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                } ],
+                "Matrix": [ 0.81506, 0.4484, -0.36689, 0, -0.49487, 0.86812, -0.03838, 0, 0.30129, 0.21285, 0.92947, 0, 1.93586, -0.25699, 0.82243, 1 ]
+              }
+            },
+            {
+              "osg.MatrixTransform": {
+                "UniqueID": 106,
+                "Name": "fry.008",
+                "Children": [ {
+                  "osg.Node": {
+                    "UniqueID": 107,
+                    "Name": "GeodeCube.008",
+                    "Children": [ {
+                      "osg.Geometry": {
+                        "UniqueID": 108,
+                        "Name": "fry.008_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUInt": {
+                            "UniqueID": 112,
+                            "Indices": {
+                              "UniqueID": 113,
+                              "Array": { 
+                                "Uint32Array": { 
+                                  "File": "model_file.binz",
+                                  "Size": 15,
+                                  "Offset": 1632,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "TRIANGLE_STRIP"
+                          }
+                        } ],
+                        "StateSet": {
+                          "osg.StateSet": {
+                            "UniqueID": 9
+                          }
+                        },
+                        "UserDataContainer": {
+                          "UniqueID": 109,
+                          "Values": [ {
+                            "Name": "attributes",
+                            "Value": "19"
+                          },
+                          {
+                            "Name": "vertex_bits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vertex_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "epsilon",
+                            "Value": "0.25"
+                          },
+                          {
+                            "Name": "nphi",
+                            "Value": "720"
+                          },
+                          {
+                            "Name": "triangle_mode",
+                            "Value": "7"
+                          },
+                          {
+                            "Name": "vertex_obits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vtx_bbl_x",
+                            "Value": "-0.359847"
+                          },
+                          {
+                            "Name": "vtx_bbl_y",
+                            "Value": "-0.297047"
+                          },
+                          {
+                            "Name": "vtx_bbl_z",
+                            "Value": "-2.72291"
+                          },
+                          {
+                            "Name": "vtx_h_x",
+                            "Value": "0.00565669"
+                          },
+                          {
+                            "Name": "vtx_h_y",
+                            "Value": "0.00466488"
+                          },
+                          {
+                            "Name": "vtx_h_z",
+                            "Value": "0.0427379"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Normal": {
+                            "UniqueID": 111,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 1652,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Vertex": {
+                            "UniqueID": 110,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 1732,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 3,
+                            "Type": "ARRAY_BUFFER"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "osg.Geometry": {
+                        "UniqueID": 114,
+                        "Name": "fry.008_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUByte": {
+                            "UniqueID": 116,
+                            "Indices": {
+                              "UniqueID": 117,
+                              "Array": { 
+                                "Uint8Array": { 
+                                  "File": "model_file_wireframe.binz",
+                                  "Size": 48,
+                                  "Offset": 384
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "LINES"
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 115,
+                          "Values": [ {
+                            "Name": "wireframe",
+                            "Value": "1"
+                          },
+                          {
+                            "Name": "attributes",
+                            "Value": "1"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Vertex": {
+                            "UniqueID": 110
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                } ],
+                "Matrix": [ 0.86378, 0.46415, 0.19608, 0, -0.41413, 0.87566, -0.24843, 0, -0.28701, 0.13338, 0.9486, 0, 1.0769, -0.69114, 1.44974, 1 ]
+              }
+            },
+            {
+              "osg.MatrixTransform": {
+                "UniqueID": 118,
+                "Name": "fry.009",
+                "Children": [ {
+                  "osg.Node": {
+                    "UniqueID": 119,
+                    "Name": "GeodeCube.009",
+                    "Children": [ {
+                      "osg.Geometry": {
+                        "UniqueID": 120,
+                        "Name": "fry.009_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUInt": {
+                            "UniqueID": 124,
+                            "Indices": {
+                              "UniqueID": 125,
+                              "Array": { 
+                                "Uint32Array": { 
+                                  "File": "model_file.binz",
+                                  "Size": 15,
+                                  "Offset": 1836,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "TRIANGLE_STRIP"
+                          }
+                        } ],
+                        "StateSet": {
+                          "osg.StateSet": {
+                            "UniqueID": 9
+                          }
+                        },
+                        "UserDataContainer": {
+                          "UniqueID": 121,
+                          "Values": [ {
+                            "Name": "attributes",
+                            "Value": "19"
+                          },
+                          {
+                            "Name": "vertex_bits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vertex_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "epsilon",
+                            "Value": "0.25"
+                          },
+                          {
+                            "Name": "nphi",
+                            "Value": "720"
+                          },
+                          {
+                            "Name": "triangle_mode",
+                            "Value": "7"
+                          },
+                          {
+                            "Name": "vertex_obits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vtx_bbl_x",
+                            "Value": "-0.359847"
+                          },
+                          {
+                            "Name": "vtx_bbl_y",
+                            "Value": "-0.297047"
+                          },
+                          {
+                            "Name": "vtx_bbl_z",
+                            "Value": "-2.72291"
+                          },
+                          {
+                            "Name": "vtx_h_x",
+                            "Value": "0.00565669"
+                          },
+                          {
+                            "Name": "vtx_h_y",
+                            "Value": "0.00466488"
+                          },
+                          {
+                            "Name": "vtx_h_z",
+                            "Value": "0.0427379"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Normal": {
+                            "UniqueID": 123,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 1856,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Vertex": {
+                            "UniqueID": 122,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 1936,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 3,
+                            "Type": "ARRAY_BUFFER"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "osg.Geometry": {
+                        "UniqueID": 126,
+                        "Name": "fry.009_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUByte": {
+                            "UniqueID": 128,
+                            "Indices": {
+                              "UniqueID": 129,
+                              "Array": { 
+                                "Uint8Array": { 
+                                  "File": "model_file_wireframe.binz",
+                                  "Size": 48,
+                                  "Offset": 432
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "LINES"
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 127,
+                          "Values": [ {
+                            "Name": "wireframe",
+                            "Value": "1"
+                          },
+                          {
+                            "Name": "attributes",
+                            "Value": "1"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Vertex": {
+                            "UniqueID": 122
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                } ],
+                "Matrix": [ 0.81506, 0.4484, -0.36689, 0, -0.49487, 0.86812, -0.03838, 0, 0.30129, 0.21285, 0.92947, 0, 2.30203, -0.94415, 0.39523, 1 ]
+              }
+            },
+            {
+              "osg.MatrixTransform": {
+                "UniqueID": 130,
+                "Name": "fry.010",
+                "Children": [ {
+                  "osg.Node": {
+                    "UniqueID": 131,
+                    "Name": "GeodeCube.010",
+                    "Children": [ {
+                      "osg.Geometry": {
+                        "UniqueID": 132,
+                        "Name": "fry.010_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUInt": {
+                            "UniqueID": 136,
+                            "Indices": {
+                              "UniqueID": 137,
+                              "Array": { 
+                                "Uint32Array": { 
+                                  "File": "model_file.binz",
+                                  "Size": 15,
+                                  "Offset": 2040,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "TRIANGLE_STRIP"
+                          }
+                        } ],
+                        "StateSet": {
+                          "osg.StateSet": {
+                            "UniqueID": 9
+                          }
+                        },
+                        "UserDataContainer": {
+                          "UniqueID": 133,
+                          "Values": [ {
+                            "Name": "attributes",
+                            "Value": "19"
+                          },
+                          {
+                            "Name": "vertex_bits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vertex_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "epsilon",
+                            "Value": "0.25"
+                          },
+                          {
+                            "Name": "nphi",
+                            "Value": "720"
+                          },
+                          {
+                            "Name": "triangle_mode",
+                            "Value": "7"
+                          },
+                          {
+                            "Name": "vertex_obits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vtx_bbl_x",
+                            "Value": "-0.359847"
+                          },
+                          {
+                            "Name": "vtx_bbl_y",
+                            "Value": "-0.297047"
+                          },
+                          {
+                            "Name": "vtx_bbl_z",
+                            "Value": "-2.72291"
+                          },
+                          {
+                            "Name": "vtx_h_x",
+                            "Value": "0.00565669"
+                          },
+                          {
+                            "Name": "vtx_h_y",
+                            "Value": "0.00466488"
+                          },
+                          {
+                            "Name": "vtx_h_z",
+                            "Value": "0.0427379"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Normal": {
+                            "UniqueID": 135,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 2060,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Vertex": {
+                            "UniqueID": 134,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 2140,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 3,
+                            "Type": "ARRAY_BUFFER"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "osg.Geometry": {
+                        "UniqueID": 138,
+                        "Name": "fry.010_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUByte": {
+                            "UniqueID": 140,
+                            "Indices": {
+                              "UniqueID": 141,
+                              "Array": { 
+                                "Uint8Array": { 
+                                  "File": "model_file_wireframe.binz",
+                                  "Size": 48,
+                                  "Offset": 480
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "LINES"
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 139,
+                          "Values": [ {
+                            "Name": "wireframe",
+                            "Value": "1"
+                          },
+                          {
+                            "Name": "attributes",
+                            "Value": "1"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Vertex": {
+                            "UniqueID": 134
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                } ],
+                "Matrix": [ 0.89308, 0.4484, -0.0366, 0, -0.44489, 0.86812, -0.2201, 0, -0.06692, 0.21285, 0.97479, 0, 0.12534, -0.94415, 0.21215, 1 ]
+              }
+            },
+            {
+              "osg.MatrixTransform": {
+                "UniqueID": 142,
+                "Name": "fry.011",
+                "Children": [ {
+                  "osg.Node": {
+                    "UniqueID": 143,
+                    "Name": "GeodeCube.011",
+                    "Children": [ {
+                      "osg.Geometry": {
+                        "UniqueID": 144,
+                        "Name": "fry.011_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUInt": {
+                            "UniqueID": 148,
+                            "Indices": {
+                              "UniqueID": 149,
+                              "Array": { 
+                                "Uint32Array": { 
+                                  "File": "model_file.binz",
+                                  "Size": 15,
+                                  "Offset": 2244,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "TRIANGLE_STRIP"
+                          }
+                        } ],
+                        "StateSet": {
+                          "osg.StateSet": {
+                            "UniqueID": 9
+                          }
+                        },
+                        "UserDataContainer": {
+                          "UniqueID": 145,
+                          "Values": [ {
+                            "Name": "attributes",
+                            "Value": "19"
+                          },
+                          {
+                            "Name": "vertex_bits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vertex_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "epsilon",
+                            "Value": "0.25"
+                          },
+                          {
+                            "Name": "nphi",
+                            "Value": "720"
+                          },
+                          {
+                            "Name": "triangle_mode",
+                            "Value": "7"
+                          },
+                          {
+                            "Name": "vertex_obits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vtx_bbl_x",
+                            "Value": "-0.359847"
+                          },
+                          {
+                            "Name": "vtx_bbl_y",
+                            "Value": "-0.297047"
+                          },
+                          {
+                            "Name": "vtx_bbl_z",
+                            "Value": "-2.72291"
+                          },
+                          {
+                            "Name": "vtx_h_x",
+                            "Value": "0.00565669"
+                          },
+                          {
+                            "Name": "vtx_h_y",
+                            "Value": "0.00466488"
+                          },
+                          {
+                            "Name": "vtx_h_z",
+                            "Value": "0.0427379"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Normal": {
+                            "UniqueID": 147,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 2264,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Vertex": {
+                            "UniqueID": 146,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 2344,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 3,
+                            "Type": "ARRAY_BUFFER"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "osg.Geometry": {
+                        "UniqueID": 150,
+                        "Name": "fry.011_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUByte": {
+                            "UniqueID": 152,
+                            "Indices": {
+                              "UniqueID": 153,
+                              "Array": { 
+                                "Uint8Array": { 
+                                  "File": "model_file_wireframe.binz",
+                                  "Size": 48,
+                                  "Offset": 528
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "LINES"
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 151,
+                          "Values": [ {
+                            "Name": "wireframe",
+                            "Value": "1"
+                          },
+                          {
+                            "Name": "attributes",
+                            "Value": "1"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Vertex": {
+                            "UniqueID": 146
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                } ],
+                "Matrix": [ 0.89308, 0.4484, -0.0366, 0, -0.44489, 0.86812, -0.2201, 0, -0.06692, 0.21285, 0.97479, 0, -0.7494, -0.94415, 0.68003, 1 ]
+              }
+            },
+            {
+              "osg.MatrixTransform": {
+                "UniqueID": 154,
+                "Name": "fry.012",
+                "Children": [ {
+                  "osg.Node": {
+                    "UniqueID": 155,
+                    "Name": "GeodeCube.012",
+                    "Children": [ {
+                      "osg.Geometry": {
+                        "UniqueID": 156,
+                        "Name": "fry.012_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUInt": {
+                            "UniqueID": 160,
+                            "Indices": {
+                              "UniqueID": 161,
+                              "Array": { 
+                                "Uint32Array": { 
+                                  "File": "model_file.binz",
+                                  "Size": 15,
+                                  "Offset": 2448,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "TRIANGLE_STRIP"
+                          }
+                        } ],
+                        "StateSet": {
+                          "osg.StateSet": {
+                            "UniqueID": 9
+                          }
+                        },
+                        "UserDataContainer": {
+                          "UniqueID": 157,
+                          "Values": [ {
+                            "Name": "attributes",
+                            "Value": "19"
+                          },
+                          {
+                            "Name": "vertex_bits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vertex_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "epsilon",
+                            "Value": "0.25"
+                          },
+                          {
+                            "Name": "nphi",
+                            "Value": "720"
+                          },
+                          {
+                            "Name": "triangle_mode",
+                            "Value": "7"
+                          },
+                          {
+                            "Name": "vertex_obits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vtx_bbl_x",
+                            "Value": "-0.359847"
+                          },
+                          {
+                            "Name": "vtx_bbl_y",
+                            "Value": "-0.297047"
+                          },
+                          {
+                            "Name": "vtx_bbl_z",
+                            "Value": "-2.72291"
+                          },
+                          {
+                            "Name": "vtx_h_x",
+                            "Value": "0.00565669"
+                          },
+                          {
+                            "Name": "vtx_h_y",
+                            "Value": "0.00466488"
+                          },
+                          {
+                            "Name": "vtx_h_z",
+                            "Value": "0.0427379"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Normal": {
+                            "UniqueID": 159,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 2468,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Vertex": {
+                            "UniqueID": 158,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 2548,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 3,
+                            "Type": "ARRAY_BUFFER"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "osg.Geometry": {
+                        "UniqueID": 162,
+                        "Name": "fry.012_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUByte": {
+                            "UniqueID": 164,
+                            "Indices": {
+                              "UniqueID": 165,
+                              "Array": { 
+                                "Uint8Array": { 
+                                  "File": "model_file_wireframe.binz",
+                                  "Size": 48,
+                                  "Offset": 576
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "LINES"
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 163,
+                          "Values": [ {
+                            "Name": "wireframe",
+                            "Value": "1"
+                          },
+                          {
+                            "Name": "attributes",
+                            "Value": "1"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Vertex": {
+                            "UniqueID": 158
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                } ],
+                "Matrix": [ 0.89037, 0.4484, 0.07856, 0, -0.41289, 0.86812, -0.27548, 0, -0.19172, 0.21285, 0.95809, 0, -2.68198, -0.94415, -0.47951, 1 ]
+              }
+            },
+            {
+              "osg.MatrixTransform": {
+                "UniqueID": 166,
+                "Name": "fry.013",
+                "Children": [ {
+                  "osg.Node": {
+                    "UniqueID": 167,
+                    "Name": "GeodeCube.013",
+                    "Children": [ {
+                      "osg.Geometry": {
+                        "UniqueID": 168,
+                        "Name": "fry.013_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUInt": {
+                            "UniqueID": 172,
+                            "Indices": {
+                              "UniqueID": 173,
+                              "Array": { 
+                                "Uint32Array": { 
+                                  "File": "model_file.binz",
+                                  "Size": 15,
+                                  "Offset": 2652,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "TRIANGLE_STRIP"
+                          }
+                        } ],
+                        "StateSet": {
+                          "osg.StateSet": {
+                            "UniqueID": 9
+                          }
+                        },
+                        "UserDataContainer": {
+                          "UniqueID": 169,
+                          "Values": [ {
+                            "Name": "attributes",
+                            "Value": "19"
+                          },
+                          {
+                            "Name": "vertex_bits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vertex_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "epsilon",
+                            "Value": "0.25"
+                          },
+                          {
+                            "Name": "nphi",
+                            "Value": "720"
+                          },
+                          {
+                            "Name": "triangle_mode",
+                            "Value": "7"
+                          },
+                          {
+                            "Name": "vertex_obits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vtx_bbl_x",
+                            "Value": "-0.359847"
+                          },
+                          {
+                            "Name": "vtx_bbl_y",
+                            "Value": "-0.297047"
+                          },
+                          {
+                            "Name": "vtx_bbl_z",
+                            "Value": "-2.72291"
+                          },
+                          {
+                            "Name": "vtx_h_x",
+                            "Value": "0.00565669"
+                          },
+                          {
+                            "Name": "vtx_h_y",
+                            "Value": "0.00466488"
+                          },
+                          {
+                            "Name": "vtx_h_z",
+                            "Value": "0.0427379"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Normal": {
+                            "UniqueID": 171,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 2672,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Vertex": {
+                            "UniqueID": 170,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 2752,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 3,
+                            "Type": "ARRAY_BUFFER"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "osg.Geometry": {
+                        "UniqueID": 174,
+                        "Name": "fry.013_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUByte": {
+                            "UniqueID": 176,
+                            "Indices": {
+                              "UniqueID": 177,
+                              "Array": { 
+                                "Uint8Array": { 
+                                  "File": "model_file_wireframe.binz",
+                                  "Size": 48,
+                                  "Offset": 624
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "LINES"
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 175,
+                          "Values": [ {
+                            "Name": "wireframe",
+                            "Value": "1"
+                          },
+                          {
+                            "Name": "attributes",
+                            "Value": "1"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Vertex": {
+                            "UniqueID": 170
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                } ],
+                "Matrix": [ 0.89361, 0.44554, 0.05441, 0, -0.44073, 0.89393, -0.08159, 0, -0.08499, 0.04892, 0.99518, 0, -1.86826, -1.0601, -0.2354, 1 ]
+              }
+            },
+            {
+              "osg.MatrixTransform": {
+                "UniqueID": 178,
+                "Name": "fry.014",
+                "Children": [ {
+                  "osg.Node": {
+                    "UniqueID": 179,
+                    "Name": "GeodeCube.014",
+                    "Children": [ {
+                      "osg.Geometry": {
+                        "UniqueID": 180,
+                        "Name": "fry.014_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUInt": {
+                            "UniqueID": 184,
+                            "Indices": {
+                              "UniqueID": 185,
+                              "Array": { 
+                                "Uint32Array": { 
+                                  "File": "model_file.binz",
+                                  "Size": 15,
+                                  "Offset": 2856,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "TRIANGLE_STRIP"
+                          }
+                        } ],
+                        "StateSet": {
+                          "osg.StateSet": {
+                            "UniqueID": 9
+                          }
+                        },
+                        "UserDataContainer": {
+                          "UniqueID": 181,
+                          "Values": [ {
+                            "Name": "attributes",
+                            "Value": "19"
+                          },
+                          {
+                            "Name": "vertex_bits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vertex_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "epsilon",
+                            "Value": "0.25"
+                          },
+                          {
+                            "Name": "nphi",
+                            "Value": "720"
+                          },
+                          {
+                            "Name": "triangle_mode",
+                            "Value": "7"
+                          },
+                          {
+                            "Name": "vertex_obits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vtx_bbl_x",
+                            "Value": "-0.359847"
+                          },
+                          {
+                            "Name": "vtx_bbl_y",
+                            "Value": "-0.297047"
+                          },
+                          {
+                            "Name": "vtx_bbl_z",
+                            "Value": "-2.72291"
+                          },
+                          {
+                            "Name": "vtx_h_x",
+                            "Value": "0.00565669"
+                          },
+                          {
+                            "Name": "vtx_h_y",
+                            "Value": "0.00466488"
+                          },
+                          {
+                            "Name": "vtx_h_z",
+                            "Value": "0.0427379"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Normal": {
+                            "UniqueID": 183,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 2876,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Vertex": {
+                            "UniqueID": 182,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 2956,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 3,
+                            "Type": "ARRAY_BUFFER"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "osg.Geometry": {
+                        "UniqueID": 186,
+                        "Name": "fry.014_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUByte": {
+                            "UniqueID": 188,
+                            "Indices": {
+                              "UniqueID": 189,
+                              "Array": { 
+                                "Uint8Array": { 
+                                  "File": "model_file_wireframe.binz",
+                                  "Size": 48,
+                                  "Offset": 672
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "LINES"
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 187,
+                          "Values": [ {
+                            "Name": "wireframe",
+                            "Value": "1"
+                          },
+                          {
+                            "Name": "attributes",
+                            "Value": "1"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Vertex": {
+                            "UniqueID": 182
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                } ],
+                "Matrix": [ 0.89361, 0.43872, 0.0948, 0, -0.44073, 0.89764, 0.00025, 0, -0.08499, -0.042, 0.9955, 0, -1.12113, -1.1679, -0.92706, 1 ]
+              }
+            },
+            {
+              "osg.MatrixTransform": {
+                "UniqueID": 190,
+                "Name": "fry.015",
+                "Children": [ {
+                  "osg.Node": {
+                    "UniqueID": 191,
+                    "Name": "GeodeCube.015",
+                    "Children": [ {
+                      "osg.Geometry": {
+                        "UniqueID": 192,
+                        "Name": "fry.015_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUInt": {
+                            "UniqueID": 196,
+                            "Indices": {
+                              "UniqueID": 197,
+                              "Array": { 
+                                "Uint32Array": { 
+                                  "File": "model_file.binz",
+                                  "Size": 15,
+                                  "Offset": 3060,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "TRIANGLE_STRIP"
+                          }
+                        } ],
+                        "StateSet": {
+                          "osg.StateSet": {
+                            "UniqueID": 9
+                          }
+                        },
+                        "UserDataContainer": {
+                          "UniqueID": 193,
+                          "Values": [ {
+                            "Name": "attributes",
+                            "Value": "19"
+                          },
+                          {
+                            "Name": "vertex_bits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vertex_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "epsilon",
+                            "Value": "0.25"
+                          },
+                          {
+                            "Name": "nphi",
+                            "Value": "720"
+                          },
+                          {
+                            "Name": "triangle_mode",
+                            "Value": "7"
+                          },
+                          {
+                            "Name": "vertex_obits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vtx_bbl_x",
+                            "Value": "-0.359847"
+                          },
+                          {
+                            "Name": "vtx_bbl_y",
+                            "Value": "-0.297047"
+                          },
+                          {
+                            "Name": "vtx_bbl_z",
+                            "Value": "-2.72291"
+                          },
+                          {
+                            "Name": "vtx_h_x",
+                            "Value": "0.00565669"
+                          },
+                          {
+                            "Name": "vtx_h_y",
+                            "Value": "0.00466488"
+                          },
+                          {
+                            "Name": "vtx_h_z",
+                            "Value": "0.0427379"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Normal": {
+                            "UniqueID": 195,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 3080,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Vertex": {
+                            "UniqueID": 194,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 3160,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 3,
+                            "Type": "ARRAY_BUFFER"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "osg.Geometry": {
+                        "UniqueID": 198,
+                        "Name": "fry.015_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUByte": {
+                            "UniqueID": 200,
+                            "Indices": {
+                              "UniqueID": 201,
+                              "Array": { 
+                                "Uint8Array": { 
+                                  "File": "model_file_wireframe.binz",
+                                  "Size": 48,
+                                  "Offset": 720
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "LINES"
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 199,
+                          "Values": [ {
+                            "Name": "wireframe",
+                            "Value": "1"
+                          },
+                          {
+                            "Name": "attributes",
+                            "Value": "1"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Vertex": {
+                            "UniqueID": 194
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                } ],
+                "Matrix": [ 0.89802, 0.42067, -0.12882, 0, -0.43624, 0.88939, -0.13667, 0, 0.05708, 0.17893, 0.9822, 0, 1.77311, -1.32782, 0.29352, 1 ]
+              }
+            },
+            {
+              "osg.MatrixTransform": {
+                "UniqueID": 202,
+                "Name": "fry.016",
+                "Children": [ {
+                  "osg.Node": {
+                    "UniqueID": 203,
+                    "Name": "GeodeCube.016",
+                    "Children": [ {
+                      "osg.Geometry": {
+                        "UniqueID": 204,
+                        "Name": "fry.016_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUInt": {
+                            "UniqueID": 208,
+                            "Indices": {
+                              "UniqueID": 209,
+                              "Array": { 
+                                "Uint32Array": { 
+                                  "File": "model_file.binz",
+                                  "Size": 15,
+                                  "Offset": 3264,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "TRIANGLE_STRIP"
+                          }
+                        } ],
+                        "StateSet": {
+                          "osg.StateSet": {
+                            "UniqueID": 9
+                          }
+                        },
+                        "UserDataContainer": {
+                          "UniqueID": 205,
+                          "Values": [ {
+                            "Name": "attributes",
+                            "Value": "19"
+                          },
+                          {
+                            "Name": "vertex_bits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vertex_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "epsilon",
+                            "Value": "0.25"
+                          },
+                          {
+                            "Name": "nphi",
+                            "Value": "720"
+                          },
+                          {
+                            "Name": "triangle_mode",
+                            "Value": "7"
+                          },
+                          {
+                            "Name": "vertex_obits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vtx_bbl_x",
+                            "Value": "-0.359847"
+                          },
+                          {
+                            "Name": "vtx_bbl_y",
+                            "Value": "-0.297047"
+                          },
+                          {
+                            "Name": "vtx_bbl_z",
+                            "Value": "-2.72291"
+                          },
+                          {
+                            "Name": "vtx_h_x",
+                            "Value": "0.00565669"
+                          },
+                          {
+                            "Name": "vtx_h_y",
+                            "Value": "0.00466488"
+                          },
+                          {
+                            "Name": "vtx_h_z",
+                            "Value": "0.0427379"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Normal": {
+                            "UniqueID": 207,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 3284,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Vertex": {
+                            "UniqueID": 206,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 3364,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 3,
+                            "Type": "ARRAY_BUFFER"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "osg.Geometry": {
+                        "UniqueID": 210,
+                        "Name": "fry.016_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUByte": {
+                            "UniqueID": 212,
+                            "Indices": {
+                              "UniqueID": 213,
+                              "Array": { 
+                                "Uint8Array": { 
+                                  "File": "model_file_wireframe.binz",
+                                  "Size": 48,
+                                  "Offset": 768
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "LINES"
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 211,
+                          "Values": [ {
+                            "Name": "wireframe",
+                            "Value": "1"
+                          },
+                          {
+                            "Name": "attributes",
+                            "Value": "1"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Vertex": {
+                            "UniqueID": 206
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                } ],
+                "Matrix": [ 0.88644, 0.44693, -0.12033, 0, -0.42891, 0.89091, 0.14937, 0, 0.17396, -0.08079, 0.98143, 0, 2.28169, -1.32782, -1.06946, 1 ]
+              }
+            },
+            {
+              "osg.MatrixTransform": {
+                "UniqueID": 214,
+                "Name": "fry.017",
+                "Children": [ {
+                  "osg.Node": {
+                    "UniqueID": 215,
+                    "Name": "GeodeCube.017",
+                    "Children": [ {
+                      "osg.Geometry": {
+                        "UniqueID": 216,
+                        "Name": "fry.017_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUInt": {
+                            "UniqueID": 220,
+                            "Indices": {
+                              "UniqueID": 221,
+                              "Array": { 
+                                "Uint32Array": { 
+                                  "File": "model_file.binz",
+                                  "Size": 15,
+                                  "Offset": 3468,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "TRIANGLE_STRIP"
+                          }
+                        } ],
+                        "StateSet": {
+                          "osg.StateSet": {
+                            "UniqueID": 9
+                          }
+                        },
+                        "UserDataContainer": {
+                          "UniqueID": 217,
+                          "Values": [ {
+                            "Name": "attributes",
+                            "Value": "19"
+                          },
+                          {
+                            "Name": "vertex_bits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vertex_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "epsilon",
+                            "Value": "0.25"
+                          },
+                          {
+                            "Name": "nphi",
+                            "Value": "720"
+                          },
+                          {
+                            "Name": "triangle_mode",
+                            "Value": "7"
+                          },
+                          {
+                            "Name": "vertex_obits",
+                            "Value": "8"
+                          },
+                          {
+                            "Name": "vtx_bbl_x",
+                            "Value": "-0.359847"
+                          },
+                          {
+                            "Name": "vtx_bbl_y",
+                            "Value": "-0.297047"
+                          },
+                          {
+                            "Name": "vtx_bbl_z",
+                            "Value": "-2.72291"
+                          },
+                          {
+                            "Name": "vtx_h_x",
+                            "Value": "0.00565669"
+                          },
+                          {
+                            "Name": "vtx_h_y",
+                            "Value": "0.00466488"
+                          },
+                          {
+                            "Name": "vtx_h_z",
+                            "Value": "0.0427379"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Normal": {
+                            "UniqueID": 219,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 3488,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Vertex": {
+                            "UniqueID": 218,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 24,
+                                "Offset": 3568,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 3,
+                            "Type": "ARRAY_BUFFER"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "osg.Geometry": {
+                        "UniqueID": 222,
+                        "Name": "fry.017_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUByte": {
+                            "UniqueID": 224,
+                            "Indices": {
+                              "UniqueID": 225,
+                              "Array": { 
+                                "Uint8Array": { 
+                                  "File": "model_file_wireframe.binz",
+                                  "Size": 48,
+                                  "Offset": 816
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "LINES"
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 223,
+                          "Values": [ {
+                            "Name": "wireframe",
+                            "Value": "1"
+                          },
+                          {
+                            "Name": "attributes",
+                            "Value": "1"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Vertex": {
+                            "UniqueID": 218
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                } ],
+                "Matrix": [ 0.79384, 0.4054, -0.36633, 0, -0.4571, 0.88938, -0.00628, 0, 0.17851, 0.09522, 0.49222, 0, 0.66858, -1.6672, -0.16209, 1 ]
+              }
+            } ],
+            "Matrix": [ 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1 ]
+          }
+        },
+        {
+          "osg.MatrixTransform": {
+            "UniqueID": 226,
+            "Name": "Box",
+            "Children": [ {
+              "osg.Node": {
+                "UniqueID": 227,
+                "Name": "GeodePlane.000",
+                "Children": [ {
+                  "osg.Geometry": {
+                    "UniqueID": 228,
+                    "Name": "Box_0",
+                    "PrimitiveSetList": [ {
+                      "DrawElementsUInt": {
+                        "UniqueID": 238,
+                        "Indices": {
+                          "UniqueID": 239,
+                          "Array": { 
+                            "Uint32Array": { 
+                              "File": "model_file.binz",
+                              "Size": 560,
+                              "Offset": 3672,
+                              "Encoding": "varint"
+                            }
+                          },
+                          "ItemSize": 1,
+                          "Type": "ELEMENT_ARRAY_BUFFER"
+                        },
+                        "Mode": "TRIANGLE_STRIP"
+                      }
+                    },
+                    {
+                      "DrawElementsUShort": {
+                        "UniqueID": 240,
+                        "Indices": {
+                          "UniqueID": 241,
+                          "Array": { 
+                            "Uint16Array": { 
+                              "File": "model_file.binz",
+                              "Size": 24,
+                              "Offset": 4368,
+                              "Encoding": "varint"
+                            }
+                          },
+                          "ItemSize": 1,
+                          "Type": "ELEMENT_ARRAY_BUFFER"
+                        },
+                        "Mode": "TRIANGLES"
+                      }
+                    } ],
+                    "StateSet": {
+                      "osg.StateSet": {
+                        "UniqueID": 229,
+                        "Name": "Box",
+                        "AttributeList": [ {
+                          "osg.Material": {
+                            "UniqueID": 231,
+                            "Name": "Box",
+                            "Ambient": [ 0, 0, 0, 1],
+                            "Diffuse": [ 0.78354, 0.04374, 0.0331, 1],
+                            "Emission": [ 0, 0, 0, 1],
+                            "Shininess": 12.5,
+                            "Specular": [ 0.1, 0.1, 0.1, 1],
+                            "UserDataContainer": {
+                              "UniqueID": 232,
+                              "Values": [ {
+                                "Name": "source",
+                                "Value": "blender"
+                              },
+                              {
+                                "Name": "Emit",
+                                "Value": "0.0"
+                              },
+                              {
+                                "Name": "DiffuseShader",
+                                "Value": "LAMBERT"
+                              },
+                              {
+                                "Name": "SpecularHardness",
+                                "Value": "50"
+                              },
+                              {
+                                "Name": "SpecularIntensity",
+                                "Value": "0.10000000149011612"
+                              },
+                              {
+                                "Name": "Ambient",
+                                "Value": "1.0"
+                              },
+                              {
+                                "Name": "DiffuseIntensity",
+                                "Value": "1.0"
+                              },
+                              {
+                                "Name": "Translucency",
+                                "Value": "0.0"
+                              },
+                              {
+                                "Name": "SpecularColor",
+                                "Value": "[1.0, 1.0, 1.0]"
+                              },
+                              {
+                                "Name": "SpecularShader",
+                                "Value": "COOKTORR"
+                              },
+                              {
+                                "Name": "DiffuseColor",
+                                "Value": "[0.7835380434989929, 0.04373503103852272, 0.033104777336120605]"
+                              } ]
+                            }
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 230,
+                          "Values": [ {
+                            "Name": "source",
+                            "Value": "blender"
+                          },
+                          {
+                            "Name": "00_UseAlpha",
+                            "Value": "true"
+                          },
+                          {
+                            "Name": "00_UsePremultiplyAlpha",
+                            "Value": "false"
+                          },
+                          {
+                            "Name": "00_BlendType",
+                            "Value": "MIX"
+                          },
+                          {
+                            "Name": "00_DiffuseColor",
+                            "Value": "1.0"
+                          },
+                          {
+                            "Name": "UniqueID",
+                            "Value": "3"
+                          } ]
+                        }
+                      }
+                    },
+                    "UserDataContainer": {
+                      "UniqueID": 233,
+                      "Values": [ {
+                        "Name": "attributes",
+                        "Value": "55"
+                      },
+                      {
+                        "Name": "vertex_bits",
+                        "Value": "12"
+                      },
+                      {
+                        "Name": "vertex_mode",
+                        "Value": "3"
+                      },
+                      {
+                        "Name": "uv_0_bits",
+                        "Value": "14"
+                      },
+                      {
+                        "Name": "uv_0_mode",
+                        "Value": "3"
+                      },
+                      {
+                        "Name": "epsilon",
+                        "Value": "0.25"
+                      },
+                      {
+                        "Name": "nphi",
+                        "Value": "720"
+                      },
+                      {
+                        "Name": "triangle_mode",
+                        "Value": "7"
+                      },
+                      {
+                        "Name": "vtx_bbl_x",
+                        "Value": "-4.42884"
+                      },
+                      {
+                        "Name": "vtx_bbl_y",
+                        "Value": "-2.46167"
+                      },
+                      {
+                        "Name": "vtx_bbl_z",
+                        "Value": "-4.96932"
+                      },
+                      {
+                        "Name": "vtx_h_x",
+                        "Value": "0.00432715"
+                      },
+                      {
+                        "Name": "vtx_h_y",
+                        "Value": "0.00178739"
+                      },
+                      {
+                        "Name": "vtx_h_z",
+                        "Value": "0.00483339"
+                      },
+                      {
+                        "Name": "uv_0_bbl_x",
+                        "Value": "0.0222"
+                      },
+                      {
+                        "Name": "uv_0_bbl_y",
+                        "Value": "0.01528"
+                      },
+                      {
+                        "Name": "uv_0_h_x",
+                        "Value": "0.00011806"
+                      },
+                      {
+                        "Name": "uv_0_h_y",
+                        "Value": "0.000119409"
+                      } ]
+                    },
+                    "VertexAttributeList": {
+                      "Normal": {
+                        "UniqueID": 235,
+                        "Array": { 
+                          "Uint32Array": { 
+                            "File": "model_file.binz",
+                            "Size": 480,
+                            "Offset": 4400,
+                            "Encoding": "varint"
+                          }
+                        },
+                        "ItemSize": 2,
+                        "Type": "ARRAY_BUFFER"
+                      },
+                      "Tangent": {
+                        "UniqueID": 237,
+                        "Array": { 
+                          "Uint32Array": { 
+                            "File": "model_file.binz",
+                            "Size": 480,
+                            "Offset": 6192,
+                            "Encoding": "varint"
+                          }
+                        },
+                        "ItemSize": 2,
+                        "Type": "ARRAY_BUFFER"
+                      },
+                      "TexCoord0": {
+                        "UniqueID": 236,
+                        "Array": { 
+                          "Int32Array": { 
+                            "File": "model_file.binz",
+                            "Size": 480,
+                            "Offset": 7920,
+                            "Encoding": "varint"
+                          }
+                        },
+                        "ItemSize": 2,
+                        "Type": "ARRAY_BUFFER"
+                      },
+                      "Vertex": {
+                        "UniqueID": 234,
+                        "Array": { 
+                          "Int32Array": { 
+                            "File": "model_file.binz",
+                            "Size": 480,
+                            "Offset": 9284,
+                            "Encoding": "varint"
+                          }
+                        },
+                        "ItemSize": 3,
+                        "Type": "ARRAY_BUFFER"
+                      }
+                    }
+                  }
+                },
+                {
+                  "osg.Geometry": {
+                    "UniqueID": 242,
+                    "Name": "Box_0",
+                    "PrimitiveSetList": [ {
+                      "DrawElementsUShort": {
+                        "UniqueID": 244,
+                        "Indices": {
+                          "UniqueID": 245,
+                          "Array": { 
+                            "Uint16Array": { 
+                              "File": "model_file_wireframe.binz",
+                              "Size": 1568,
+                              "Offset": 864,
+                              "Encoding": "varint"
+                            }
+                          },
+                          "ItemSize": 1,
+                          "Type": "ELEMENT_ARRAY_BUFFER"
+                        },
+                        "Mode": "LINES"
+                      }
+                    } ],
+                    "UserDataContainer": {
+                      "UniqueID": 243,
+                      "Values": [ {
+                        "Name": "wireframe",
+                        "Value": "1"
+                      },
+                      {
+                        "Name": "attributes",
+                        "Value": "1"
+                      } ]
+                    },
+                    "VertexAttributeList": {
+                      "Vertex": {
+                        "UniqueID": 234
+                      }
+                    }
+                  }
+                } ]
+              }
+            } ],
+            "Matrix": [ 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1 ]
+          }
+        },
+        {
+          "osg.MatrixTransform": {
+            "UniqueID": 246,
+            "Name": "Sun.001",
+            "Children": [ {
+              "osg.LightSource": {
+                "UniqueID": 247,
+                "Name": "Sun.001",
+                "Light": {
+                  "osg.Light": {
+                    "UniqueID": 249,
+                    "Ambient": [ 1, 1, 1, 1],
+                    "ConstantAttenuation": 1,
+                    "Diffuse": [ 0.5, 0.5, 0.5, 1],
+                    "Direction": [ 0, 0, -1],
+                    "LightNum": 1,
+                    "LinearAttenuation": 0,
+                    "Position": [ 0, 0, 1, 0],
+                    "QuadraticAttenuation": 0,
+                    "Specular": [ 0.5, 0.5, 0.5, 1],
+                    "SpotCutoff": 180,
+                    "SpotExponent": 0,
+                    "UserDataContainer": {
+                      "UniqueID": 250,
+                      "Values": [ {
+                        "Name": "source",
+                        "Value": "blender"
+                      },
+                      {
+                        "Name": "Energy",
+                        "Value": "0.5"
+                      },
+                      {
+                        "Name": "Color",
+                        "Value": "[1.0, 1.0, 1.0]"
+                      },
+                      {
+                        "Name": "UseDiffuse",
+                        "Value": "true"
+                      },
+                      {
+                        "Name": "UseSpecular",
+                        "Value": "true"
+                      },
+                      {
+                        "Name": "Distance",
+                        "Value": "25.0"
+                      },
+                      {
+                        "Name": "Type",
+                        "Value": "HEMI"
+                      } ]
+                    }
+                  }
+                },
+                "StateSet": {
+                  "osg.StateSet": {
+                    "UniqueID": 248
+                  }
+                }
+              }
+            } ],
+            "Matrix": [ 0.37069, 0.42073, -0.82799, 0, 0.55171, 0.61742, 0.56073, 0, 0.74713, -0.66467, -0.00325, 0, 10.6723, -9.30694, 11.1305, 1 ]
+          }
+        },
+        {
+          "osg.MatrixTransform": {
+            "UniqueID": 251,
+            "Name": "Sun",
+            "Children": [ {
+              "osg.LightSource": {
+                "UniqueID": 252,
+                "Name": "Sun",
+                "Light": {
+                  "osg.Light": {
+                    "UniqueID": 254,
+                    "Ambient": [ 1, 1, 1, 1],
+                    "ConstantAttenuation": 1,
+                    "Diffuse": [ 0.8, 0.8, 0.8, 1],
+                    "Direction": [ 0, 0, -1],
+                    "LightNum": 0,
+                    "LinearAttenuation": 0,
+                    "Position": [ 0, 0, 1, 0],
+                    "QuadraticAttenuation": 0,
+                    "Specular": [ 0.8, 0.8, 0.8, 1],
+                    "SpotCutoff": 180,
+                    "SpotExponent": 0,
+                    "UserDataContainer": {
+                      "UniqueID": 255,
+                      "Values": [ {
+                        "Name": "source",
+                        "Value": "blender"
+                      },
+                      {
+                        "Name": "Energy",
+                        "Value": "0.800000011920929"
+                      },
+                      {
+                        "Name": "Color",
+                        "Value": "[1.0, 1.0, 1.0]"
+                      },
+                      {
+                        "Name": "UseDiffuse",
+                        "Value": "true"
+                      },
+                      {
+                        "Name": "UseSpecular",
+                        "Value": "true"
+                      },
+                      {
+                        "Name": "Distance",
+                        "Value": "25.0"
+                      },
+                      {
+                        "Name": "Type",
+                        "Value": "HEMI"
+                      } ]
+                    }
+                  }
+                },
+                "StateSet": {
+                  "osg.StateSet": {
+                    "UniqueID": 253
+                  }
+                }
+              }
+            } ],
+            "Matrix": [ 0.94425, -0.306, 0.12144, 0, 0.10828, 0.63702, 0.7632, 0, -0.3109, -0.70751, 0.63464, 0, -4.75646, -10.0662, 13.0368, 1 ]
+          }
+        } ],
+        "StateSet": {
+          "osg.StateSet": {
+            "UniqueID": 1,
+            "AttributeList": [ {
+              "osg.Material": {
+                "UniqueID": 3,
+                "Ambient": [ 0, 0, 0, 1],
+                "Diffuse": [ 0.64, 0.64, 0.64, 1],
+                "Emission": [ 0, 0, 0, 1],
+                "Shininess": 10,
+                "Specular": [ 0.5, 0.5, 0.5, 1]
+              }
+            } ],
+            "UserDataContainer": {
+              "UniqueID": 2,
+              "Values": [ {
+                "Name": "UniqueID",
+                "Value": "1"
+              } ]
+            }
+          }
+        },
+        "UserDataContainer": {
+          "UniqueID": 4,
+          "Values": [ {
+            "Name": "source",
+            "Value": "blender"
+          } ]
+        }
+      }
+    } ]
+  }
+}

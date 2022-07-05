@@ -14,6 +14,7 @@ public class ItemCheckerForStackFood : MonoBehaviour
     private Vector3 _oldPos, _newPos;
     private List<Transform> _itemPositions;
     private int _itemPosCounter;
+    public Transform topItem;
 
     private void Awake()
     {
@@ -43,12 +44,19 @@ public class ItemCheckerForStackFood : MonoBehaviour
             
             _oldPos = _newPos;
         }
+        if (other.gameObject.name.Contains("Bomb"))
+        {
+            //explosion
+            GameObject spawnFx = EffectsController.instance.explosionFx;
+            Instantiate(spawnFx, other.transform.position, spawnFx.transform.rotation);
+            other.gameObject.SetActive(false);
+            UIController.instance.UpdateBombCounter();
+        }
     }
 
     public void PutTheTopBread()
     {
-        GameObject topBread = foodStack.GetChild(1).gameObject;
-        topBread.SetActive(true);
-        topBread.transform.DOLocalMove(foodStack.GetChild(_itemPosCounter).localPosition, 0.3f);
+        topItem.gameObject.SetActive(true);
+        topItem.transform.DOLocalMove(foodStack.GetChild(_itemPosCounter).localPosition, 0.3f);
     }
 }

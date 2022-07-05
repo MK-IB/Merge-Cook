@@ -1,0 +1,301 @@
+{
+  "uid": "525693f968c4425fa10891cf9b29bd9e",
+  "slug": "serrated-french-fries",
+  "user": {
+    "uid": "3355dd1b3dd4480e8d335e86f3c1b9eb",
+    "username": "bariacg",
+    "displayName": "bariacg",
+    "account": "basic",
+    "profileUrl": "https://sketchfab.com/bariacg",
+    "avatars": {
+      "uid": "01e86f8108ef496ba7b295b3edd37ed5",
+      "images": [
+        {
+          "width": 32,
+          "height": 32,
+          "size": 775,
+          "url": "https://media.sketchfab.com/avatars/01e86f8108ef496ba7b295b3edd37ed5/8c5e1288810240f69b9d8b9c3ba5f3ce.jpeg"
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "size": 1052,
+          "url": "https://media.sketchfab.com/avatars/01e86f8108ef496ba7b295b3edd37ed5/efc0446eba0a49a7b7d359a9b6ccd7eb.jpeg"
+        },
+        {
+          "width": 90,
+          "height": 90,
+          "size": 2187,
+          "url": "https://media.sketchfab.com/avatars/01e86f8108ef496ba7b295b3edd37ed5/5023b01cc6434ad1abb02c8df2f7b2f8.jpeg"
+        },
+        {
+          "width": 100,
+          "height": 100,
+          "size": 2580,
+          "url": "https://media.sketchfab.com/avatars/01e86f8108ef496ba7b295b3edd37ed5/e021e788d6bf41a1b80eec5af6fcaa72.jpeg"
+        }
+      ]
+    },
+    "planDetail": null
+  },
+  "name": "Serrated French Fries",
+  "description": "Serrated French Fries 3d model.      <br />    <br />\n\nFile Format      <br /> \n- 3ds max 2021  <br /> \n- FBX  <br /> \n- OBJ  <br />    <br />\n\nClean topology    <br />\nNo Rig                          <br />\nNon-overlapping unwrapped UVs        <br /> <br />\n\nPNG texture               <br />\n2048x2048                <br />  \n- Base Color                        <br />\n- Normal                            <br />\n- Roughness                         <br /><br />\n\n\n386 polygons                          <br />\n385 vertexs                          <br />",
+  "htmlDescription": "<p>Serrated French Fries 3d model.      <br>    <br></p>\n<p>File Format      <br> \n- 3ds max 2021  <br> \n- FBX  <br> \n- OBJ  <br>    <br></p>\n<p>Clean topology    <br>\nNo Rig                          <br>\nNon-overlapping unwrapped UVs        <br> <br></p>\n<p>PNG texture               <br>\n2048x2048                <br><br>\n- Base Color                        <br>\n- Normal                            <br>\n- Roughness                         <br><br></p>\n<p>386 polygons                          <br>\n385 vertexs                          <br></p>",
+  "thumbnails": {
+    "uid": "996bd3e978c84f0e8d760e8505f154c0",
+    "images": [
+      {
+        "uid": "694cb8eeeadc4bd18a0070cc9aff8451",
+        "width": 1920,
+        "height": 1080,
+        "size": 39846,
+        "url": "https://media.sketchfab.com/models/525693f968c4425fa10891cf9b29bd9e/thumbnails/996bd3e978c84f0e8d760e8505f154c0/da4bb7e051a440d88739513bff351f21.jpeg"
+      },
+      {
+        "uid": "548a3d8377da4daca24cafe168e26063",
+        "width": 1024,
+        "height": 576,
+        "size": 12638,
+        "url": "https://media.sketchfab.com/models/525693f968c4425fa10891cf9b29bd9e/thumbnails/996bd3e978c84f0e8d760e8505f154c0/5a57666253664be381f4053e8c0ac446.jpeg"
+      },
+      {
+        "uid": "5debea92eb04400ba9ae71611d0bb856",
+        "width": 720,
+        "height": 405,
+        "size": 7159,
+        "url": "https://media.sketchfab.com/models/525693f968c4425fa10891cf9b29bd9e/thumbnails/996bd3e978c84f0e8d760e8505f154c0/18d6a031a261466f9f35f8a4710c24cb.jpeg"
+      },
+      {
+        "uid": "3bf1e2a9bc8f4c178c6d238f87772f09",
+        "width": 256,
+        "height": 144,
+        "size": 1675,
+        "url": "https://media.sketchfab.com/models/525693f968c4425fa10891cf9b29bd9e/thumbnails/996bd3e978c84f0e8d760e8505f154c0/a08d3e248ee74dd3adb6dc178374df4f.jpeg"
+      },
+      {
+        "uid": "ec56ef164bd142a1a2ecee1161d418a6",
+        "width": 64,
+        "height": 36,
+        "size": 813,
+        "url": "https://media.sketchfab.com/models/525693f968c4425fa10891cf9b29bd9e/thumbnails/996bd3e978c84f0e8d760e8505f154c0/09ed98483a7b48b6aa7f7f8877d28b0c.jpeg"
+      }
+    ]
+  },
+  "vertexCount": 385,
+  "faceCount": 766,
+  "viewCount": 111,
+  "likeCount": 3,
+  "animationCount": 0,
+  "staffpickedAt": null,
+  "publishedAt": "2021-10-10T10:05:24.250871",
+  "createdAt": "2021-10-10T10:02:03.674929",
+  "tags": [
+    "food",
+    "french",
+    "restaurant",
+    "chips",
+    "fry",
+    "potato",
+    "meal",
+    "fastfood",
+    "props",
+    "models",
+    "fries",
+    "vegetable",
+    "fried",
+    "roast",
+    "snacks",
+    "serrated",
+    "various",
+    "game",
+    "low"
+  ],
+  "orgTags": [],
+  "categories": [
+    {
+      "uid": "b3631aefd82b4eeba37aa5fc0b73b05a",
+      "name": "Food & Drink",
+      "slug": "food-drink"
+    }
+  ],
+  "license": {
+    "uid": "783b685da9bf457d81e829fa283f3567",
+    "label": "Standard",
+    "fullname": "Standard",
+    "slug": "st",
+    "summary": "Standard",
+    "requirements": "Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works",
+    "url": "https://sketchfab.com/licenses",
+    "free": false,
+    "needsAttribution": false,
+    "ccClauses": null
+  },
+  "isStoreLicenseLocked": false,
+  "viewerUrl": "https://sketchfab.com/3d-models/serrated-french-fries-525693f968c4425fa10891cf9b29bd9e",
+  "embedUrl": "https://sketchfab.com/models/525693f968c4425fa10891cf9b29bd9e/embed",
+  "editorUrl": "https://sketchfab.com/models/525693f968c4425fa10891cf9b29bd9e/edit",
+  "reviewUrl": "https://sketchfab.com/models/525693f968c4425fa10891cf9b29bd9e/review",
+  "publicCommentCount": 0,
+  "orgCommentCount": 0,
+  "isDownloadable": false,
+  "downloadType": "store",
+  "isInspectable": true,
+  "downloadCount": 1,
+  "status": {
+    "warning": {},
+    "processing": "SUCCEEDED"
+  },
+  "isPublished": true,
+  "originalFileName": "SerratedFrenchFries",
+  "processingStatus": 2,
+  "archiveSize": 7071536,
+  "ext": "fbx",
+  "isDeleted": false,
+  "isRestricted": false,
+  "processedAt": "2021-10-10T10:02:33.135379",
+  "files": [
+    {
+      "uid": "ce39157ec3ea46d9ab65590fdc17b781",
+      "flag": 0,
+      "osgjsUrl": "https://media.sketchfab.com/models/525693f968c4425fa10891cf9b29bd9e/93397486ae2b4a1a9ad28fbb41220362/files/ce39157ec3ea46d9ab65590fdc17b781/file.binz",
+      "modelSize": 5793,
+      "osgjsSize": 1533,
+      "wireframeSize": 2245,
+      "p": [
+        {
+          "v": 1,
+          "b": "nEuQ+GhztEODauICsPrbdw4XEpXeQGtz6Z6ZYZM4lUZbiTLBruxjw6TNWPA+DY8EakSyYE2whMrU\nJ8Bt2PpV8dWx765y3WH3Y+T98aiRvaWUKUEAQgBNAP/gD4/BuFKnxyCHMUoUHOv4Aofc8cqdIH+s\nMk6PM2H8TWg0GH/u0Ku40jLfGyEDgaEbdQkVEzBawokGlUaBXEUHItuMThHZZPwyRYesDHJ+OCUM\n+sMp4fpdBsYH/T/Voaj/Cp1exf/aq1GXjtAQtaAj7Rz2E9+wAnAF2Yo+7SCo6XYBWwgBrW0iYhQA\n9c+tuLTgMGKRM/RqoOrQi+Siw/hzro2JpKM3JhIIeyInq2SARbNKNl4nlIdEn1Aekwgi4EBTHiuw\n2B4rsCtH9ADSSgn6G0sh090FmCPAXB8Ao4qXHy6xzO6SMlXd7fg0lXF+vHJEE/NYxZndd1mq/+10\nCyVBjW6hHHjBTdeA5mbIBG0tJSiwJhiqsQNQRCmrWiysASCk4dPAPwPsOZnfYV5j8xaWBxK3lV6x\nM3I0BCoEdvhJ2NBc8tpoa6R0LW4Dq/2y1eCvbF4ITCCFUXcLbKSUsgWHsboADw==",
+          "d": true
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "quad": 380,
+    "triangle": 6,
+    "polygon": 0,
+    "line": 0,
+    "point": 0,
+    "totalTriangle": 766,
+    "vertexCount": 385,
+    "hasNormal": true,
+    "hasTangent": false,
+    "hasVertexColor": false,
+    "pbrType": null,
+    "textureCount": 3,
+    "materialCount": 1,
+    "isRigged": false,
+    "morph": 0,
+    "scale": false,
+    "animation": 0,
+    "uvMapped": true,
+    "sourceFiles": {
+      "3d": [
+        {
+          "version": "",
+          "filepath": "source/SerratedFrenchFries.fbx",
+          "filesize": 7071536,
+          "extension": "fbx",
+          "fileformat": "Autodesk FBX"
+        }
+      ],
+      "misc": [],
+      "count": 1,
+      "image": []
+    },
+    "textureFiles": [
+      {
+        "width": 2048,
+        "format": "RGB",
+        "height": 2048,
+        "is8bit": true,
+        "filepath": "textures/SerratedFrenchFries_BaseColor.png",
+        "filesize": 2884694,
+        "extension": "png",
+        "fileformat": "Portable Network Graphics"
+      },
+      {
+        "width": 2048,
+        "format": "RGB",
+        "height": 2048,
+        "is8bit": true,
+        "filepath": "textures/SerratedFrenchFries_Normal.png",
+        "filesize": 3098597,
+        "extension": "png",
+        "fileformat": "Portable Network Graphics"
+      },
+      {
+        "width": 2048,
+        "format": "GreyScale",
+        "height": 2048,
+        "is8bit": true,
+        "filepath": "textures/SerratedFrenchFries_Roughtness.png",
+        "filesize": 838854,
+        "extension": "png",
+        "fileformat": "Portable Network Graphics"
+      }
+    ]
+  },
+  "price": 500,
+  "inStore": true,
+  "averageRating": 0.0,
+  "reviewCount": 0,
+  "preferOriginalNormalMap": false,
+  "isDisabled": false,
+  "hasCommentsDisabled": false,
+  "exporter": null,
+  "displayStatus": "ok",
+  "version": {
+    "uid": "93397486ae2b4a1a9ad28fbb41220362",
+    "status": {
+      "warning": {},
+      "processing": "SUCCEEDED"
+    },
+    "isCurrentVersion": true,
+    "isCandidateVersion": false,
+    "createdAt": "2021-10-10T10:02:03.742829",
+    "processedAt": "2021-10-10T10:02:33.052721",
+    "reason": "upload"
+  },
+  "visibility": "public",
+  "org": null,
+  "isArEnabled": false,
+  "isArAvailable": false,
+  "archivesStatus": [
+    {
+      "type": "source",
+      "exists": true,
+      "status": "Succeeded"
+    },
+    {
+      "type": "gltf",
+      "exists": true,
+      "status": "Succeeded"
+    },
+    {
+      "type": "extra",
+      "exists": true,
+      "status": "Succeeded"
+    },
+    {
+      "type": "usdz",
+      "exists": true,
+      "status": "Succeeded"
+    },
+    {
+      "type": "gltf-ar",
+      "exists": false,
+      "status": null
+    },
+    {
+      "type": "uasset",
+      "exists": false,
+      "status": null
+    },
+    {
+      "type": "glb",
+      "exists": true,
+      "status": "Succeeded"
+    }
+  ]
+}

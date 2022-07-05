@@ -1,0 +1,275 @@
+{
+  "uid": "4bbb2e3fdaae428b85a5240d0dd5efdb",
+  "slug": "french-fries-emoji-low-poly",
+  "user": {
+    "uid": "35db18c5a32a410f8612cd56ac6ef9d9",
+    "username": "mauricesvay",
+    "displayName": "Maurice Svay",
+    "account": "pro",
+    "profileUrl": "https://sketchfab.com/mauricesvay",
+    "avatars": {
+      "uid": "df784e15f6224be3b35a593ea21cf630",
+      "images": [
+        {
+          "width": 90,
+          "height": 90,
+          "size": 7010,
+          "url": "https://media.sketchfab.com/avatars/df784e15f6224be3b35a593ea21cf630/81ba0f486cc24131851f7181b2eece3e.jpeg"
+        },
+        {
+          "width": 100,
+          "height": 100,
+          "size": 8090,
+          "url": "https://media.sketchfab.com/avatars/df784e15f6224be3b35a593ea21cf630/184b2f88f4fd45fd8aa85995c45491ae.jpeg"
+        },
+        {
+          "width": 32,
+          "height": 32,
+          "size": 2488,
+          "url": "https://media.sketchfab.com/avatars/df784e15f6224be3b35a593ea21cf630/a426d0db12264d79bbf83f7ccf872340.jpeg"
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "size": 3533,
+          "url": "https://media.sketchfab.com/avatars/df784e15f6224be3b35a593ea21cf630/5e07dde876e343f0b7260974efead474.jpeg"
+        }
+      ]
+    },
+    "planDetail": {
+      "badge": "pro",
+      "title": "pro"
+    }
+  },
+  "name": "🍟 French Fries emoji (Low poly)",
+  "description": "🍔 Low poly \"French Fries\" emoji, made with Blender.  \nSimple materials, with 1024x1024 diffuse.\n\nCheckout my other models in this collection: [My 3D emojis](https://sketchfab.com/mauricesvay/collections/my-3d-emojis)",
+  "htmlDescription": "<p>🍔 Low poly &ldquo;French Fries&rdquo; emoji, made with Blender.<br>\nSimple materials, with 1024x1024 diffuse.</p>\n<p>Checkout my other models in this collection: <a rel=\"nofollow noopener noreferrer\" target=\"_blank\"href=\"https://sketchfab.com/mauricesvay/collections/my-3d-emojis\">My 3D emojis</a></p>",
+  "thumbnails": {
+    "uid": "2d2a99a21c59408aa806c1bc3aa856c7",
+    "images": [
+      {
+        "uid": "edf8aa9bd38e4b06b36f6c469f51e2c2",
+        "width": 1920,
+        "height": 1080,
+        "size": 97387,
+        "url": "https://media.sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/thumbnails/2d2a99a21c59408aa806c1bc3aa856c7/89d79a77a7244a8ea043b745b702604e.jpeg"
+      },
+      {
+        "uid": "c7acf276c0d048d6967639c7f2813ac1",
+        "width": 1024,
+        "height": 576,
+        "size": 30196,
+        "url": "https://media.sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/thumbnails/2d2a99a21c59408aa806c1bc3aa856c7/8fbe7d377a0f42278a36dd1a968be4b2.jpeg"
+      },
+      {
+        "uid": "bca479fea9a84159b7ac35523823f1c5",
+        "width": 720,
+        "height": 405,
+        "size": 18594,
+        "url": "https://media.sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/thumbnails/2d2a99a21c59408aa806c1bc3aa856c7/abf09e96cb3d4d46b671e5a12cb64af6.jpeg"
+      },
+      {
+        "uid": "93efb9b661f14826932f60fad785a8b3",
+        "width": 256,
+        "height": 144,
+        "size": 4457,
+        "url": "https://media.sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/thumbnails/2d2a99a21c59408aa806c1bc3aa856c7/da7563a2fcb4459d854a4743e2dc50ee.jpeg"
+      },
+      {
+        "uid": "0f664ac7f6314b04878f086ed25cf2c5",
+        "width": 64,
+        "height": 36,
+        "size": 889,
+        "url": "https://media.sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/thumbnails/2d2a99a21c59408aa806c1bc3aa856c7/85f00c2792f542938a31c779e67b479b.jpeg"
+      }
+    ]
+  },
+  "vertexCount": 450,
+  "faceCount": 824,
+  "viewCount": 860,
+  "likeCount": 17,
+  "animationCount": 0,
+  "staffpickedAt": null,
+  "publishedAt": "2018-08-20T20:29:18.207086",
+  "createdAt": "2018-08-20T20:14:57.012381",
+  "tags": [
+    "food",
+    "red",
+    "chips",
+    "potato",
+    "snack",
+    "fastfood",
+    "yellow",
+    "fries",
+    "emoji",
+    "lowpoly"
+  ],
+  "orgTags": [],
+  "categories": [
+    {
+      "uid": "b3631aefd82b4eeba37aa5fc0b73b05a",
+      "name": "Food & Drink",
+      "slug": "food-drink"
+    }
+  ],
+  "license": {
+    "uid": "783b685da9bf457d81e829fa283f3567",
+    "label": "Standard",
+    "fullname": "Standard",
+    "slug": "st",
+    "summary": "Standard",
+    "requirements": "Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works",
+    "url": "https://sketchfab.com/licenses",
+    "free": false,
+    "needsAttribution": false,
+    "ccClauses": null
+  },
+  "isStoreLicenseLocked": false,
+  "viewerUrl": "https://sketchfab.com/3d-models/french-fries-emoji-low-poly-4bbb2e3fdaae428b85a5240d0dd5efdb",
+  "embedUrl": "https://sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/embed",
+  "editorUrl": "https://sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/edit",
+  "reviewUrl": "https://sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/review",
+  "publicCommentCount": 0,
+  "orgCommentCount": 0,
+  "isDownloadable": false,
+  "downloadType": "store",
+  "isInspectable": true,
+  "downloadCount": 5,
+  "status": {
+    "warning": {},
+    "processing": "SUCCEEDED"
+  },
+  "isPublished": true,
+  "originalFileName": "emoji-french-fries",
+  "processingStatus": 2,
+  "archiveSize": 620169,
+  "ext": "blend",
+  "isDeleted": false,
+  "isRestricted": false,
+  "processedAt": "2018-08-20T20:25:11.611607",
+  "files": [
+    {
+      "uid": "dbe502577e48448998c4ed51a7500fbf",
+      "flag": 0,
+      "osgjsUrl": "https://media.sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/0825542ed90e490db52c8c8f3e955d8b/files/dbe502577e48448998c4ed51a7500fbf/file.binz",
+      "modelSize": 6094,
+      "osgjsSize": 12013,
+      "wireframeSize": 2228,
+      "p": [
+        {
+          "v": 1,
+          "b": "nEuQ+GgbtEOCaiJBrffrVw4XG1uCp9Y02uhAF/w+0sAmAOg7AYgVWBim0R0hJEjAvQNcnmNv/Pq+\n5xl5aRwY7nhhxrW42oaZLSSSvaWUKT8AQgBGAGLHIIdSThaPHG/gkDneuSLIHuuUYsf/35NQ/iJS\nNCj/5fQnd04RVKMBSK+WrdQCjZ5wIkWiT+ECGP2i0vrQAa1yiT76XAa+Tghi9OuEUdCh3Mkh/gQ4\n9G+AQzIdAjok02FpVaEddKQR9HKQt+7hs1xCph5e5CAY0eWOYlTHoNypAfoS/e82whADUUJ0DEQB\n0aFHgyJDezQ2WLDSJqNhpW3G5mPC9OZD8mgBoT8ptQ7p0lrHdCEBi/7OXxP9n0KH8q+wQuUSxQL6\nGwsg09UPyR1Irh8gScnPlTZOdnXMVHV3ehGdUvR454gAY8cpnuyey5azhVx8vYU0POhPyjOoFOj/\nwGYBHihwSjCzPEDMkZUa5sQB5VQtOAzsL1tg5kJEGeFWfy5Qf3jIwfEzh5CUwK4noVxBu3Bzq6di\nWTV+KLDrLOYZ2hjQex4=",
+          "d": true
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "quad": 396,
+    "triangle": 32,
+    "polygon": 0,
+    "line": 0,
+    "point": 0,
+    "totalTriangle": 824,
+    "vertexCount": 450,
+    "hasNormal": true,
+    "hasTangent": false,
+    "hasVertexColor": false,
+    "pbrType": null,
+    "textureCount": 1,
+    "materialCount": 2,
+    "isRigged": false,
+    "morph": 0,
+    "scale": false,
+    "animation": 0,
+    "uvMapped": true,
+    "sourceFiles": {
+      "3d": [
+        {
+          "version": "2.79",
+          "filepath": "source/emoji-french-fries.blend",
+          "filesize": 583784,
+          "extension": "blend",
+          "fileformat": "Blender"
+        }
+      ],
+      "misc": [],
+      "count": 1,
+      "image": []
+    },
+    "textureFiles": [
+      {
+        "width": 1024,
+        "format": "RGB",
+        "height": 1024,
+        "is8bit": true,
+        "filepath": "textures/box_diffuse.png",
+        "filesize": 35781,
+        "extension": "png",
+        "fileformat": "Portable Network Graphics"
+      }
+    ]
+  },
+  "price": 399,
+  "inStore": true,
+  "averageRating": 0.0,
+  "reviewCount": 0,
+  "preferOriginalNormalMap": false,
+  "isDisabled": false,
+  "hasCommentsDisabled": false,
+  "exporter": null,
+  "displayStatus": "ok",
+  "version": {
+    "uid": "0825542ed90e490db52c8c8f3e955d8b",
+    "status": {
+      "warning": {},
+      "processing": "SUCCEEDED"
+    },
+    "isCurrentVersion": true,
+    "isCandidateVersion": false,
+    "createdAt": "2018-12-16T14:14:11.982415",
+    "processedAt": null,
+    "reason": "operation"
+  },
+  "visibility": "public",
+  "org": null,
+  "isArEnabled": false,
+  "isArAvailable": false,
+  "archivesStatus": [
+    {
+      "type": "source",
+      "exists": true,
+      "status": "Succeeded"
+    },
+    {
+      "type": "gltf",
+      "exists": true,
+      "status": "Succeeded"
+    },
+    {
+      "type": "extra",
+      "exists": true,
+      "status": "Succeeded"
+    },
+    {
+      "type": "usdz",
+      "exists": true,
+      "status": "Succeeded"
+    },
+    {
+      "type": "gltf-ar",
+      "exists": false,
+      "status": null
+    },
+    {
+      "type": "uasset",
+      "exists": false,
+      "status": null
+    },
+    {
+      "type": "glb",
+      "exists": true,
+      "status": "Succeeded"
+    }
+  ]
+}

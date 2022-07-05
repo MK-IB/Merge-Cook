@@ -1,0 +1,16 @@
+// Generated using SketchfabRipper v1.18.0 by revetix#9971
+
+Mesh "3" uses material "Material__86" and has UniqueID "3"
+
+Material "Material__86" has ID 1550c7be-d489-4fbc-b138-48d2021cf3ab.
+	Albedo (UV0): jn_bian01.png
+	Emission (UV0) (Factor=0): jn_bian01.png
+	Specular F0: 0.5
+	Diffuse colour (UV0): jn_bian01.png
+	Metalness: 0
+	Glossiness: 0
+	Specular colour: 0|0|0
+	Diffuse intensity: 1|1|1
+	Specular hardness: 10
+	Clear coat normal (Flipped Y): 1
+	Clear coat roughness: 0.04

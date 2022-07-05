@@ -22,7 +22,7 @@ public class PlayController : MonoBehaviour
     [Space(25)] [SerializeField] private Node _nodePrefab;
     [SerializeField] private SpriteRenderer _boardPrefab;
     [SerializeField] private Block _blockPrefab;
-    [SerializeField] private List<BlockType> _blockTypes;
+     public List<BlockType> _blockTypes;
 
     private SpriteRenderer board;
     private List<Node> _nodes;

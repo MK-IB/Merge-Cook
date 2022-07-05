@@ -1,0 +1,16 @@
+// Generated using SketchfabRipper v1.18.0 by revetix#9971
+
+Mesh "FrenchFries_FrenchFries_0" uses material "FrenchFries" and has UniqueID "5"
+
+Material "FrenchFries" has ID b854b821-04ac-4b8c-9068-797393e3eb6f.
+	Albedo (UV0): FrenchFries_BaseColor.png
+	Normal (Flipped Y) (UV0): FrenchFries_Normal.png
+	Specular F0: 0.5
+	Diffuse colour (UV0): FrenchFries_BaseColor.png
+	Metalness: 0
+	Roughness (UV0): FrenchFries_Roughtness.png
+	Specular colour: 0.5|0.5|0.5
+	Diffuse intensity: 1|1|1
+	Specular hardness: 12.5
+	Clear coat normal (Flipped Y): 1
+	Clear coat roughness: 0.04

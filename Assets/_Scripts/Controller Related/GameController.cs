@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     public static GameController Instance;
+    public bool dirtyItemAdded;
 
     private void Awake()
     {
@@ -52,5 +53,13 @@ public class GameController : MonoBehaviour
     public void On_RetryButtonPressed()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    private int _dirtyItemCounter;
+    public void CheckLevelFailForDirtyItemAddition()
+    {
+        _dirtyItemCounter++;
+        if (_dirtyItemCounter >= 3)
+            dirtyItemAdded = true;
     }
 }

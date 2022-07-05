@@ -15,7 +15,8 @@ public class MainController : MonoBehaviour
         Serving,
         EatingDone,
         Win,
-        Lose
+        Lose,
+        DirtyAdded
     }
 
     public static MainController instance;

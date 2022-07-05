@@ -24,5 +24,13 @@ public class ItemChecker : MonoBehaviour
             other.gameObject.SetActive(false);
             UIController.instance.UpdateBombCounter();
         }
+
+        if (other.gameObject.CompareTag("failItem"))
+        {
+            GameController.Instance.CheckLevelFailForDirtyItemAddition();
+            if(PreparingPot.instance)
+            PreparingPot.instance.cookedSlices.Add(other.gameObject);
+            UIController.instance.UpdateFailItemCounter();
+        }
     }
 }

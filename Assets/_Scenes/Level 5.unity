@@ -53237,6 +53237,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7744916854780491128, guid: 11219aac1a9b62d4c82884477e2f3e62, type: 3}
+      propertyPath: movePos
+      value: 
+      objectReference: {fileID: 1065222160}
     - target: {fileID: 7744916854780491131, guid: 11219aac1a9b62d4c82884477e2f3e62, type: 3}
       propertyPath: m_Name
       value: GIRL CUSTOMER 4

@@ -14825,6 +14825,7 @@ MonoBehaviour:
   - {fileID: 677082616}
   - {fileID: 906098275}
   foodStack: {fileID: 186759193}
+  topItem: {fileID: 135732705}
 --- !u!1 &135732704
 GameObject:
   m_ObjectHideFlags: 0
@@ -56233,7 +56234,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8764816610822901970, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: vegList.Array.size
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8764816610822901970, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: vegList.Array.data[0]
@@ -56273,7 +56274,7 @@ PrefabInstance:
       objectReference: {fileID: 1702208193}
     - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: _blockTypes.Array.size
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: _blockTypes.Array.data[0].icon

@@ -1,0 +1,112 @@
+{
+  "results": [
+    {
+      "uid": "0a7835ecaea0466fba1df6ed5f88a626",
+      "name": "box_diffuse.png",
+      "images": [
+        {
+          "uid": "5c5d4ea09c1e408980d81a6b25f9b0a9",
+          "size": 2453,
+          "width": 64,
+          "height": 64,
+          "url": "https://media.sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/0825542ed90e490db52c8c8f3e955d8b/textures/0a7835ecaea0466fba1df6ed5f88a626/5c5d4ea09c1e408980d81a6b25f9b0a9.png",
+          "options": {
+            "format": "RGB",
+            "quality": 100
+          },
+          "createdAt": "2022-03-15T15:39:43.356761",
+          "updatedAt": "2022-03-15T15:39:43.323731",
+          "pk": 102860,
+          "pv": 1
+        },
+        {
+          "uid": "d4f10b6b842e415c8fbba3dbbc1a2fd5",
+          "size": 6548,
+          "width": 128,
+          "height": 128,
+          "url": "https://media.sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/0825542ed90e490db52c8c8f3e955d8b/textures/0a7835ecaea0466fba1df6ed5f88a626/d4f10b6b842e415c8fbba3dbbc1a2fd5.png",
+          "options": {
+            "format": "RGB",
+            "quality": 100
+          },
+          "createdAt": "2022-03-15T15:39:43.285136",
+          "updatedAt": "2022-03-15T15:39:43.252431",
+          "pk": 102860,
+          "pv": 1
+        },
+        {
+          "uid": "770ee2bae4494c6892e266d50ced7baa",
+          "size": 15969,
+          "width": 256,
+          "height": 256,
+          "url": "https://media.sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/0825542ed90e490db52c8c8f3e955d8b/textures/0a7835ecaea0466fba1df6ed5f88a626/770ee2bae4494c6892e266d50ced7baa.png",
+          "options": {
+            "format": "RGB",
+            "quality": 100
+          },
+          "createdAt": "2022-03-15T15:39:43.214991",
+          "updatedAt": "2022-03-15T15:39:43.170288",
+          "pk": 102860,
+          "pv": 1
+        },
+        {
+          "uid": "07b1b7be77394f3ab4c3141fcb96fa87",
+          "size": 40794,
+          "width": 512,
+          "height": 512,
+          "url": "https://media.sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/0825542ed90e490db52c8c8f3e955d8b/textures/0a7835ecaea0466fba1df6ed5f88a626/07b1b7be77394f3ab4c3141fcb96fa87.png",
+          "options": {
+            "format": "RGB",
+            "quality": 100
+          },
+          "createdAt": "2022-03-15T15:39:43.126998",
+          "updatedAt": "2022-03-15T15:39:43.070852",
+          "pk": 102860,
+          "pv": 1
+        },
+        {
+          "uid": "9fa219e5838d4114835ef432a6238948",
+          "size": 88327,
+          "width": 1024,
+          "height": 1024,
+          "url": "https://media.sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/0825542ed90e490db52c8c8f3e955d8b/textures/0a7835ecaea0466fba1df6ed5f88a626/9fa219e5838d4114835ef432a6238948.png",
+          "options": {
+            "format": "RGB",
+            "quality": 92
+          },
+          "createdAt": "2022-03-15T15:39:43.005291",
+          "updatedAt": "2022-03-15T15:39:42.965798",
+          "pk": 102860,
+          "pv": 1
+        },
+        {
+          "uid": "8d23d99c4e7a422dab503d1b8b64f9b5",
+          "size": 95958,
+          "width": 1024,
+          "height": 1024,
+          "url": "https://media.sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/0825542ed90e490db52c8c8f3e955d8b/textures/0a7835ecaea0466fba1df6ed5f88a626/8d23d99c4e7a422dab503d1b8b64f9b5.png",
+          "options": {},
+          "createdAt": "2022-03-15T15:36:12.410521",
+          "updatedAt": "2022-03-15T15:36:12.349835",
+          "pk": 102860,
+          "pv": 1
+        },
+        {
+          "uid": "015f8975ad3540209fcc30087c874599",
+          "size": 929,
+          "width": 32,
+          "height": 32,
+          "url": "https://media.sketchfab.com/models/4bbb2e3fdaae428b85a5240d0dd5efdb/0825542ed90e490db52c8c8f3e955d8b/textures/0a7835ecaea0466fba1df6ed5f88a626/015f8975ad3540209fcc30087c874599.png",
+          "options": {},
+          "createdAt": "2022-03-15T15:36:12.275153",
+          "updatedAt": "2022-03-15T15:36:12.206939",
+          "pk": null,
+          "pv": null
+        }
+      ],
+      "colorSpace": "unknown",
+      "createdAt": "2018-08-20T20:27:39.095419",
+      "updatedAt": "2022-03-15T15:36:12.463528"
+    }
+  ]
+}

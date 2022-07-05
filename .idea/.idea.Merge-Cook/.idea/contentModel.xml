@@ -20,7 +20,9 @@
           <e p="Customer.cs" t="Include" />
           <e p="Gameplay Related" t="Include">
             <e p="ItemChecker.cs" t="Include" />
+            <e p="ItemCheckerForPizza.cs" t="Include" />
             <e p="ItemCheckerForStackFood.cs" t="Include" />
+            <e p="ItemCheckerShawarma.cs" t="Include" />
           </e>
           <e p="Input Related" t="Include">
             <e p="InputControl.cs" t="Include" />
@@ -397,6 +399,48 @@
                 <e p="texture_info.json" t="Include" />
                 <e p="viewer_info.json" t="Include" />
               </e>
+            </e>
+          </e>
+          <e p="kitchen-pack" t="Include">
+            <e p="french fries" t="Include">
+              <e p="french-fries" t="Include">
+                <e p="environment" t="Include">
+                  <e p="environment_info.json" t="Include" />
+                </e>
+                <e p="materialInfo.txt" t="Include" />
+                <e p="model_info.json" t="Include" />
+                <e p="texture_info.json" t="Include" />
+                <e p="viewer_info.json" t="Include" />
+              </e>
+              <e p="french-fries-emoji-low-poly" t="Include">
+                <e p="environment" t="Include">
+                  <e p="environment_info.json" t="Include" />
+                </e>
+                <e p="materialInfo.txt" t="Include" />
+                <e p="model_info.json" t="Include" />
+                <e p="texture_info.json" t="Include" />
+                <e p="viewer_info.json" t="Include" />
+              </e>
+              <e p="serrated-french-fries" t="Include">
+                <e p="environment" t="Include">
+                  <e p="environment_info.json" t="Include" />
+                </e>
+                <e p="materialInfo.txt" t="Include" />
+                <e p="model_info.json" t="Include" />
+                <e p="texture_info.json" t="Include" />
+                <e p="viewer_info.json" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="props-shit" t="Include">
+            <e p="cartoon-poop-hoax-props-shit" t="Include">
+              <e p="environment" t="Include">
+                <e p="environment_info.json" t="Include" />
+              </e>
+              <e p="materialInfo.txt" t="Include" />
+              <e p="model_info.json" t="Include" />
+              <e p="texture_info.json" t="Include" />
+              <e p="viewer_info.json" t="Include" />
             </e>
           </e>
         </e>

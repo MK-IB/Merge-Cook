@@ -19,7 +19,8 @@ public class UIController : MonoBehaviour
     public TextMeshProUGUI gameStateIndicatorText;
     public string dishName;
     public GameObject bombCountPanel;
-    public bool isBombLevel;
+    public Sprite currentFailItemIcon;
+    public bool isFailItemLevel;
     public bool isStackLevel;
 
     [Header("GAMEPLAY RELATED")] 
@@ -46,7 +47,14 @@ public class UIController : MonoBehaviour
 
     private void Start()
     {
-        if(isBombLevel) bombCountPanel.SetActive(true);
+        if (isFailItemLevel)
+        {
+            bombCountPanel.SetActive(true);
+            for (int i = 0; i < 3; i++)
+            {
+                bombCountPanel.transform.GetChild(i).GetComponent<Image>().sprite = currentFailItemIcon;   
+            }
+        }
     }
 
     private void OnEnable()
@@ -74,8 +82,7 @@ public class UIController : MonoBehaviour
                 gameStateIndicatorText.SetText("DECORATION");
                 CameraController.instance.decorationCamera.SetActive(true);
                 
-                if(isStackLevel) PreparingPot.instance.StartCoroutine(PreparingPot.instance.MoveStackForDecoration());
-                else PreparingPot.instance.StartCoroutine(PreparingPot.instance.MoveForDecoration());
+                if(isStackLevel && PreparingPot.instance) PreparingPot.instance.StartCoroutine(PreparingPot.instance.MoveStackForDecoration());
                 break;
             case MainController.StateOfGame.Serving:
                 gameStateIndicatorText.SetText("SERVING");
@@ -93,6 +100,10 @@ public class UIController : MonoBehaviour
                     HUD.SetActive(false);
                     failCanvas.SetActive(true);
                 });
+                break;
+            case MainController.StateOfGame.DirtyAdded:
+                HUD.SetActive(false);
+                failCanvas.SetActive(true);
                 break;
         }
     }
@@ -159,5 +170,12 @@ public class UIController : MonoBehaviour
     {
         bombCountPanel.transform.GetChild(_bombCounter++).GetChild(0).gameObject.SetActive(true);
         if(_bombCounter >= 3) MainController.instance.SetActionType(MainController.StateOfGame.Lose);
+    }
+
+    private int _failItemCounter;
+    public void UpdateFailItemCounter()
+    {
+        if(_failItemCounter < 3)
+            bombCountPanel.transform.GetChild(_failItemCounter++).GetChild(0).gameObject.SetActive(true);
     }
 }

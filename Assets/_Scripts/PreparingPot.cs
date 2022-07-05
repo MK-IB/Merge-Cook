@@ -61,6 +61,9 @@ public class PreparingPot : MonoBehaviour
                     }
                 }
                 break;
+            case MainController.StateOfGame.Decoration:
+                StartCoroutine(MoveForDecoration());
+                break;
         }
     }
 

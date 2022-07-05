@@ -1415,7 +1415,8 @@ MonoBehaviour:
   gameStateIndicatorText: {fileID: 8764816611230268249}
   dishName: 
   bombCountPanel: {fileID: 250167561266689170}
-  isBombLevel: 0
+  isFailItemLevel: 0
+  isStackLevel: 0
   preparationDoneButton: {fileID: 8764816611869766596}
   decorationDoneButton: {fileID: 8764816612214409855}
   moneyControlledParticle: {fileID: 0}
@@ -3672,6 +3673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e52c661846ee904096e17ba75c4346d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dirtyItemAdded: 0
 --- !u!114 &8764816612645869797
 MonoBehaviour:
   m_ObjectHideFlags: 0

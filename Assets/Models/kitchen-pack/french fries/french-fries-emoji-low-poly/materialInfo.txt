@@ -1,0 +1,48 @@
+// Generated using SketchfabRipper v1.18.0 by revetix#9971
+
+Mesh "fry.000_0" uses material "Fries" and has UniqueID "8"
+Mesh "fry.001_0" uses material "Fries" and has UniqueID "24"
+Mesh "fry.002_0" uses material "Fries" and has UniqueID "36"
+Mesh "fry.003_0" uses material "Fries" and has UniqueID "48"
+Mesh "fry.004_0" uses material "Fries" and has UniqueID "60"
+Mesh "fry.005_0" uses material "Fries" and has UniqueID "72"
+Mesh "fry.006_0" uses material "Fries" and has UniqueID "84"
+Mesh "fry.007_0" uses material "Fries" and has UniqueID "96"
+Mesh "fry.008_0" uses material "Fries" and has UniqueID "108"
+Mesh "fry.009_0" uses material "Fries" and has UniqueID "120"
+Mesh "fry.010_0" uses material "Fries" and has UniqueID "132"
+Mesh "fry.011_0" uses material "Fries" and has UniqueID "144"
+Mesh "fry.012_0" uses material "Fries" and has UniqueID "156"
+Mesh "fry.013_0" uses material "Fries" and has UniqueID "168"
+Mesh "fry.014_0" uses material "Fries" and has UniqueID "180"
+Mesh "fry.015_0" uses material "Fries" and has UniqueID "192"
+Mesh "fry.016_0" uses material "Fries" and has UniqueID "204"
+Mesh "fry.017_0" uses material "Fries" and has UniqueID "216"
+Mesh "Box_0" uses material "Box" and has UniqueID "228"
+
+Material "Fries" has ID 78f3d6e5-328a-44cb-a517-867dbfa2d673.
+	Albedo: 1|0.7304609|0.1328683
+	Specular F0: 0
+	Diffuse colour: 1|0.7304609|0.1328683
+	Metalness: 0
+	Roughness: 0.4
+	Specular colour: 1|1|1
+	Diffuse intensity: 1|1|1
+	Specular hardness: 50
+	Clear coat normal (Flipped Y): 1
+	Clear coat roughness: 0.04
+	Subsurface scattering: 0.2066166974
+	Subsurface translucency: 0.82829211009999959|0.75021492970000037|0.10876182099999991
+
+Material "Box" has ID 14812521-f1a1-4f46-ad14-d5892dd24da5.
+	Albedo (UV0): box_diffuse.png
+	Emission: 0|0|0
+	Specular F0: 0
+	Diffuse colour: 1|1|1
+	Metalness: 0
+	Roughness: 0.8
+	Specular colour: 1|1|1
+	Diffuse intensity: 1|1|1
+	Specular hardness: 50
+	Clear coat normal (Flipped Y): 1
+	Clear coat roughness: 0.04

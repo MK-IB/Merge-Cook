@@ -1,0 +1,813 @@
+{
+  "uid": "c6cad310ad23473b9d0558b3b6334ec6",
+  "user": {
+    "uid": "603b6be63ee64239869211a7e61b00e3",
+    "username": "lerrrrr",
+    "displayName": "ler_cartoon",
+    "account": "basic",
+    "profileUrl": "https://sketchfab.com/lerrrrr",
+    "avatars": {
+      "uid": "c9be806cca84409faf5a5fd411992807",
+      "images": [
+        {
+          "width": 32,
+          "height": 32,
+          "size": 1068,
+          "url": "https://media.sketchfab.com/avatars/c9be806cca84409faf5a5fd411992807/ab8fbb0a14264f94971f6dc64e9e581c.jpeg"
+        },
+        {
+          "width": 48,
+          "height": 48,
+          "size": 1368,
+          "url": "https://media.sketchfab.com/avatars/c9be806cca84409faf5a5fd411992807/e66984bc8da14f57bd24a195cbe7ecef.jpeg"
+        },
+        {
+          "width": 90,
+          "height": 90,
+          "size": 2573,
+          "url": "https://media.sketchfab.com/avatars/c9be806cca84409faf5a5fd411992807/9975e66774ee498699c64499bf6b236d.jpeg"
+        },
+        {
+          "width": 100,
+          "height": 100,
+          "size": 2897,
+          "url": "https://media.sketchfab.com/avatars/c9be806cca84409faf5a5fd411992807/76e48d92ae644511807aa8a12b57d7bb.jpeg"
+        }
+      ]
+    },
+    "planDetail": null
+  },
+  "name": "Cartoon poop - Hoax props - shit",
+  "description": "Cartoon poop - Hoax props - shit",
+  "thumbnails": {
+    "uid": "e85e47e04a814338a1704b46bbef763a",
+    "images": [
+      {
+        "uid": "32b5695402a34720a0ad97e0cb670cfa",
+        "width": 1920,
+        "height": 1080,
+        "size": 52222,
+        "url": "https://media.sketchfab.com/models/c6cad310ad23473b9d0558b3b6334ec6/thumbnails/e85e47e04a814338a1704b46bbef763a/c5ac9e63823c4a3a932b2edaebe03c4f.jpeg"
+      },
+      {
+        "uid": "058272a7b05044c4b595658a2d6c46d6",
+        "width": 1024,
+        "height": 576,
+        "size": 18086,
+        "url": "https://media.sketchfab.com/models/c6cad310ad23473b9d0558b3b6334ec6/thumbnails/e85e47e04a814338a1704b46bbef763a/d8bba960755d4b28b03598ecdaf7bdb9.jpeg"
+      },
+      {
+        "uid": "9a450857c5a349cb916e675621bfb16f",
+        "width": 720,
+        "height": 405,
+        "size": 10640,
+        "url": "https://media.sketchfab.com/models/c6cad310ad23473b9d0558b3b6334ec6/thumbnails/e85e47e04a814338a1704b46bbef763a/55d8d86b01ed4662a4e4301e5564b662.jpeg"
+      },
+      {
+        "uid": "88bfc20ffdd54cd1b924899b861ea1bf",
+        "width": 256,
+        "height": 144,
+        "size": 2811,
+        "url": "https://media.sketchfab.com/models/c6cad310ad23473b9d0558b3b6334ec6/thumbnails/e85e47e04a814338a1704b46bbef763a/854c0395047045e5935cc80a7e713dd6.jpeg"
+      },
+      {
+        "uid": "2f9342e336864270a344253260db6fd0",
+        "width": 64,
+        "height": 36,
+        "size": 993,
+        "url": "https://media.sketchfab.com/models/c6cad310ad23473b9d0558b3b6334ec6/thumbnails/e85e47e04a814338a1704b46bbef763a/9eb5c83938fa424894f4660f6ac41a9c.jpeg"
+      }
+    ]
+  },
+  "viewCount": 791,
+  "likeCount": 3,
+  "animationCount": 0,
+  "vertexCount": 106,
+  "faceCount": 208,
+  "staffpickedAt": null,
+  "publishedAt": "2021-09-19T07:34:06.000626",
+  "viewerUrl": "https://sketchfab.com/3d-models/cartoon-poop-hoax-props-shit-c6cad310ad23473b9d0558b3b6334ec6",
+  "embedUrl": "https://sketchfab.com/models/c6cad310ad23473b9d0558b3b6334ec6/embed",
+  "editorUrl": "https://sketchfab.com/models/c6cad310ad23473b9d0558b3b6334ec6/edit",
+  "license": {
+    "uid": "783b685da9bf457d81e829fa283f3567",
+    "label": "Standard",
+    "fullname": "Standard",
+    "slug": "st",
+    "summary": "Standard",
+    "requirements": "Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works",
+    "url": "https://sketchfab.com/licenses",
+    "free": false,
+    "needsAttribution": false,
+    "ccClauses": null
+  },
+  "isPublished": true,
+  "isDownloadable": false,
+  "downloadType": "store",
+  "isInspectable": true,
+  "isDeleted": false,
+  "processingStatus": 2,
+  "processedAt": "2021-09-19T07:30:19.325237",
+  "status": {
+    "warning": {},
+    "processing": "SUCCEEDED"
+  },
+  "isRestricted": false,
+  "files": [
+    {
+      "uid": "bd4dd95880c246e78b94429f296f4c96",
+      "flag": 0,
+      "osgjsUrl": "https://media.sketchfab.com/models/c6cad310ad23473b9d0558b3b6334ec6/863184c043d64d5db0fae3255c0eb22d/files/bd4dd95880c246e78b94429f296f4c96/file.binz",
+      "modelSize": 1651,
+      "osgjsSize": 1447,
+      "wireframeSize": 428,
+      "p": [
+        {
+          "v": 1,
+          "b": "9IazZvbbyK2Y4HgUhNJml17ZFDM56C95eL0neKhHGMP1kgYgfIsQIsuXIcdIFV/N83v3iIGg9zOw\ngaVb1EakTCmlFDAAMQAxAM2Op2zY63xmrdECnOuls3MTBWpVPApEsvro7CxTf7ensdko3hNhAV9C\nimw+AWAhfgevwTYQ08O2kY8N7UdX9ERXkaMNby8gRjkkZpmkpS5lLZ3dzqxla+7OpF+kzmitSQEh\nCJV/qlflIHz0HfALTHE2UI06sc+POg4obZmqfnnTa67K8PDRVZVfU8/FKil4F6sVq7HteMuLkVGF\njK4SZE6uLuTy0jBvfLvLuwEx63zCZuch8Mr61BpmTT1RaMLzohkoICWgcPJwyCGjGuYiYogjQsPH\nXXjIrKWNCT3OXT2QN7OhA1OyK2p4KJojpeW1RUUDDWy7eQw=",
+          "d": true
+        }
+      ]
+    }
+  ],
+  "options": {
+    "scene": {
+      "postProcess": {
+        "dof": {
+          "enable": false,
+          "blurFar": 0.5,
+          "blurNear": 0.5,
+          "focusPoint": [
+            0,
+            0,
+            0
+          ]
+        },
+        "ssr": {
+          "enable": false,
+          "factor": 1
+        },
+        "taa": {
+          "enable": true,
+          "transparent": true
+        },
+        "ssao": {
+          "bias": 0.057101991458667067,
+          "enable": false,
+          "radius": 0.28550995729333534,
+          "intensity": 0.5
+        },
+        "bloom": {
+          "enable": false,
+          "factor": 0.5,
+          "radius": 0.7,
+          "threshold": 0
+        },
+        "grain": {
+          "enable": false,
+          "factor": 0.15,
+          "animated": false
+        },
+        "enable": true,
+        "sharpen": {
+          "enable": true,
+          "factor": 0.2
+        },
+        "vignette": {
+          "amount": 0.475,
+          "enable": false,
+          "hardness": 0.725
+        },
+        "toneMapping": {
+          "enable": true,
+          "method": "default",
+          "contrast": 0,
+          "exposure": 1,
+          "brightness": 0.2,
+          "saturation": 1.2
+        },
+        "colorBalance": {
+          "low": [
+            0,
+            0,
+            0
+          ],
+          "mid": [
+            0,
+            0,
+            0
+          ],
+          "high": [
+            0,
+            0,
+            0
+          ],
+          "enable": false
+        },
+        "chromaticAberration": {
+          "enable": false,
+          "factor": 0.05
+        }
+      },
+      "sssProfiles": [
+        {
+          "falloff": [
+            1,
+            0.37,
+            0.3
+          ],
+          "strength": [
+            0.48,
+            0.41,
+            0.28
+          ]
+        },
+        {
+          "falloff": [
+            0.5,
+            0.67,
+            0.6
+          ],
+          "strength": [
+            0.38,
+            0.61,
+            0.68
+          ]
+        },
+        {
+          "falloff": [
+            0.7,
+            0.77,
+            0.3
+          ],
+          "strength": [
+            0.88,
+            0.61,
+            0.28
+          ]
+        }
+      ]
+    },
+    "lighting": {
+      "enable": false,
+      "lights": [
+        {
+          "type": "DIRECTION",
+          "angle": 45,
+          "color": [
+            0.78061224489795922,
+            0.79852144939608483,
+            1
+          ],
+          "enable": true,
+          "ground": [
+            0.3,
+            0.2,
+            0.2
+          ],
+          "matrix": [
+            -0.98158045002754823,
+            0.19099221670954991,
+            -0.0046683273331011022,
+            0,
+            0.13548347102422797,
+            0.71311260621690964,
+            0.68783329370840562,
+            0,
+            0.13469984856318096,
+            0.67453123279126137,
+            -0.72585368138913309,
+            0,
+            0.75691348292419236,
+            6.4247852838000243,
+            -0.4574280722187023,
+            1
+          ],
+          "falloff": 0.029950048768089117,
+          "hardness": 0.5,
+          "intensity": 0.96,
+          "shadowBias": 0.005,
+          "castShadows": false,
+          "intensityGround": 1,
+          "attachedToCamera": false
+        },
+        {
+          "type": "DIRECTION",
+          "angle": 45,
+          "color": [
+            1,
+            0.87833194502290735,
+            0.70918367346938771
+          ],
+          "enable": true,
+          "ground": [
+            0.3,
+            0.2,
+            0.2
+          ],
+          "matrix": [
+            0.77552114951046625,
+            -0.0666602860002539,
+            0.6277924441503967,
+            0,
+            0.26904837373619561,
+            0.93448465232814371,
+            -0.233133882464682,
+            0,
+            -0.57112163262467408,
+            0.34970679266138383,
+            0.74264745331456861,
+            0,
+            -5.69169646749703,
+            3.4570856988620116,
+            12.959266207924284,
+            1
+          ],
+          "falloff": 0.029950048768089117,
+          "hardness": 0.5,
+          "intensity": 1,
+          "shadowBias": 0.005,
+          "castShadows": false,
+          "intensityGround": 1,
+          "attachedToCamera": false
+        },
+        {
+          "type": "DIRECTION",
+          "angle": 45,
+          "color": [
+            0.423469387755102,
+            0.73526655560183285,
+            1
+          ],
+          "enable": true,
+          "ground": [
+            0.9642857142857143,
+            0.64841286368774886,
+            0.26075072886297379
+          ],
+          "matrix": [
+            0.69032991310229264,
+            -0.70763636691440568,
+            -0.15064986988498263,
+            0,
+            -0.011089698239978026,
+            0.19785137301620165,
+            -0.98016929802384156,
+            0,
+            0.72340972461609065,
+            0.67831084792724983,
+            0.12873524736872857,
+            0,
+            6.1355544931651842,
+            6.4593170519939864,
+            7.3503686814777547,
+            1
+          ],
+          "falloff": 0.029950048768089117,
+          "hardness": 0.5,
+          "intensity": 0.12,
+          "shadowBias": 0.005,
+          "castShadows": false,
+          "intensityGround": 0.06,
+          "attachedToCamera": false
+        }
+      ]
+    },
+    "shading": {
+      "type": "shadeless",
+      "renderer": "pbr",
+      "pointSize": 2,
+      "vertexColor": {
+        "enable": false,
+        "useAlpha": false,
+        "colorSpace": "srgb"
+      }
+    },
+    "orientation": {
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "camera": {
+      "up": 1.555089,
+      "fov": 30,
+      "down": -1.555089,
+      "left": -3.141593,
+      "right": 3.141593,
+      "target": [
+        -0.35323452765951174,
+        -0.27672033498559423,
+        4.5160285792732449
+      ],
+      "zoomIn": 0,
+      "zoomOut": 1541,
+      "position": [
+        2.9208514154453771,
+        -46.646881670807772,
+        19.154044819287
+      ],
+      "nearFarRatio": 0.005,
+      "usePanConstraints": true,
+      "useYawConstraints": false,
+      "useZoomConstraints": false,
+      "usePitchConstraints": false,
+      "useCameraConstraints": false
+    },
+    "wireframe": {
+      "color": "000000FF",
+      "enable": false
+    },
+    "materials": {
+      "updatedAt": 16320368422,
+      "1550c7be-d489-4fbc-b138-48d2021cf3ab": {
+        "id": "1550c7be-d489-4fbc-b138-48d2021cf3ab",
+        "name": "Material__86",
+        "version": 3,
+        "channels": {
+          "AOPBR": {
+            "enable": false,
+            "factor": 1,
+            "occludeSpecular": false
+          },
+          "Sheen": {
+            "enable": false,
+            "factor": 1,
+            "colorFactor": [
+              0,
+              0,
+              0
+            ]
+          },
+          "Matcap": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": true,
+            "factor": 1,
+            "texture": {
+              "uid": "35c4d334eded44d8a657f390954a32dd",
+              "wrapS": "REPEAT",
+              "wrapT": "REPEAT",
+              "magFilter": "LINEAR",
+              "minFilter": "LINEAR_MIPMAP_LINEAR",
+              "texCoordUnit": 0,
+              "textureTarget": "TEXTURE_2D",
+              "internalFormat": "RGB"
+            },
+            "curvature": 0,
+            "UVTransforms": {
+              "scale": [
+                1,
+                1
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "rotation": 0
+            }
+          },
+          "BumpMap": {
+            "enable": false,
+            "factor": 1
+          },
+          "Opacity": {
+            "ior": 1.05,
+            "type": "alphaBlend",
+            "enable": true,
+            "factor": 1,
+            "invert": false,
+            "thinLayer": false,
+            "useAlbedoTint": false,
+            "refractionColor": [
+              1,
+              1,
+              1
+            ],
+            "roughnessFactor": 0,
+            "useNormalOffset": false,
+            "useMicrosurfaceTexture": true
+          },
+          "AlbedoPBR": {
+            "enable": true,
+            "factor": 1,
+            "texture": {
+              "uid": "49811d34ff3d484b8c2daad5793110d1",
+              "wrapS": "REPEAT",
+              "wrapT": "REPEAT",
+              "magFilter": "LINEAR",
+              "minFilter": "LINEAR_MIPMAP_LINEAR",
+              "texCoordUnit": 0,
+              "textureTarget": "TEXTURE_2D",
+              "internalFormat": "RGB"
+            },
+            "UVTransforms": {
+              "scale": [
+                1,
+                1
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "rotation": 0
+            }
+          },
+          "AlphaMask": {
+            "enable": false,
+            "factor": 1,
+            "invert": false
+          },
+          "CavityPBR": {
+            "enable": false,
+            "factor": 1
+          },
+          "ClearCoat": {
+            "tint": [
+              0.914,
+              0.914,
+              0.914
+            ],
+            "enable": false,
+            "factor": 1,
+            "thickness": 5,
+            "reflectivity": 0
+          },
+          "EmitColor": {
+            "type": "additive",
+            "enable": true,
+            "factor": 0,
+            "texture": {
+              "uid": "49811d34ff3d484b8c2daad5793110d1",
+              "wrapS": "REPEAT",
+              "wrapT": "REPEAT",
+              "magFilter": "LINEAR",
+              "minFilter": "LINEAR_MIPMAP_LINEAR",
+              "texCoordUnit": 0,
+              "textureTarget": "TEXTURE_2D",
+              "internalFormat": "RGB"
+            },
+            "UVTransforms": {
+              "scale": [
+                1,
+                1
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "rotation": 0
+            }
+          },
+          "NormalMap": {
+            "flipY": true,
+            "enable": false,
+            "factor": 1
+          },
+          "Anisotropy": {
+            "enable": false,
+            "factor": 1,
+            "flipXY": true,
+            "direction": 0
+          },
+          "DiffusePBR": {
+            "enable": false,
+            "factor": 1,
+            "texture": {
+              "uid": "49811d34ff3d484b8c2daad5793110d1",
+              "wrapS": "REPEAT",
+              "wrapT": "REPEAT",
+              "magFilter": "LINEAR",
+              "minFilter": "LINEAR_MIPMAP_LINEAR",
+              "texCoordUnit": 0,
+              "textureTarget": "TEXTURE_2D",
+              "internalFormat": "RGB"
+            },
+            "UVTransforms": {
+              "scale": [
+                1,
+                1
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "rotation": 0
+            }
+          },
+          "SpecularF0": {
+            "enable": true,
+            "factor": 0.5
+          },
+          "SpecularPBR": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": false,
+            "factor": 0.05
+          },
+          "DiffuseColor": {
+            "enable": true,
+            "factor": 1,
+            "texture": {
+              "uid": "49811d34ff3d484b8c2daad5793110d1",
+              "wrapS": "REPEAT",
+              "wrapT": "REPEAT",
+              "magFilter": "LINEAR",
+              "minFilter": "LINEAR_MIPMAP_LINEAR",
+              "texCoordUnit": 0,
+              "textureTarget": "TEXTURE_2D",
+              "internalFormat": "RGB"
+            },
+            "UVTransforms": {
+              "scale": [
+                1,
+                1
+              ],
+              "offset": [
+                0,
+                0
+              ],
+              "rotation": 0
+            }
+          },
+          "Displacement": {
+            "enable": false,
+            "factor": 0
+          },
+          "MetalnessPBR": {
+            "enable": true,
+            "factor": 0
+          },
+          "RoughnessPBR": {
+            "enable": false,
+            "factor": 0.6
+          },
+          "GlossinessPBR": {
+            "enable": true,
+            "factor": 0
+          },
+          "SpecularColor": {
+            "color": [
+              0,
+              0,
+              0
+            ],
+            "enable": true,
+            "factor": 1
+          },
+          "SheenRoughness": {
+            "enable": false,
+            "factor": 1
+          },
+          "DiffuseIntensity": {
+            "color": [
+              1,
+              1,
+              1
+            ],
+            "enable": true,
+            "factor": 1
+          },
+          "SpecularHardness": {
+            "enable": true,
+            "factor": 10
+          },
+          "ClearCoatNormalMap": {
+            "flipY": true,
+            "enable": true,
+            "factor": 1
+          },
+          "ClearCoatRoughness": {
+            "enable": true,
+            "factor": 0.04
+          },
+          "SubsurfaceScattering": {
+            "enable": false,
+            "factor": 0.57101991458667067,
+            "profile": 1
+          },
+          "SubsurfaceTranslucency": {
+            "color": [
+              1,
+              0.36999999999999983,
+              0.29999999999999982
+            ],
+            "enable": false,
+            "factor": 1,
+            "thicknessFactor": 0.57101991458667067
+          }
+        },
+        "cullFace": "DISABLE",
+        "shadeless": false,
+        "reflection": 0.1,
+        "stateSetID": 1
+      }
+    },
+    "environment": {
+      "uid": "9190e8da70694ef3b9d1d0c01541917e",
+      "blur": 0.1,
+      "enable": true,
+      "exposure": 1,
+      "rotation": 0,
+      "shadowBias": 0.005,
+      "shadowEnable": true,
+      "lightIntensity": 3,
+      "backgroundExposure": 1
+    },
+    "background": {
+      "uid": "51af6a870cce449eb75b0345feebaebb",
+      "color": [
+        0.86667,
+        0.86667,
+        0.86667
+      ],
+      "enable": "color"
+    },
+    "version": 9,
+    "animation": {
+      "order": [],
+      "speed": 1,
+      "cycleMode": "one",
+      "initializeWithRestPose": false
+    },
+    "hotspot": {
+      "visible": true,
+      "hotspots": []
+    },
+    "vr": {
+      "floorHeight": 0,
+      "worldFactor": 5.7101991458667065,
+      "displayFloor": true,
+      "initialCamera": {
+        "position": [
+          -0.47374725341796875,
+          -13.442424937232195,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    "sound": [],
+    "ground": {
+      "fade": 0.25,
+      "scale": 17.13059743760012,
+      "enable": true,
+      "opacity": 1,
+      "position": [
+        -0.47374725341796875,
+        0.26205301284790039,
+        0.0012348404884338379
+      ],
+      "shadowMode": "BakedAO",
+      "aoTextureUid": "f52f1a4a3f5b460782658e9c573cd16e",
+      "samplingRange": 0.6
+    },
+    "createdAt": "2021-09-19T07:30:08.216711",
+    "updatedAt": "2021-09-19T07:34:02.216292"
+  },
+  "preferOriginalNormalMap": false,
+  "inStore": true,
+  "isDisabled": false,
+  "displayStatus": "ok",
+  "visibility": "public",
+  "org": null,
+  "isArEnabled": false,
+  "version": {
+    "uid": "863184c043d64d5db0fae3255c0eb22d",
+    "status": {
+      "warning": {},
+      "processing": "SUCCEEDED"
+    },
+    "isCurrentVersion": true,
+    "isCandidateVersion": false,
+    "createdAt": "2021-09-19T07:30:08.216711",
+    "processedAt": "2021-09-19T07:30:19.285088",
+    "reason": "upload"
+  },
+  "soundCount": 0
+}

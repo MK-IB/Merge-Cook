@@ -1,0 +1,379 @@
+{
+  "Generator": "OpenSceneGraph 3.5.6",
+  "Version": 9,
+  "osg.Node": {
+    "Children": [ {
+      "osg.MatrixTransform": {
+        "UniqueID": 0,
+        "Name": "fdf65a2875a641b383906828c146fe88.fbx",
+        "Children": [ {
+          "osg.MatrixTransform": {
+            "UniqueID": 2,
+            "Name": "RootNode",
+            "Children": [ {
+              "osg.MatrixTransform": {
+                "UniqueID": 3,
+                "Name": "FrenchFries",
+                "Children": [ {
+                  "osg.Node": {
+                    "UniqueID": 4,
+                    "Name": "FrenchFries",
+                    "Children": [ {
+                      "osg.Geometry": {
+                        "UniqueID": 5,
+                        "Name": "FrenchFries_FrenchFries_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUInt": {
+                            "UniqueID": 14,
+                            "Indices": {
+                              "UniqueID": 15,
+                              "Array": { 
+                                "Uint32Array": { 
+                                  "File": "model_file.binz",
+                                  "Size": 394,
+                                  "Offset": 0,
+                                  "Encoding": "varint"
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "TRIANGLE_STRIP"
+                          }
+                        } ],
+                        "StateSet": {
+                          "osg.StateSet": {
+                            "UniqueID": 6,
+                            "AttributeList": [ {
+                              "osg.Material": {
+                                "UniqueID": 8,
+                                "Name": "FrenchFries",
+                                "Ambient": [ 0.2, 0.2, 0.2, 1],
+                                "Diffuse": [ 0.8, 0.8, 0.8, 1],
+                                "Emission": [ 0, 0, 0, 1],
+                                "Shininess": 0,
+                                "Specular": [ 0, 0, 0, 1]
+                              }
+                            } ],
+                            "UserDataContainer": {
+                              "UniqueID": 7,
+                              "Values": [ {
+                                "Name": "source",
+                                "Value": "fbx"
+                              },
+                              {
+                                "Name": "UniqueID",
+                                "Value": "1"
+                              } ]
+                            }
+                          }
+                        },
+                        "UserDataContainer": {
+                          "UniqueID": 9,
+                          "Values": [ {
+                            "Name": "attributes",
+                            "Value": "55"
+                          },
+                          {
+                            "Name": "vertex_bits",
+                            "Value": "12"
+                          },
+                          {
+                            "Name": "vertex_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "uv_0_bits",
+                            "Value": "14"
+                          },
+                          {
+                            "Name": "uv_0_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "uv_1_bits",
+                            "Value": "14"
+                          },
+                          {
+                            "Name": "uv_1_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "uv_2_mode",
+                            "Value": "0"
+                          },
+                          {
+                            "Name": "uv_3_bits",
+                            "Value": "14"
+                          },
+                          {
+                            "Name": "uv_3_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "uv_4_bits",
+                            "Value": "14"
+                          },
+                          {
+                            "Name": "uv_4_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "uv_5_bits",
+                            "Value": "14"
+                          },
+                          {
+                            "Name": "uv_5_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "uv_6_bits",
+                            "Value": "14"
+                          },
+                          {
+                            "Name": "uv_6_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "uv_7_bits",
+                            "Value": "14"
+                          },
+                          {
+                            "Name": "uv_7_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "uv_8_bits",
+                            "Value": "14"
+                          },
+                          {
+                            "Name": "uv_8_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "uv_9_bits",
+                            "Value": "14"
+                          },
+                          {
+                            "Name": "uv_9_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "uv_10_bits",
+                            "Value": "14"
+                          },
+                          {
+                            "Name": "uv_10_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "uv_11_bits",
+                            "Value": "14"
+                          },
+                          {
+                            "Name": "uv_11_mode",
+                            "Value": "3"
+                          },
+                          {
+                            "Name": "epsilon",
+                            "Value": "0.25"
+                          },
+                          {
+                            "Name": "nphi",
+                            "Value": "720"
+                          },
+                          {
+                            "Name": "triangle_mode",
+                            "Value": "7"
+                          },
+                          {
+                            "Name": "vtx_bbl_x",
+                            "Value": "-2.42598"
+                          },
+                          {
+                            "Name": "vtx_bbl_y",
+                            "Value": "-19.3239"
+                          },
+                          {
+                            "Name": "vtx_bbl_z",
+                            "Value": "-2.60908"
+                          },
+                          {
+                            "Name": "vtx_h_x",
+                            "Value": "0.00237028"
+                          },
+                          {
+                            "Name": "vtx_h_y",
+                            "Value": "0.0196854"
+                          },
+                          {
+                            "Name": "vtx_h_z",
+                            "Value": "0.00317625"
+                          },
+                          {
+                            "Name": "uv_0_bbl_x",
+                            "Value": "0.0803224"
+                          },
+                          {
+                            "Name": "uv_0_bbl_y",
+                            "Value": "0.0346647"
+                          },
+                          {
+                            "Name": "uv_0_h_x",
+                            "Value": "0.000102706"
+                          },
+                          {
+                            "Name": "uv_0_h_y",
+                            "Value": "0.000113422"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Normal": {
+                            "UniqueID": 11,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 228,
+                                "Offset": 468,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "Tangent": {
+                            "UniqueID": 13,
+                            "Array": { 
+                              "Uint32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 228,
+                                "Offset": 1224,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "TexCoord0": {
+                            "UniqueID": 12,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 228,
+                                "Offset": 2112,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 2,
+                            "Type": "ARRAY_BUFFER"
+                          },
+                          "TexCoord1": {
+                            "UniqueID": 12
+                          },
+                          "TexCoord10": {
+                            "UniqueID": 12
+                          },
+                          "TexCoord11": {
+                            "UniqueID": 12
+                          },
+                          "TexCoord3": {
+                            "UniqueID": 12
+                          },
+                          "TexCoord4": {
+                            "UniqueID": 12
+                          },
+                          "TexCoord5": {
+                            "UniqueID": 12
+                          },
+                          "TexCoord6": {
+                            "UniqueID": 12
+                          },
+                          "TexCoord7": {
+                            "UniqueID": 12
+                          },
+                          "TexCoord8": {
+                            "UniqueID": 12
+                          },
+                          "TexCoord9": {
+                            "UniqueID": 12
+                          },
+                          "Vertex": {
+                            "UniqueID": 10,
+                            "Array": { 
+                              "Int32Array": { 
+                                "File": "model_file.binz",
+                                "Size": 228,
+                                "Offset": 2788,
+                                "Encoding": "varint"
+                              }
+                            },
+                            "ItemSize": 3,
+                            "Type": "ARRAY_BUFFER"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "osg.Geometry": {
+                        "UniqueID": 16,
+                        "Name": "FrenchFries_FrenchFries_0",
+                        "PrimitiveSetList": [ {
+                          "DrawElementsUByte": {
+                            "UniqueID": 18,
+                            "Indices": {
+                              "UniqueID": 19,
+                              "Array": { 
+                                "Uint8Array": { 
+                                  "File": "model_file_wireframe.binz",
+                                  "Size": 856,
+                                  "Offset": 0
+                                }
+                              },
+                              "ItemSize": 1,
+                              "Type": "ELEMENT_ARRAY_BUFFER"
+                            },
+                            "Mode": "LINES"
+                          }
+                        } ],
+                        "UserDataContainer": {
+                          "UniqueID": 17,
+                          "Values": [ {
+                            "Name": "wireframe",
+                            "Value": "1"
+                          },
+                          {
+                            "Name": "attributes",
+                            "Value": "1"
+                          } ]
+                        },
+                        "VertexAttributeList": {
+                          "Vertex": {
+                            "UniqueID": 10
+                          }
+                        }
+                      }
+                    } ]
+                  }
+                } ],
+                "Matrix": [ 1, 0, 0, 0, 0, 1, 1.62921e-07, 0, 0, -1.62921e-07, 1, 0, 0, 0, 0, 1 ]
+              }
+            } ],
+            "Matrix": [ 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1 ]
+          }
+        } ],
+        "Matrix": [ 0.01, 0, 0, 0, 0, 0, 0.01, 0, 0, -0.01, 0, 0, 0, 0, 0, 1 ],
+        "UserDataContainer": {
+          "UniqueID": 1,
+          "Values": [ {
+            "Name": "source",
+            "Value": "fbx"
+          },
+          {
+            "Name": "authoring_tool",
+            "Value": "3ds Max"
+          } ]
+        }
+      }
+    } ]
+  }
+}
