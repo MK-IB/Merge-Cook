@@ -10,6 +10,8 @@ public class EffectsController : MonoBehaviour
     public GameObject spawnFx;
     public GameObject bombSpawnFx;
     public GameObject explosionFx;
+    public GameObject starExplosion;
+    public GameObject emojiExplosion;
 
     private void Awake()
     {

@@ -616,8 +616,6 @@ GameObject:
   m_Component:
   - component: {fileID: 327940378}
   - component: {fileID: 327940381}
-  - component: {fileID: 327940380}
-  - component: {fileID: 327940379}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -640,55 +638,6 @@ Transform:
   m_Father: {fileID: 1702208193}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &327940379
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 327940377}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_BindingMode: 1
-  m_FollowOffset: {x: 0, y: 0, z: -10}
-  m_XDamping: 1
-  m_YDamping: 1
-  m_ZDamping: 1
-  m_AngularDampingMode: 0
-  m_PitchDamping: 0
-  m_YawDamping: 0
-  m_RollDamping: 0
-  m_AngularDamping: 0
---- !u!114 &327940380
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 327940377}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
-  m_LookaheadTime: 0
-  m_LookaheadSmoothing: 0
-  m_LookaheadIgnoreY: 0
-  m_HorizontalDamping: 0.5
-  m_VerticalDamping: 0.5
-  m_ScreenX: 0.5
-  m_ScreenY: 0.5
-  m_DeadZoneWidth: 0
-  m_DeadZoneHeight: 0
-  m_SoftZoneWidth: 0.8
-  m_SoftZoneHeight: 0.8
-  m_BiasX: 0
-  m_BiasY: 0
-  m_CenterOnActivate: 1
 --- !u!114 &327940381
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -36579,7 +36528,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2025905721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53804,11 +53753,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8764816611056020874, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: dishName
-      value: VEG. CURRY
+      value: TOMATO SOUP
       objectReference: {fileID: 0}
     - target: {fileID: 8764816611056020874, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: moneyControlledParticle
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764816611846279098, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8764816611846279098, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: m_AnchorMax.y
@@ -53819,7 +53772,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 95f850bde9d177643b594bc953ec402a, type: 3}
     - target: {fileID: 8764816612162734411, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764816612162734411, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764816612162734411, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
+      propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8764816612855577243, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}

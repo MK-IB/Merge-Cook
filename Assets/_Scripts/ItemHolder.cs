@@ -2,7 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using MoreMountains.NiceVibrations;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class ItemHolder : MonoBehaviour
 {
@@ -21,20 +23,28 @@ public class ItemHolder : MonoBehaviour
         };
     }
 
+    private void Update()
+    {
+        /*if (Input.GetMouseButtonDown(0))
+        {
+            Instantiate(vegList[Random.Range(0, vegList.Count)], new Vector3(0, 0, -1), Quaternion.identity);
+        }*/
+    }
+
     public void SpawnItems(int index, Vector3 pos)
     {
         GameObject veg = Instantiate(vegList[index], pos, vegList[index].transform.rotation);
+        UIController.instance.UpdateCookStatus();
         
         if(veg.GetComponent<Item>())
         {
             GameObject spawnFx = EffectsController.instance.spawnFx;
             Instantiate(spawnFx, pos, spawnFx.transform.rotation);
         }else Instantiate(EffectsController.instance.bombSpawnFx, pos, Quaternion.identity);
-        Vector3 origScale = veg.transform.localScale;
-        veg.transform.DOScale(Vector3.zero, 0.2f).SetEase(Ease.InOutBounce).From().OnComplete(() =>
-        {
-            veg.transform.DOScale(origScale * 0.65f, 2);
-        });
+       
+        SoundController.instance.PlayClip(SoundController.instance.spawn);
+        FeedbackText.instance.PlayTextEffect();
+        MMVibrationManager.Haptic(HapticTypes.LightImpact);
     }
 
     public string GetCurrentDishName()

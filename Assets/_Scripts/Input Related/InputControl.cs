@@ -44,6 +44,7 @@ public class InputControl : MonoBehaviour
             {
                 fingerDown = touch.position;
                 CheckSwipe();
+                SoundController.instance.PlayClip(SoundController.instance.swipe);
             }
         }
     }

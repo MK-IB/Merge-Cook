@@ -66,6 +66,16 @@
       <Path>.idea</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
+      <Path>Merge 2_BackUpThisFolder_ButDontShipItWithYourGame</Path>
+      <Path>Merge 2_BurstDebugInformation_DoNotShip</Path>
+      <Path>Merge Cook_BackUpThisFolder_ButDontShipItWithYourGame</Path>
+      <Path>Merge Cook_BurstDebugInformation_DoNotShip</Path>
+      <Path>Merge Spawn Test_BackUpThisFolder_ButDontShipItWithYourGame</Path>
+      <Path>Merge Spawn Test_BurstDebugInformation_DoNotShip</Path>
+      <Path>Merge Test 2_BackUpThisFolder_ButDontShipItWithYourGame</Path>
+      <Path>Merge Test 2_BurstDebugInformation_DoNotShip</Path>
+      <Path>Merge Test 3_BackUpThisFolder_ButDontShipItWithYourGame</Path>
+      <Path>Merge Test 3_BurstDebugInformation_DoNotShip</Path>
       <Path>Recordings</Path>
       <Path>Temp</Path>
       <Path>UserSettings</Path>

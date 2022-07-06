@@ -53761,7 +53761,7 @@ PrefabInstance:
     - target: {fileID: 8764816610822901970, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: vegList.Array.data[1]
       value: 
-      objectReference: {fileID: 7040081455233489210, guid: 91ef30c283df34e43adba7c3a0a3da99, type: 3}
+      objectReference: {fileID: 5023173962315376371, guid: 90be118024ad4254480b5c27a33a3ea2, type: 3}
     - target: {fileID: 8764816610822901970, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: vegList.Array.data[2]
       value: 
@@ -53777,7 +53777,7 @@ PrefabInstance:
     - target: {fileID: 8764816610822901970, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: vegList.Array.data[5]
       value: 
-      objectReference: {fileID: 5023173962315376371, guid: 90be118024ad4254480b5c27a33a3ea2, type: 3}
+      objectReference: {fileID: 7040081455233489210, guid: 91ef30c283df34e43adba7c3a0a3da99, type: 3}
     - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: _width
       value: 4
@@ -53797,7 +53797,7 @@ PrefabInstance:
     - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: _blockTypes.Array.data[1].icon
       value: 
-      objectReference: {fileID: 21300000, guid: ae9abff45a70a334d81309c871c6b29c, type: 3}
+      objectReference: {fileID: 21300000, guid: 9be038ea5e017654b87b26dfe7b37dbd, type: 3}
     - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: _blockTypes.Array.data[2].icon
       value: 
@@ -53813,7 +53813,7 @@ PrefabInstance:
     - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: _blockTypes.Array.data[5].icon
       value: 
-      objectReference: {fileID: 21300000, guid: 9be038ea5e017654b87b26dfe7b37dbd, type: 3}
+      objectReference: {fileID: 21300000, guid: ae9abff45a70a334d81309c871c6b29c, type: 3}
     - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: _blockTypes.Array.data[2].value
       value: 2
@@ -53944,7 +53944,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8764816611056020874, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: dishName
-      value: VEG. FRY
+      value: VEG. SOUP
       objectReference: {fileID: 0}
     - target: {fileID: 8764816611056020874, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: isFailItemLevel

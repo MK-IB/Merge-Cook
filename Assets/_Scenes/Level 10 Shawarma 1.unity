@@ -72672,6 +72672,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2252987865652383932, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
+      propertyPath: isBeachEnv
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8764816610822901970, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: vegList.Array.size
       value: 3
@@ -72715,11 +72719,11 @@ PrefabInstance:
     - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: _blockTypes.Array.data[1].icon
       value: 
-      objectReference: {fileID: 21300000, guid: 39ed09dbafc38ea4893889d366d46439, type: 3}
+      objectReference: {fileID: 21300000, guid: 3895dd8ee87774943b068b537fde2a2b, type: 3}
     - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: _blockTypes.Array.data[2].icon
       value: 
-      objectReference: {fileID: 21300000, guid: b833c798f1c1b6b4ba131050c4c62bae, type: 3}
+      objectReference: {fileID: 21300000, guid: a509fc211bbc2b54fbc9d9f939bfd972, type: 3}
     - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: _blockTypes.Array.data[3].icon
       value: 
@@ -72837,6 +72841,10 @@ PrefabInstance:
       value: MAIN CONTROLLER
       objectReference: {fileID: 0}
     - target: {fileID: 8764816611056020874, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
+      propertyPath: dishName
+      value: CRAB KEBAB
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764816611056020874, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: moneyControlledParticle
       value: 
       objectReference: {fileID: 0}
@@ -72847,7 +72855,7 @@ PrefabInstance:
     - target: {fileID: 8764816612137142197, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 9be038ea5e017654b87b26dfe7b37dbd, type: 3}
+      objectReference: {fileID: 21300000, guid: af60b04301055494b9d57b6b83040ffd, type: 3}
     - target: {fileID: 8764816612162734411, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

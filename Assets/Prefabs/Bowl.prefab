@@ -668,8 +668,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1210008746534345939}
   m_LocalRotation: {x: -0.70710576, y: -2.2737368e-13, z: -0.000004025018, w: 0.70710784}
-  m_LocalPosition: {x: -0, y: 0.04, z: 0}
-  m_LocalScale: {x: 1.8308, y: 1.8308, z: 1.8308}
+  m_LocalPosition: {x: 0, y: 0.924, z: -0}
+  m_LocalScale: {x: 2.1425853, y: 1.8308, z: 1.8308}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1210008745916291222}
@@ -1054,3 +1054,4 @@ MonoBehaviour:
   customer: {fileID: 0}
   servingPot: {fileID: 0}
   servingAngle: {x: 20, y: -90, z: -90}
+  foodStack: {fileID: 0}

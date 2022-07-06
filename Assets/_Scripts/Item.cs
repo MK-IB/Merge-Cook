@@ -9,7 +9,7 @@ public class Item : MonoBehaviour
     public TrailRenderer trailRenderer;
     public GameObject dropFx;
     public GameObject piecesParent;
-    [SerializeField] private bool keepThePiece; 
+    [SerializeField] private bool keepThePiece;
 
     private void Start()
     {

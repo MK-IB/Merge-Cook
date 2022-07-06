@@ -2,11 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.Http.Headers;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UIElements;
 using Random = UnityEngine.Random;
 
 public class PlayController : MonoBehaviour
@@ -49,7 +47,6 @@ public class PlayController : MonoBehaviour
         InputEventsManager.instance.SwipeUpEvent += ShiftUp;
         InputEventsManager.instance.SwipeDownEvent += ShiftDown;
     }
-
     void ShiftRight()
     {
         Shift(Vector2.right);
@@ -92,7 +89,10 @@ public class PlayController : MonoBehaviour
                 break;
         }
     }
-
+    
+    private float _failItemSpawnDelay = 1f;
+    private float _delay;
+    
     private void Update()
     {
         if (_state != GameState.WaitingInput) return;
@@ -102,6 +102,9 @@ public class PlayController : MonoBehaviour
         if (Input.GetKey(KeyCode.RightArrow)) Shift(Vector2.right);
         if (Input.GetKey(KeyCode.DownArrow)) Shift(Vector2.down);
         if (Input.GetKey(KeyCode.UpArrow)) Shift(Vector2.up);
+        
+        //spawn fail items items with delay
+        _delay += Time.deltaTime;
     }
 
     void GenerateGrid()
@@ -139,13 +142,23 @@ public class PlayController : MonoBehaviour
         foreach (var node in freeNodes.Take(amount))
         {
             if (spawnCounter >= freeNodes.Count() / 2) return;
-            SpawnBlock(node, Random.Range(0, _blockTypes.Count));
+            /*if (UIController.instance.isFailItemLevel)
+                if (_delay >= _failItemSpawnDelay)
+                {
+                    SpawnBlock(node, Random.Range(0, _blockTypes.Count));
+                    _delay = 0;
+                }
+                else
+                    SpawnBlock(node, Random.Range(0, _blockTypes.Count - 1));
+            else*/
+                SpawnBlock(node, Random.Range(0, _blockTypes.Count));
+
             spawnCounter++;
         }
 
         if (freeNodes.Count() == 1)
         {
-            ChangeState(GameState.Lose);
+            DOVirtual.DelayedCall(3, () => { MainController.instance.SetActionType(MainController.StateOfGame.Lose);});
             return;
         }
 
@@ -214,10 +227,11 @@ public class PlayController : MonoBehaviour
         mergingBlock.transform.DOScale(Vector3.zero, 0.3f);
         baseBlock.transform.DOScale(Vector3.zero, 0.3f).OnComplete(() =>
         {
+            int index = mergingBlock.Value;
+            Vector3 pos = new Vector3(baseBlock.Node.pos.x, baseBlock.Node.pos.y, -1);
             RemoveBlock(baseBlock);
             RemoveBlock(mergingBlock);
-            Vector3 pos = new Vector3(baseBlock.Node.pos.x, baseBlock.Node.pos.y, -1);
-            ItemHolder.instance.SpawnItems(mergingBlock.Value, pos);
+            ItemHolder.instance.SpawnItems(index, pos);
             //DOVirtual.DelayedCall(0.1f, () => { ItemHolder.instance.SpawnItems(mergingBlock.Value, pos); });
         });
         //effect
@@ -250,6 +264,7 @@ public class PlayController : MonoBehaviour
         SpawningBlock,
         WaitingInput,
         Moving,
+        NoSpawn,
         Win,
         Lose
     }

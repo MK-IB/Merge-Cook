@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 775041335814526577}
   - component: {fileID: 5598759513125586355}
   - component: {fileID: 775041335814526581}
-  - component: {fileID: 775041335814526580}
+  - component: {fileID: 5579579091120904175}
   - component: {fileID: 775041335814526583}
   - component: {fileID: 775041335814526582}
   m_Layer: 9
@@ -29,15 +29,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 412005050485043603}
-  m_LocalRotation: {x: 0.28605512, y: 0.6502422, z: -0.6788477, w: -0.18580493}
-  m_LocalPosition: {x: -1.332, y: -0.39, z: -1.077}
+  m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+  m_LocalPosition: {x: -1.332, y: -0.29799563, z: -0.9918746}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5068245338525853562}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50.944, y: -90.844, z: 97.783}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
 --- !u!33 &775041335814526577
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -104,8 +104,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!64 &775041335814526580
-MeshCollider:
+--- !u!136 &5579579091120904175
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -114,10 +114,10 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5978428651332758772, guid: 05842c39c0c0d004293da872b248a94f, type: 3}
+  m_Radius: 0.094
+  m_Height: 0.484
+  m_Direction: 2
+  m_Center: {x: -0.0033065677, y: 0, z: 0.06171316}
 --- !u!96 &775041335814526583
 TrailRenderer:
   serializedVersion: 2

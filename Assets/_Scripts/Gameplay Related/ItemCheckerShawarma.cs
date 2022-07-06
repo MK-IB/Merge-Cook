@@ -83,7 +83,19 @@ public class ItemCheckerShawarma : MonoBehaviour
             case MainController.StateOfGame.Decoration:
                 StartCoroutine(MoveForServing());
                 break;
+            case MainController.StateOfGame.Prepared:
+                StartCoroutine(FoodPreparedFx());
+                break;
         }
+    }
+
+    IEnumerator FoodPreparedFx()
+    {
+        yield return new WaitForSeconds(1f);
+        Instantiate(EffectsController.instance.starExplosion, transform.position, Quaternion.identity);
+        yield return new WaitForSeconds(1f);
+        Vector3 pos = new Vector3(transform.position.x, transform.position.y, -4);
+        Instantiate(EffectsController.instance.emojiExplosion, pos, Quaternion.identity);
     }
     
     IEnumerator MoveForServing()

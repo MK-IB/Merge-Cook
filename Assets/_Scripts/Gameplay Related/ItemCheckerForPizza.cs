@@ -47,6 +47,7 @@ public class ItemCheckerForPizza : MonoBehaviour
             Instantiate(spawnFx, other.transform.position, spawnFx.transform.rotation);
             other.gameObject.SetActive(false);
             UIController.instance.UpdateBombCounter();
+            SoundController.instance.PlayClip(SoundController.instance.blast);
         }
         if (other.gameObject.CompareTag("failItem"))
         {
@@ -88,9 +89,18 @@ public class ItemCheckerForPizza : MonoBehaviour
             case MainController.StateOfGame.Decoration:
                 StartCoroutine(MoveForServing());
                 break;
+            case MainController.StateOfGame.Prepared:
+                StartCoroutine(FoodPreparedFx());
+                break;
         }
     }
-
+    IEnumerator FoodPreparedFx()
+    {
+        yield return new WaitForSeconds(1f);
+        Instantiate(EffectsController.instance.starExplosion, transform.position, Quaternion.identity);
+        yield return new WaitForSeconds(1f);
+        Instantiate(EffectsController.instance.emojiExplosion, transform.position, Quaternion.identity);
+    }
     IEnumerator MoveForServing()
     {
         Collider collider = GetComponent<Collider>();

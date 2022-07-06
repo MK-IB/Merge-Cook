@@ -58,6 +58,7 @@ public class Customer : MonoBehaviour
         else
         {
             _animator.SetTrigger("eat");
+            SoundController.instance.PlayClip(SoundController.instance.eating);
             yield return new WaitForSeconds(0.5f);
             eatingFx.SetActive(true);
             PreparingPot.instance.StartCoroutine(PreparingPot.instance.FinishFood());
@@ -81,6 +82,7 @@ public class Customer : MonoBehaviour
             transform.GetChild(0).gameObject.SetActive(true);
             yield return new WaitForSeconds(1f);
             _animator.SetTrigger("vomit");
+            SoundController.instance.PlayClip(SoundController.instance.vomit);
             
             yield return new WaitForSeconds(3.5f);
             MainController.instance.SetActionType(MainController.StateOfGame.DirtyAdded);
@@ -88,6 +90,7 @@ public class Customer : MonoBehaviour
         else
         {
             _animator.SetTrigger("eat");
+            SoundController.instance.PlayClip(SoundController.instance.eating);
             yield return new WaitForSeconds(0.5f);
             eatingFx.SetActive(true);
             float waitTime = 3f / pizzaToppings.Count;
@@ -108,12 +111,15 @@ public class Customer : MonoBehaviour
         _animator.SetTrigger("doneEating");
         MainController.instance.SetActionType(MainController.StateOfGame.EatingDone);
         CameraController.instance.lastFocusCamera.SetActive(true);
+        SoundController.instance.PlayClip(SoundController.instance.girlYummy);
         yield return new WaitForSeconds(1);
+        SoundController.instance.PlayClip(SoundController.instance.wow);
         wowTextFx.SetActive(true);
         yield return new WaitForSeconds(1);
         happyParticleFx.SetActive(true);
         yield return new WaitForSeconds(2);
         winParticle.SetActive(true);
+        SoundController.instance.PlayClip(SoundController.instance.confetti);
         MainController.instance.SetActionType(MainController.StateOfGame.Win);
     }
 }

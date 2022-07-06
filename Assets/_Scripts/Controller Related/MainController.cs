@@ -11,6 +11,7 @@ public class MainController : MonoBehaviour
         None,
         Started,
         Preparation,
+        Prepared,
         Decoration,
         Serving,
         EatingDone,

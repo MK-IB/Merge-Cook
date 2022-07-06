@@ -38569,7 +38569,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.5625, y: 1}
+    m_SensorSize: {x: 0.46153846, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -43586,7 +43586,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8764816611056020874, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: dishName
-      value: CHICKEN FRY
+      value: PIZZA
       objectReference: {fileID: 0}
     - target: {fileID: 8764816611056020874, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: isBombLevel
@@ -43604,6 +43604,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8764816612137142197, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3895dd8ee87774943b068b537fde2a2b, type: 3}
     - target: {fileID: 8764816612162734411, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

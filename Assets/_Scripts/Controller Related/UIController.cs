@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using MoreMountains.NiceVibrations;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -18,10 +19,10 @@ public class UIController : MonoBehaviour
     public RectTransform moneyIcon;
     public TextMeshProUGUI gameStateIndicatorText;
     public string dishName;
-    public GameObject bombCountPanel;
+    public GameObject failItemPanel;
+    public Image warningIcon;
     public Sprite currentFailItemIcon;
     public bool isFailItemLevel;
-    public bool isStackLevel;
 
     [Header("GAMEPLAY RELATED")] 
     public GameObject preparationDoneButton;
@@ -49,10 +50,11 @@ public class UIController : MonoBehaviour
     {
         if (isFailItemLevel)
         {
-            bombCountPanel.SetActive(true);
+            failItemPanel.transform.parent.gameObject.SetActive(true);
+            warningIcon.sprite = currentFailItemIcon;
             for (int i = 0; i < 3; i++)
             {
-                bombCountPanel.transform.GetChild(i).GetComponent<Image>().sprite = currentFailItemIcon;   
+                failItemPanel.transform.GetChild(i).GetComponent<Image>().sprite = currentFailItemIcon;   
             }
         }
     }
@@ -80,9 +82,12 @@ public class UIController : MonoBehaviour
                 break;
             case MainController.StateOfGame.Decoration:
                 gameStateIndicatorText.SetText("DECORATION");
+                failItemPanel.transform.DOScaleY(0, 0.5f);
+                warningIcon.transform.parent.DOScaleX(0, 0.5f).OnComplete(() =>
+                {
+                    failItemPanel.transform.parent.gameObject.SetActive(false);
+                });
                 CameraController.instance.decorationCamera.SetActive(true);
-                
-                if(isStackLevel && PreparingPot.instance) PreparingPot.instance.StartCoroutine(PreparingPot.instance.MoveStackForDecoration());
                 break;
             case MainController.StateOfGame.Serving:
                 gameStateIndicatorText.SetText("SERVING");
@@ -95,15 +100,19 @@ public class UIController : MonoBehaviour
                 StartCoroutine(ShowWinUIs());
                 break;
             case MainController.StateOfGame.Lose:
+                SoundController.instance.PlayClip(SoundController.instance.explosionFinal);
+                MMVibrationManager.Haptic(HapticTypes.Failure);
                 DOVirtual.DelayedCall(3f, () =>
                 {
                     HUD.SetActive(false);
                     failCanvas.SetActive(true);
+                    SoundController.instance.PlayClip(SoundController.instance.lose);
                 });
                 break;
             case MainController.StateOfGame.DirtyAdded:
                 HUD.SetActive(false);
                 failCanvas.SetActive(true);
+                SoundController.instance.PlayClip(SoundController.instance.lose);
                 break;
         }
     }
@@ -113,10 +122,12 @@ public class UIController : MonoBehaviour
         cookSlider.value = sliderValue;
         if (sliderValue >= 1)
         {
+            PlayController.instance.ChangeState(PlayController.GameState.NoSpawn);
             cookSlider.transform.DOScaleX(0, 0.5f);
             preparationDoneButton.SetActive(true);
             PlayController.instance.HideGrid();
             InputControl.instance.enabled = false;
+            MainController.instance.SetActionType(MainController.StateOfGame.Prepared);
         }
     }
 
@@ -141,6 +152,8 @@ public class UIController : MonoBehaviour
         StartCoroutine(UpdateMoneyOnWin());
         yield return new WaitForSeconds(2);
         winCanvas.SetActive(true);
+        SoundController.instance.PlayClip(SoundController.instance.win);
+        MMVibrationManager.Haptic(HapticTypes.Success);
     }
 
     IEnumerator UpdateMoneyOnWin()
@@ -168,7 +181,7 @@ public class UIController : MonoBehaviour
     int _bombCounter;
     public void UpdateBombCounter()
     {
-        bombCountPanel.transform.GetChild(_bombCounter++).GetChild(0).gameObject.SetActive(true);
+        failItemPanel.transform.GetChild(_bombCounter++).GetChild(0).gameObject.SetActive(true);
         if(_bombCounter >= 3) MainController.instance.SetActionType(MainController.StateOfGame.Lose);
     }
 
@@ -176,6 +189,6 @@ public class UIController : MonoBehaviour
     public void UpdateFailItemCounter()
     {
         if(_failItemCounter < 3)
-            bombCountPanel.transform.GetChild(_failItemCounter++).GetChild(0).gameObject.SetActive(true);
+            failItemPanel.transform.GetChild(_failItemCounter++).GetChild(0).gameObject.SetActive(true);
     }
 }

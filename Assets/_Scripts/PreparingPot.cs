@@ -64,7 +64,18 @@ public class PreparingPot : MonoBehaviour
             case MainController.StateOfGame.Decoration:
                 StartCoroutine(MoveForDecoration());
                 break;
+            case MainController.StateOfGame.Prepared:
+                StartCoroutine(FoodPreparedFx());
+                break;
         }
+    }
+    IEnumerator FoodPreparedFx()
+    {
+        yield return new WaitForSeconds(1f);
+        Instantiate(EffectsController.instance.starExplosion, transform.position, Quaternion.identity);
+        yield return new WaitForSeconds(1f);
+        Vector3 pos = new Vector3(transform.position.x, transform.position.y, -4);
+        Instantiate(EffectsController.instance.emojiExplosion, pos, Quaternion.identity);
     }
 
     public IEnumerator MoveForDecoration()
@@ -116,42 +127,6 @@ public class PreparingPot : MonoBehaviour
             StartCoroutine(customer.GetComponent<Customer>().Eat());
         });
     }
-
-    public IEnumerator MoveStackForDecoration()
-    {
-        DOTweenAnimation tweenAnimation = GetComponent<DOTweenAnimation>();
-        if(tweenAnimation) tweenAnimation.enabled = false;
-        DOTween.Kill(gameObject);
-
-        if (colliders.Count > 0)
-        {
-            for (int i = 0; i < colliders.Count; i++)
-            {
-                colliders[i].SetActive(false);
-            }
-        }
-        Collider collider = GetComponent<Collider>();
-        if(collider) collider.enabled = false;
-        //put the top bread
-        ItemCheckerForStackFood.instance.PutTheTopBread();
-        yield return new WaitForSeconds(1f);
-        transform.DOMove(movePos.position, 2).SetEase(Ease.Linear);
-        
-        yield return new WaitForSeconds(2.2f);
-        foodStack.parent = null;
-        Vector3 movepos = new Vector3(transform.localPosition.x + 4, transform.localPosition.y, transform.localPosition.z);
-        transform.DOLocalMove(movepos, 1);
-        
-        Transform plateBoard = servingPot.transform.parent;
-        foodStack.parent = plateBoard;
-        foodStack.DOLocalMove(new Vector3(0,0,0.46f), 0.5f);
-        plateBoard.DOLocalMove(new Vector3(plateBoard.transform.localPosition.x, 
-            plateBoard.transform.localPosition.y, plateBoard.transform.localPosition.z - 1), 1).OnComplete(() =>
-        {
-            StartCoroutine(customer.GetComponent<Customer>().Eat());
-        });
-    }
-    
 
     public IEnumerator FinishFood()
     {

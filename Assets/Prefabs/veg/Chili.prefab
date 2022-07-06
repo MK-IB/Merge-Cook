@@ -243,6 +243,7 @@ MonoBehaviour:
   dropFx: {fileID: 0}
   piecesParent: {fileID: 3667168443731227946}
   keepThePiece: 1
+  scale: {x: 0.3, y: 0.3, z: 0.3}
 --- !u!1 &3667168443731227946
 GameObject:
   m_ObjectHideFlags: 0

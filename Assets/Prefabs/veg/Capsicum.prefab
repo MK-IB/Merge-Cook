@@ -392,7 +392,7 @@ GameObject:
   - component: {fileID: 6404331833961593559}
   - component: {fileID: 3802259746809955942}
   - component: {fileID: 1393113627}
-  - component: {fileID: 1393113628}
+  - component: {fileID: 1058885215556907797}
   - component: {fileID: 1360753782424474925}
   - component: {fileID: 8806112244718560415}
   m_Layer: 0
@@ -485,8 +485,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!64 &1393113628
-MeshCollider:
+--- !u!135 &1058885215556907797
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -495,10 +495,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -453663001548468411, guid: 2302f62ac9b0fed479f22006bd35035e, type: 3}
+  serializedVersion: 2
+  m_Radius: 0.013356033
+  m_Center: {x: -0.000007197261, y: -0.0009446684, z: -0.0000004529953}
 --- !u!96 &1360753782424474925
 TrailRenderer:
   serializedVersion: 2

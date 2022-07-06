@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using MoreMountains.NiceVibrations;
 using UnityEngine;
 
 public class ItemChecker : MonoBehaviour
@@ -12,7 +13,7 @@ public class ItemChecker : MonoBehaviour
         if(item != null)
         {
             DOVirtual.DelayedCall(1f, ()=> {
-                UIController.instance.UpdateCookStatus();
+                //UIController.instance.UpdateCookStatus();
                 item.ReleaseItemOnCurry(transform.parent.parent); 
             });
         }
@@ -23,6 +24,8 @@ public class ItemChecker : MonoBehaviour
             Instantiate(spawnFx, other.transform.position, spawnFx.transform.rotation);
             other.gameObject.SetActive(false);
             UIController.instance.UpdateBombCounter();
+            SoundController.instance.PlayClip(SoundController.instance.blast);
+            MMVibrationManager.Haptic(HapticTypes.MediumImpact);
         }
 
         if (other.gameObject.CompareTag("failItem"))
@@ -31,6 +34,7 @@ public class ItemChecker : MonoBehaviour
             if(PreparingPot.instance)
             PreparingPot.instance.cookedSlices.Add(other.gameObject);
             UIController.instance.UpdateFailItemCounter();
+            MMVibrationManager.Haptic(HapticTypes.Warning);
         }
     }
 }
