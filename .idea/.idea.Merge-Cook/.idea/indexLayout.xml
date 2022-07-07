@@ -76,6 +76,12 @@
       <Path>Merge Test 2_BurstDebugInformation_DoNotShip</Path>
       <Path>Merge Test 3_BackUpThisFolder_ButDontShipItWithYourGame</Path>
       <Path>Merge Test 3_BurstDebugInformation_DoNotShip</Path>
+      <Path>Merge Test 4_BackUpThisFolder_ButDontShipItWithYourGame</Path>
+      <Path>Merge Test 4_BurstDebugInformation_DoNotShip</Path>
+      <Path>Merge Test 5_BackUpThisFolder_ButDontShipItWithYourGame</Path>
+      <Path>Merge Test 5_BurstDebugInformation_DoNotShip</Path>
+      <Path>Merge Test 6_BackUpThisFolder_ButDontShipItWithYourGame</Path>
+      <Path>Merge Test 6_BurstDebugInformation_DoNotShip</Path>
       <Path>Recordings</Path>
       <Path>Temp</Path>
       <Path>UserSettings</Path>

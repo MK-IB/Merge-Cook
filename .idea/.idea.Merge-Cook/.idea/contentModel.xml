@@ -26,6 +26,7 @@
             <e p="ItemCheckerForStackFood.cs" t="Include" />
             <e p="ItemCheckerShawarma.cs" t="Include" />
           </e>
+          <e p="Help.cs" t="Include" />
           <e p="Input Related" t="Include">
             <e p="InputControl.cs" t="Include" />
             <e p="InputEventsManager.cs" t="Include" />

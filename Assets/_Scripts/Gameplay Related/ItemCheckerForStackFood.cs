@@ -67,6 +67,12 @@ public class ItemCheckerForStackFood : MonoBehaviour
             UIController.instance.UpdateBombCounter();
             SoundController.instance.PlayClip(SoundController.instance.blast);
         }
+        if (other.gameObject.CompareTag("failItem"))
+        {
+            GameController.Instance.CheckLevelFailForDirtyItemAddition();
+            cookedSlices.Add(other.gameObject);
+            UIController.instance.UpdateFailItemCounter();
+        }
     }
     void GameManager_OnGameStateChanged(MainController.StateOfGame newState, MainController.StateOfGame oldState)
     {
@@ -109,8 +115,10 @@ public class ItemCheckerForStackFood : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         Instantiate(EffectsController.instance.starExplosion, transform.position, Quaternion.identity);
+        SoundController.instance.PlayClip(SoundController.instance.star);
         yield return new WaitForSeconds(1f);
         Instantiate(EffectsController.instance.emojiExplosion, transform.position, Quaternion.identity);
+        SoundController.instance.PlayClip(SoundController.instance.stepComplete);
     }
     IEnumerator MoveForServing()
     {

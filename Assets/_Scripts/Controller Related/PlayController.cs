@@ -25,12 +25,13 @@ public class PlayController : MonoBehaviour
     private SpriteRenderer board;
     private List<Node> _nodes;
     private List<Block> _blocks;
-    private GameState _state;
+    [HideInInspector] public GameState _state;
     private int _round;
 
     private Transform Board;
 
     public Transform playCamera;
+    public bool helpLevel;
 
     BlockType GetBlockTypeByValue(int value) => _blockTypes.First(t => t.value == value);
 
@@ -130,7 +131,6 @@ public class PlayController : MonoBehaviour
 
 
         playCamera.position = new Vector3(center.x, playCamera.position.y, -10f);
-
         ChangeState(GameState.SpawningBlock);
     }
 

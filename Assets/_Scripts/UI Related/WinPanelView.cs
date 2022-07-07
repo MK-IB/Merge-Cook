@@ -21,5 +21,6 @@ public class WinPanelView : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         //item.sprite = ItemHolder.instance.GetCurrentItemInLevel();
         item.transform.DOScale(Vector3.one, 0.3f);
+        SoundController.instance.PlayClip(SoundController.instance.newItemUnlock);
     }
 }

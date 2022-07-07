@@ -98,8 +98,11 @@ public class ItemCheckerForPizza : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         Instantiate(EffectsController.instance.starExplosion, transform.position, Quaternion.identity);
+        SoundController.instance.PlayClip(SoundController.instance.star);
         yield return new WaitForSeconds(1f);
-        Instantiate(EffectsController.instance.emojiExplosion, transform.position, Quaternion.identity);
+        Vector3 emojiPos = new Vector3(transform.position.x, transform.position.y, transform.position.z - 4);
+        Instantiate(EffectsController.instance.emojiExplosion, emojiPos, Quaternion.identity);
+        SoundController.instance.PlayClip(SoundController.instance.stepComplete);
     }
     IEnumerator MoveForServing()
     {

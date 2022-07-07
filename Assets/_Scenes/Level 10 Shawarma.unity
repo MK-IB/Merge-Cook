@@ -72674,7 +72674,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8764816610822901970, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: vegList.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8764816610822901970, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: vegList.Array.data[0]
@@ -72696,6 +72696,10 @@ PrefabInstance:
       propertyPath: vegList.Array.data[4]
       value: 
       objectReference: {fileID: 42206722767312671, guid: 72ce9b44e8872f4408ad9b32e269b443, type: 3}
+    - target: {fileID: 8764816610822901970, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
+      propertyPath: vegList.Array.data[5]
+      value: 
+      objectReference: {fileID: 2917080886876388028, guid: da35680838d30fc4ea31f498fc9de8a8, type: 3}
     - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: _height
       value: 4
@@ -72706,7 +72710,7 @@ PrefabInstance:
       objectReference: {fileID: 1702208193}
     - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: _blockTypes.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: _blockTypes.Array.data[0].icon
@@ -72729,6 +72733,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 227d117a30f5a6048ad0711b386c3950, type: 3}
     - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
+      propertyPath: _blockTypes.Array.data[5].icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 28a29a1e15f7e794f95f911de7b464b6, type: 3}
+    - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: _blockTypes.Array.data[2].value
       value: 2
       objectReference: {fileID: 0}
@@ -72739,6 +72747,10 @@ PrefabInstance:
     - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: _blockTypes.Array.data[4].value
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
+      propertyPath: _blockTypes.Array.data[5].value
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: _blockTypes.Array.data[2].color.a
@@ -72786,6 +72798,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: _blockTypes.Array.data[4].color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
+      propertyPath: _blockTypes.Array.data[5].color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
+      propertyPath: _blockTypes.Array.data[5].color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
+      propertyPath: _blockTypes.Array.data[5].color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764816610822901971, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
+      propertyPath: _blockTypes.Array.data[5].color.r
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8764816610822901980, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
@@ -72840,6 +72868,14 @@ PrefabInstance:
       propertyPath: dishName
       value: KEBAB
       objectReference: {fileID: 0}
+    - target: {fileID: 8764816611056020874, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
+      propertyPath: isFailItemLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8764816611056020874, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
+      propertyPath: currentFailItemIcon
+      value: 
+      objectReference: {fileID: 21300000, guid: 28a29a1e15f7e794f95f911de7b464b6, type: 3}
     - target: {fileID: 8764816611056020874, guid: 786cba0fa76fcfd46abdb2a2937ad50f, type: 3}
       propertyPath: moneyControlledParticle
       value: 

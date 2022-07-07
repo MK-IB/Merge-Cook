@@ -50,6 +50,12 @@ public class ItemCheckerShawarma : MonoBehaviour
             other.gameObject.SetActive(false);
             UIController.instance.UpdateBombCounter();
         }
+        if (other.gameObject.CompareTag("failItem"))
+        {
+            GameController.Instance.CheckLevelFailForDirtyItemAddition();
+            cookedSlices.Add(other.gameObject);
+            UIController.instance.UpdateFailItemCounter();
+        }
     }
     void GameManager_OnGameStateChanged(MainController.StateOfGame newState, MainController.StateOfGame oldState)
     {
@@ -93,9 +99,11 @@ public class ItemCheckerShawarma : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         Instantiate(EffectsController.instance.starExplosion, transform.position, Quaternion.identity);
+        SoundController.instance.PlayClip(SoundController.instance.star);
         yield return new WaitForSeconds(1f);
         Vector3 pos = new Vector3(transform.position.x, transform.position.y, -4);
         Instantiate(EffectsController.instance.emojiExplosion, pos, Quaternion.identity);
+        SoundController.instance.PlayClip(SoundController.instance.stepComplete);
     }
     
     IEnumerator MoveForServing()

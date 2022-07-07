@@ -73,9 +73,11 @@ public class PreparingPot : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         Instantiate(EffectsController.instance.starExplosion, transform.position, Quaternion.identity);
+        SoundController.instance.PlayClip(SoundController.instance.star);
         yield return new WaitForSeconds(1f);
         Vector3 pos = new Vector3(transform.position.x, transform.position.y, -4);
         Instantiate(EffectsController.instance.emojiExplosion, pos, Quaternion.identity);
+        SoundController.instance.PlayClip(SoundController.instance.stepComplete);
     }
 
     public IEnumerator MoveForDecoration()

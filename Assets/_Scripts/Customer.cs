@@ -51,6 +51,7 @@ public class Customer : MonoBehaviour
             transform.GetChild(0).gameObject.SetActive(true);
             yield return new WaitForSeconds(1f);
             _animator.SetTrigger("vomit");
+            SoundController.instance.PlayClip(SoundController.instance.vomiting);
             
             yield return new WaitForSeconds(3.5f);
             MainController.instance.SetActionType(MainController.StateOfGame.DirtyAdded);
@@ -82,7 +83,7 @@ public class Customer : MonoBehaviour
             transform.GetChild(0).gameObject.SetActive(true);
             yield return new WaitForSeconds(1f);
             _animator.SetTrigger("vomit");
-            SoundController.instance.PlayClip(SoundController.instance.vomit);
+            SoundController.instance.PlayClip(SoundController.instance.vomiting);
             
             yield return new WaitForSeconds(3.5f);
             MainController.instance.SetActionType(MainController.StateOfGame.DirtyAdded);
@@ -111,7 +112,7 @@ public class Customer : MonoBehaviour
         _animator.SetTrigger("doneEating");
         MainController.instance.SetActionType(MainController.StateOfGame.EatingDone);
         CameraController.instance.lastFocusCamera.SetActive(true);
-        SoundController.instance.PlayClip(SoundController.instance.girlYummy);
+        SoundController.instance.PlayEatingGoodReactions();
         yield return new WaitForSeconds(1);
         SoundController.instance.PlayClip(SoundController.instance.wow);
         wowTextFx.SetActive(true);

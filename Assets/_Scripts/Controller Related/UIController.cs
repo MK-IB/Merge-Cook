@@ -5,6 +5,7 @@ using DG.Tweening;
 using MoreMountains.NiceVibrations;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
@@ -14,6 +15,7 @@ public class UIController : MonoBehaviour
     [Header("HUD RELATED")]
     public GameObject HUD;
     public Slider cookSlider;
+    public TextMeshProUGUI levelNumText;
     public GameObject moneyDisplayContent;
     public TextMeshProUGUI moneyCountText;
     public RectTransform moneyIcon;
@@ -26,8 +28,6 @@ public class UIController : MonoBehaviour
 
     [Header("GAMEPLAY RELATED")] 
     public GameObject preparationDoneButton;
-    public GameObject decorationDoneButton;
-    public GameObject moneyControlledParticle;
     public GameObject moneyEarnedPanel;
     public GameObject moneyBundleOnCanvas;
     public GameObject moneyUIPrefab;
@@ -57,6 +57,8 @@ public class UIController : MonoBehaviour
                 failItemPanel.transform.GetChild(i).GetComponent<Image>().sprite = currentFailItemIcon;   
             }
         }
+
+        levelNumText.text = "Lv. " + SceneManager.GetActiveScene().buildIndex;
     }
 
     private void OnEnable()
@@ -93,6 +95,7 @@ public class UIController : MonoBehaviour
                 gameStateIndicatorText.SetText("SERVING");
                 break;
             case MainController.StateOfGame.EatingDone:
+                levelNumText.transform.parent.gameObject.SetActive(false);
                 moneyDisplayContent.SetActive(true);
                 moneyDisplayContent.transform.DOScale(Vector3.zero, 1).From();
                 break;
@@ -118,7 +121,7 @@ public class UIController : MonoBehaviour
     }
     public void UpdateCookStatus()
     {
-        sliderValue += 0.1f;
+        sliderValue += 0.08f;
         cookSlider.value = sliderValue;
         if (sliderValue >= 1)
         {
@@ -134,6 +137,7 @@ public class UIController : MonoBehaviour
     public void On_Preparation_DoneButtonClicked()
     {
         MainController.instance.SetActionType(MainController.StateOfGame.Decoration);
+        SoundController.instance.PlayClip(SoundController.instance.buttonClick);
     }
     public void On_Decoration_DoneButtonClicked()
     {
@@ -146,11 +150,8 @@ public class UIController : MonoBehaviour
         moneyEarnedPanel.transform.DOScaleX(0, 0.3f).From();
         yield return new WaitForSeconds(1.8f);
         
-        Vector3 moneyBundleWorldPos = Camera.main.ScreenToWorldPoint(moneyBundleOnCanvas.transform.position);
-        //moneyControlledParticle.transform.position = new Vector3(moneyBundleWorldPos.x,moneyBundleWorldPos.y, moneyControlledParticle.transform.position.z);
-        //moneyControlledParticle.GetComponent<ParticleControlScript>().PlayControlledParticles(moneyControlledParticle.transform.position, moneyIcon);
         StartCoroutine(UpdateMoneyOnWin());
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(4f);
         winCanvas.SetActive(true);
         SoundController.instance.PlayClip(SoundController.instance.win);
         MMVibrationManager.Haptic(HapticTypes.Success);
@@ -160,15 +161,23 @@ public class UIController : MonoBehaviour
     {
         int currentAmount = PlayerPrefs.GetInt("money");
         int newEarnedAmount = PlayerPrefs.GetInt("money") + 100;
+        
+        SoundController.instance.PlayClip(SoundController.instance.moneyAdding);
 
-        /*for (int i = 0; i < 20; i++)
+        for (int i = 0; i < 20; i++)
         {
-            RectTransform moneyUI = Instantiate(moneyUIPrefab, moneyUIPrefab.transform.position, Quaternion.identity).GetComponent<RectTransform>();
+            GameObject moneyUI = Instantiate(moneyUIPrefab, moneyUIPrefab.transform.position, Quaternion.identity);
+            moneyUI.transform.DOScale(Vector3.zero, 0.3f).From();
             moneyUI.transform.parent = moneyDisplayContent.transform;
-            moneyUI.anchoredPosition = moneyspawnPos.anchoredPosition;
+            moneyUI.GetComponent<RectTransform>().anchoredPosition = moneyspawnPos.anchoredPosition;
             yield return new WaitForSeconds(2f/20f);
-            moneyUI.DOAnchorPos(moneyIcon.anchoredPosition, 0.3f);
-        }*/
+            //moneyUI.transform.DOScale(moneyUI.transform.localScale * 0.5f, .6f);
+            moneyUI.GetComponent<RectTransform>().DOAnchorPos(moneyIcon.anchoredPosition, 0.6f).SetEase(Ease.InOutBack).OnComplete(
+                () =>
+                {
+                    moneyUI.gameObject.SetActive(false);
+                });
+        }
         float waitTime = 2f / 100f;
         for (int i = currentAmount; i <= newEarnedAmount; i++)
         {

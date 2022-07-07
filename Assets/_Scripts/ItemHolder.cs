@@ -45,6 +45,7 @@ public class ItemHolder : MonoBehaviour
         SoundController.instance.PlayClip(SoundController.instance.spawn);
         FeedbackText.instance.PlayTextEffect();
         MMVibrationManager.Haptic(HapticTypes.LightImpact);
+        SoundController.instance.StartCoroutine(SoundController.instance.PlayGridSpawnPops());
     }
 
     public string GetCurrentDishName()
