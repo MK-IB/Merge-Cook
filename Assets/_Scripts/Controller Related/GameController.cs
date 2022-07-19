@@ -47,7 +47,17 @@ public class GameController : MonoBehaviour
 
     public void On_ContinueButtonPressed()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if (PlayerPrefs.GetInt("level", 1) >= SceneManager.sceneCountInBuildSettings - 1)
+        {
+            SceneManager.LoadScene(UnityEngine.Random.Range(0, SceneManager.sceneCountInBuildSettings - 1));
+            PlayerPrefs.SetInt("level", (PlayerPrefs.GetInt("level", 1) + 1));
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            PlayerPrefs.SetInt("level", (PlayerPrefs.GetInt("level", 1) + 1));
+        }
+        PlayerPrefs.SetInt("levelnumber", PlayerPrefs.GetInt("levelnumber", 1) + 1);
     }
     
     public void On_RetryButtonPressed()

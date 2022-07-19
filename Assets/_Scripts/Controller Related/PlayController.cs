@@ -32,6 +32,7 @@ public class PlayController : MonoBehaviour
 
     public Transform playCamera;
     public bool helpLevel;
+    public float cameraZPos;
 
     BlockType GetBlockTypeByValue(int value) => _blockTypes.First(t => t.value == value);
 
@@ -130,7 +131,7 @@ public class PlayController : MonoBehaviour
         }
 
 
-        playCamera.position = new Vector3(center.x, playCamera.position.y, -10f);
+        playCamera.position = new Vector3(center.x, playCamera.position.y, -10);
         ChangeState(GameState.SpawningBlock);
     }
 
@@ -142,6 +143,7 @@ public class PlayController : MonoBehaviour
         foreach (var node in freeNodes.Take(amount))
         {
             if (spawnCounter >= freeNodes.Count() / 2) return;
+            SpawnBlock(node, Random.Range(0, _blockTypes.Count));
             /*if (UIController.instance.isFailItemLevel)
                 if (_delay >= _failItemSpawnDelay)
                 {
@@ -151,8 +153,6 @@ public class PlayController : MonoBehaviour
                 else
                     SpawnBlock(node, Random.Range(0, _blockTypes.Count - 1));
             else*/
-                SpawnBlock(node, Random.Range(0, _blockTypes.Count));
-
             spawnCounter++;
         }
 

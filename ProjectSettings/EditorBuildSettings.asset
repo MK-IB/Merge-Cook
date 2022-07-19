@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_Scenes/LevelLoader.unity
+    guid: 0929e145cf5ee7a44b6a1ccc99663794
+  - enabled: 1
     path: Assets/_Scenes/Level 1.unity
     guid: 6884ade29d2559345abbde193b4f8fbd
   - enabled: 1
@@ -48,12 +51,12 @@ EditorBuildSettings:
     path: Assets/_Scenes/Level 11 Spider.unity
     guid: d57fcf2975607f4469dd6c7be2c2f9f3
   - enabled: 1
-    path: Assets/_Scenes/Level Bomb 1.unity
-    guid: 84d7390fd05dfe745b443522892c28b9
-  - enabled: 1
     path: Assets/_Scenes/Level 8 Potato Chips Spider.unity
     guid: 393d7ccdf767a834dac5baa736308ea8
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Scenes/Level 9 Pizza Bomb.unity
     guid: 84326badd0bd5a641ac6126fb375ed29
+  - enabled: 0
+    path: Assets/_Scenes/Level Bomb 1.unity
+    guid: 84d7390fd05dfe745b443522892c28b9
   m_configObjects: {}

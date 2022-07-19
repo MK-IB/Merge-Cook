@@ -34,6 +34,7 @@ public class UIController : MonoBehaviour
     public RectTransform moneyspawnPos;
     public GameObject winCanvas;
     public GameObject failCanvas;
+    private float sliderFrac = 0.075f;
 
     [Header("VAR DECLARATIONS")]
     [SerializeField] public float sliderValue;
@@ -58,7 +59,7 @@ public class UIController : MonoBehaviour
             }
         }
 
-        levelNumText.text = "Lv. " + SceneManager.GetActiveScene().buildIndex;
+        levelNumText.text = "Lv. " + PlayerPrefs.GetInt("levelnumber", 1);
     }
 
     private void OnEnable()
@@ -76,7 +77,7 @@ public class UIController : MonoBehaviour
         {
             case MainController.StateOfGame.Started:
                 moneyDisplayContent.SetActive(false);
-                cookSlider.gameObject.SetActive(true);
+                //cookSlider.gameObject.SetActive(true);
                 cookSlider.transform.DOScaleX(0, 0.5f).From();
                 break;
             case MainController.StateOfGame.Preparation:
@@ -121,7 +122,7 @@ public class UIController : MonoBehaviour
     }
     public void UpdateCookStatus()
     {
-        sliderValue += 0.08f;
+        sliderValue += sliderFrac;
         cookSlider.value = sliderValue;
         if (sliderValue >= 1)
         {
